@@ -116,7 +116,7 @@ async function sbpCreateAccount(n: number) {
     cd.textContent = 'Redirecting in ' + secs + ' seconds…';
     const iv = setInterval(() => {
       secs--;
-      if (secs <= 0) { clearInterval(iv); window.location.href = 'https://my.spraybosspro.com/dashboard.html'; }
+      if (secs <= 0) { clearInterval(iv); window.location.href = 'https://my.mowbosspro.com/dashboard.html'; }
       else cd.textContent = 'Redirecting in ' + secs + ' second' + (secs === 1 ? '' : 's') + '…';
     }, 1000);
   } catch (e: any) {
@@ -164,7 +164,7 @@ function SignupForm({ n }: { n: number }) {
         <div id={`sbp${n}-err2`} className="sbp-err"></div>
         <div className="sbp-trial-note">
           <div className="sbp-trial-note-title">14-Day Free Trial — No Credit Card Required</div>
-          <div className="sbp-trial-note-sub">Full access to every feature. $129/month after trial.</div>
+          <div className="sbp-trial-note-sub">Full access to every feature. $79/month after trial.</div>
         </div>
         <div className="sbp-field">
           <label className="sbp-label">Login Email</label>
@@ -182,9 +182,9 @@ function SignupForm({ n }: { n: number }) {
           <input type="checkbox" id={`sbp${n}-agree`} className="sbp-agree-check" />
           <label htmlFor={`sbp${n}-agree`} className="sbp-agree-label">
             I agree to the{' '}
-            <a href="https://spraybosspro.com/terms" target="_blank" rel="noreferrer" className="sbp-link">Terms of Service</a>
+            <a href="https://mowbosspro.com/terms" target="_blank" rel="noreferrer" className="sbp-link">Terms of Service</a>
             {' '}and{' '}
-            <a href="https://spraybosspro.com/privacy-policy" target="_blank" rel="noreferrer" className="sbp-link">Privacy Policy</a>
+            <a href="https://mowbosspro.com/privacy-policy" target="_blank" rel="noreferrer" className="sbp-link">Privacy Policy</a>
           </label>
         </div>
         <button id={`sbp${n}-create-btn`} onClick={() => sbpCreateAccount(n)} className="btn-primary" style={{width:'100%', fontSize:'15px', padding:'13px'}}>
@@ -202,7 +202,7 @@ function SignupForm({ n }: { n: number }) {
   );
 }
 
-export default function LawnCareSchedulingSoftware() {
+export default function MowingSchedulingSoftware() {
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
       if (e.key !== 'Enter' || !sbpOpenForm) return;
@@ -217,24 +217,20 @@ export default function LawnCareSchedulingSoftware() {
 
   return (
     <>
-      {/* ════ NAVBAR ════ */}
       <Navbar onTrialClick={(el) => openSignupModal(1, el)} />
 
-      {/* ════ HERO ════ */}
       <div className="hero">
-        <div className="hero-badge">Lawn Care Scheduling Software</div>
-        <h1>Lawn Care Scheduling Software<br /><span>Built Around How You Actually Schedule.</span></h1>
-        <p>Start every morning with a waiting list of every lawn care treatment due — organized by service type with total sq ft or linear ft. Draw a circle on the map with Lasso, pull every stop due inside into a route, and dispatch to your technicians in minutes. Recurring treatments auto-reschedule when complete. $129/month, everything included.</p>
-        <div className="hero-btns" style={{marginBottom:0}}>
-          <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">
-            Start Your 14-Day Free Trial — $129/Month
-          </a>
+        <div className="hero-badge">Built for Lawn Mowing Crews</div>
+        <h1>Mowing Scheduling Software<br /><span>That Builds Your Whole Week in Minutes</span></h1>
+        <p>Most field service apps were built for one-off jobs. Mowing is different. You run the same yards every 7 or 14 days, route by route, crew by crew, all season long. <a href="/">MowBossPro</a> is scheduling software built around recurring mowing visits, tight routes, and crews that need to know exactly where to go next.</p>
+        <div className="hero-btns">
+          <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">Per month — everything included</div></div>
-          <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Technicians and routes</div></div>
-          <div><div className="hero-stat-val">14-Day</div><div className="hero-stat-lbl">Free trial — no credit card</div></div>
-          <div><div className="hero-stat-val">0</div><div className="hero-stat-lbl">Add-ons or per-user fees</div></div>
+          <div><div className="hero-stat-val">7/14</div><div className="hero-stat-lbl">Day Recurring Cycles Automated</div></div>
+          <div><div className="hero-stat-val">$79</div><div className="hero-stat-lbl">Flat Monthly — No Add-Ons</div></div>
+          <div><div className="hero-stat-val">500+</div><div className="hero-stat-lbl">Customer Texts Included Monthly</div></div>
+          <div><div className="hero-stat-val">2006</div><div className="hero-stat-lbl">In the Industry Since</div></div>
         </div>
       </div>
 
@@ -246,307 +242,323 @@ export default function LawnCareSchedulingSoftware() {
           height={800}
           fetchPriority="high"
           decoding="async"
-          alt="SprayBossPro lawn care scheduling software showing route map, waiting list by square footage, and mobile app for technicians"
+          alt="MowBossPro mowing scheduling software dashboard on a laptop showing the route map and recurring visit calendar, with the crew mobile app on a phone"
           style={{maxWidth:'1100px', width:'100%', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block', margin:'0 auto'}}
         />
       </div>
 
-      {/* ════ PROGRAM TYPES ════ */}
-      <section style={{background:'var(--light-bg)'}}>
-        <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
-          <span className="section-label">Built for Lawn Care Companies That Spray</span>
-          <h2 className="section-title">Every Lawn Care Program Type. One Platform. $129/Month.</h2>
-          <p className="section-sub">SprayBossPro handles the scheduling, routing, compliance logging, and customer SMS alerts for every type of lawn care program your company runs — all in one place, all in one price.</p>
-        </div>
-        <div className="audience-grid">
-          <div className="audience-card">
-            <div className="audience-tag">Fertilizer Programs</div>
-            <h3>5-Round &amp; 6-Round Fertilizer Schedules</h3>
-            <p>Set up your fertilizer rounds once. SprayBossPro auto-schedules every subsequent round when the previous one is completed. Track sq ft or linear ft per property. Log EPA reg numbers and rates at the door on every visit.</p>
-          </div>
-          <div className="audience-card">
-            <div className="audience-tag">Weed Control</div>
-            <h3>Pre-Emergent &amp; Post-Emergent Programs</h3>
-            <p>Pre-emergent rounds schedule at the right seasonal timing window. Post-emergent rounds reschedule at your set interval after completion. Re-entry interval SMS fires automatically to every customer after every application.</p>
-          </div>
-          <div className="audience-card">
-            <div className="audience-tag">Lawn Insect &amp; Grub</div>
-            <h3>Seasonal Insect &amp; Grub Control Programs</h3>
-            <p>Manage lawn insect, grub control, and surface insect programs alongside fertilizer and weed control — all in one waiting list, all in one Lasso route. No separate app for each service type your company runs.</p>
-          </div>
-          <div className="audience-card">
-            <div className="audience-tag">Multi-Service</div>
-            <h3>Mosquito Add-On &amp; Full-Program Companies</h3>
-            <p>Run fertilizer, weed control, lawn insect, and mosquito all from the same platform. Mix service types on one route or build dedicated routes per service. The waiting list keeps everything visible and organized every morning.</p>
-          </div>
-        </div>
-      </section>
-
-      {/* ════ WAITING LIST ════ */}
-      <section>
-        <div className="highlight-row">
-          <div className="highlight-text">
-            <span className="section-label">Sq Ft or Linear Ft Waiting List — Know Your Day Before You Route</span>
-            <h2>Every Lawn Care Treatment Due Today. Organized by Service. Before You Touch the Map.</h2>
-            <p>Before you build a single route, SprayBossPro shows you a waiting list of every lawn care treatment due — grouped by service type, with total sq ft or linear ft and total stops per service. Lawn fertilizer, weed control, lawn insect, grub control, aeration — each on its own row with totals for the day.</p>
-            <p>You know exactly how big your day needs to be, which services to prioritize, and how many routes to build — before you open Lasso. No counting addresses. No guessing crew size.</p>
-            <ul className="check-list">
-              <li>Waiting list organized by service type — any service name you use</li>
-              <li>Total sq ft or linear ft and stops per service at a glance</li>
-              <li>Auto-updates as treatments complete and reschedule throughout the day</li>
-              <li>See overdue, due today, and upcoming all in one view</li>
-              <li>Filter by crew or technician to split the workload between trucks</li>
-              <li>Overdue stops highlighted so nothing slips through the cracks</li>
-            </ul>
-          </div>
-          <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', textTransform:'uppercase', letterSpacing:'.8px', marginBottom:'12px'}}>Waiting List — Today&#39;s Lawn Care Queue</div>
-            <div className="svc-row" style={{borderColor:'rgba(224,120,32,.35)', background:'rgba(224,120,32,.07)'}}>
-              <div><div className="svc-name">Lawn Fertilizer 4</div><div className="svc-sub">38 properties waiting</div></div>
-              <div className="svc-ft">342,000 ft²</div>
-            </div>
-            <div className="svc-row" style={{borderColor:'rgba(224,120,32,.35)', background:'rgba(224,120,32,.07)'}}>
-              <div><div className="svc-name">Weed Control 3</div><div className="svc-sub">24 properties waiting</div></div>
-              <div className="svc-ft">216,800 ft²</div>
-            </div>
-            <div className="svc-row">
-              <div><div className="svc-name">Lawn Insect 2</div><div className="svc-sub">17 properties waiting</div></div>
-              <div className="svc-ft" style={{color:'rgba(255,255,255,.4)'}}>153,400 ft²</div>
-            </div>
-            <div className="svc-row">
-              <div><div className="svc-name">Grub Control 1</div><div className="svc-sub">11 properties waiting</div></div>
-              <div className="svc-ft" style={{color:'rgba(255,255,255,.4)'}}>98,200 ft²</div>
-            </div>
-            <div className="svc-row">
-              <div><div className="svc-name">Mosquito 3</div><div className="svc-sub">9 properties waiting</div></div>
-              <div className="svc-ft" style={{color:'rgba(255,255,255,.4)'}}>72,000 ft²</div>
-            </div>
-            <div className="svc-row">
-              <div><div className="svc-name">Aeration 1</div><div className="svc-sub">5 properties — overdue</div></div>
-              <div className="svc-ft" style={{color:'#f87171'}}>44,500 ft²</div>
-            </div>
-            <div style={{marginTop:'12px', background:'rgba(224,120,32,.08)', border:'1px solid rgba(224,120,32,.2)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
-              <div style={{color:'rgba(255,255,255,.4)', fontSize:'10px', fontWeight:700, textTransform:'uppercase', letterSpacing:'.8px'}}>Total Due Today</div>
-              <div style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>104 stops across 6 services</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ════ LASSO ════ */}
-      <section style={{background:'var(--light-bg)'}}>
-        <div className="highlight-row reverse">
-          <div className="highlight-text">
-            <span className="section-label">Lasso — Circle Map Route Builder</span>
-            <h2>Draw a Circle on Any Neighborhood. Every Lawn Care Stop Due Inside — Instant Route.</h2>
-            <p>Open Lasso on the map, draw a circle around any neighborhood or service zone, and SprayBossPro instantly shows you every property with a lawn care treatment due inside that boundary. Service type, sq ft or linear ft, and route revenue — all of it before you commit to building the route.</p>
-            <p>Filter by service type to pull only fertilizer stops, only weed control stops, or any combination. Select them all, optimize the drive order, and push to your technician&#39;s phone in one click.</p>
-            <ul className="check-list">
-              <li>Draw a circle on any neighborhood, subdivision, or service zone</li>
-              <li>See every lawn care stop due inside — sq ft, service type, revenue</li>
-              <li>Filter by service — pull only fertilizer, only weed control, or mix any combo</li>
-              <li>Drive order optimized automatically to cut windshield time</li>
-              <li>Push route to technician&#39;s mobile app with one click</li>
-              <li>Build routes for multiple crews at the same time without overlap</li>
-            </ul>
-          </div>
-          <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', textTransform:'uppercase', letterSpacing:'.8px', marginBottom:'10px'}}>Lasso — Westside Lawn Route</div>
-            <div style={{display:'flex', flexDirection:'column', gap:'7px'}}>
-              {[
-                {n:1, addr:'204 Oakwood Blvd', svc:'Lawn Fertilizer 4 · 8,200 ft² · Due today', price:'$72'},
-                {n:2, addr:'317 Maple Creek Dr', svc:'Weed Control 3 · 11,400 ft² · Due today', price:'$88'},
-                {n:3, addr:'88 Pinecrest Ln', svc:'Lawn Fertilizer 4 · 9,600 ft² · Due today', price:'$79'},
-              ].map(({n, addr, svc, price}) => (
-                <div key={n} style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'10px 12px', display:'flex', alignItems:'center', gap:'10px'}}>
-                  <div style={{background:'rgba(224,120,32,.2)', border:'1px solid rgba(224,120,32,.4)', color:'var(--orange)', fontSize:'10px', fontWeight:700, width:'22px', height:'22px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0}}>{n}</div>
-                  <div style={{flex:1}}><div style={{color:'rgba(255,255,255,.8)', fontSize:'12px', fontWeight:600}}>{addr}</div><div style={{color:'rgba(255,255,255,.35)', fontSize:'10px'}}>{svc}</div></div>
-                  <div style={{color:'var(--orange)', fontSize:'11px', fontWeight:700}}>{price}</div>
-                </div>
-              ))}
-              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'10px 12px', display:'flex', alignItems:'center', gap:'10px', opacity:.5}}>
-                <div style={{background:'rgba(255,255,255,.05)', border:'1px solid rgba(255,255,255,.1)', color:'rgba(255,255,255,.3)', fontSize:'10px', fontWeight:700, width:'22px', height:'22px', borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0}}>+</div>
-                <div style={{flex:1}}><div style={{color:'rgba(255,255,255,.3)', fontSize:'12px'}}>14 more stops in this circle…</div></div>
-                <div style={{color:'rgba(255,255,255,.3)', fontSize:'11px', fontWeight:600}}>$1,190</div>
-              </div>
-            </div>
-            <div style={{marginTop:'10px', background:'rgba(224,120,32,.1)', border:'1px solid rgba(224,120,32,.25)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
-              <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', fontWeight:700, textTransform:'uppercase', letterSpacing:'.8px'}}>Route Total</div>
-              <div style={{color:'var(--orange)', fontSize:'13px', fontWeight:700}}>17 stops · 148,400 ft² · $1,429</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ════ CHEMICAL LOGS ════ */}
-      <section>
-        <div className="highlight-row">
-          <div className="highlight-text">
-            <span className="section-label">Chemical Application Compliance Logs</span>
-            <h2>EPA Reg Numbers, Rates, and Sq Ft Logged on Every Lawn Care Job. At the Property. Before They Leave.</h2>
-            <p>Your technician completes the application log on their phone before leaving the property — product name, EPA registration number, application rate per 1,000 sq ft or per linear ft, total area treated, wind speed, temperature, and applicator license. All of it captured in the field, tied to the service record permanently.</p>
-            <p>When a state inspector shows up, you pull a compliance report for any date range in seconds. No paper binders. No reconstructing records from memory.</p>
-            <ul className="check-list">
-              <li>Product name and EPA reg number logged on every application</li>
-              <li>Application rate per 1,000 sq ft or per linear ft — your formulation</li>
-              <li>Total area treated calculated from property record automatically</li>
-              <li>Wind speed, temperature, and applicator license at time of application</li>
-              <li>Re-entry interval captured and used to trigger customer SMS alert</li>
-              <li>Print compliance reports by date, applicator, product, or property on demand</li>
-            </ul>
-          </div>
-          <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', textTransform:'uppercase', letterSpacing:'.8px', marginBottom:'12px'}}>Application Log — Completed In-Field on Tech&#39;s Phone</div>
-            <div className="log-row" style={{borderColor:'rgba(224,120,32,.35)', background:'rgba(224,120,32,.07)'}}><div className="log-label">Property</div><div className="log-value">204 Oakwood Blvd — 8,200 ft²</div></div>
-            <div className="log-row"><div className="log-label">Service</div><div className="log-value">Lawn Fertilizer — Round 4 (Fall)</div></div>
-            <div className="log-row"><div className="log-label">Product</div><div className="log-value">Lesco Fertilizer 32-3-8 SCU</div></div>
-            <div className="log-row"><div className="log-label">EPA Reg Number</div><div className="log-value">10631-42</div></div>
-            <div className="log-row"><div className="log-label">Rate Applied</div><div className="log-value">4.6 lbs / 1,000 ft² — 37.7 lbs total</div></div>
-            <div className="log-row"><div className="log-label">Conditions</div><div className="log-value">Wind: 3 mph · Temp: 68°F</div></div>
-            <div className="log-row"><div className="log-label">Applicator License</div><div className="log-value">TX-LAW-20419</div></div>
-            <div style={{marginTop:'12px', background:'rgba(34,197,94,.08)', border:'1px solid rgba(34,197,94,.25)', borderRadius:'8px', padding:'10px 14px', display:'flex', justifyContent:'space-between', alignItems:'center'}}>
-              <div style={{color:'rgba(255,255,255,.4)', fontSize:'10px', fontWeight:700, textTransform:'uppercase', letterSpacing:'.8px'}}>Log Status</div>
-              <div style={{color:'#22c55e', fontSize:'12px', fontWeight:700}}>✓ Saved — Re-Entry SMS Queued</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ════ SMS ALERTS ════ */}
-      <section style={{background:'var(--light-bg)'}}>
-        <div className="highlight-row reverse">
-          <div className="highlight-text">
-            <span className="section-label">Automated SMS Alerts on Every Lawn Care Visit</span>
-            <h2>Day-Before, On-the-Way, and Service Complete Texts Fire Automatically. Your Team Sends Zero of Them.</h2>
-            <p>SprayBossPro sends day-before service reminders, on-the-way alerts when your tech starts driving to the property, and service complete notifications with re-entry intervals — all automatically, on every single lawn care visit.</p>
-            <p>Customers stop calling your office because they already know when you&#39;re coming and when it&#39;s safe to walk on the lawn. Callbacks drop. Cancellations drop.</p>
-            <ul className="check-list">
-              <li>Day-before service reminder fires automatically every evening before</li>
-              <li>On-the-way SMS fires when the tech marks the job started on their phone</li>
-              <li>Service complete with re-entry interval fires after the compliance log is saved</li>
-              <li>10+ pre-built lawn care SMS templates — customizable, ready out of the box</li>
-              <li>Two-way inbox — all customer replies organized in one place for your team</li>
-              <li>500 outbound SMS/month included in $129/month flat</li>
-            </ul>
-          </div>
-          <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.45)', fontSize:'10px', textTransform:'uppercase', letterSpacing:'.8px', marginBottom:'14px'}}>Lawn Care SMS Thread — Sent Automatically</div>
-            <div className="sms-bubble sms-out">Hi Sarah! Reminder — your lawn fertilizer service is scheduled for tomorrow between 8am–11am. No watering needed for 24 hours after. Questions? Reply here. — Green Valley Lawn</div>
-            <div className="sms-label right">Day before · Sent automatically · 4:00 PM</div>
-            <div className="sms-bubble sms-in">Thanks for letting me know!</div>
-            <div className="sms-label">Sarah · 4:14 PM</div>
-            <div className="sms-bubble sms-out">Your lawn tech is on the way — estimated arrival in about 15 minutes. — Green Valley Lawn</div>
-            <div className="sms-label right">On the way · Sent automatically · 8:47 AM</div>
-            <div className="sms-bubble sms-out">Your lawn fertilizer application is complete! Please keep off the lawn for 24 hours. Your next service is scheduled for approximately 6–8 weeks. — Green Valley Lawn</div>
-            <div className="sms-label right">Complete · Fires automatically after log is saved</div>
-          </div>
-        </div>
-      </section>
-
-      {/* ════ HOW IT WORKS ════ */}
-      <section>
-        <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 64px'}}>
-          <span className="section-label">How It Works</span>
-          <h2 className="section-title">From Waiting List to Dispatched Routes — Same Morning</h2>
-          <p className="section-sub">SprayBossPro is designed so that scheduling a full day of lawn care routes takes minutes, not the first two hours of your morning. For a step-by-step look at how top companies do it, read <a href="/blogs/how-to-build-lawn-care-routes-fast" style={{color:'var(--orange)', fontWeight:600}}>How to Build Lawn Care Routes in Under 30 Minutes Every Morning</a>.</p>
-        </div>
-        <div className="steps-grid">
-          <div className="step-box"><div className="step-circle">1</div><h3>Check the Waiting List</h3><p>See every lawn care treatment due today — organized by service type with total sq ft or linear ft. Know the full scope of your day before you open the map.</p></div>
-          <div className="step-box"><div className="step-circle">2</div><h3>Lasso a Neighborhood</h3><p>Draw a circle on any neighborhood. See every stop due inside — service, sq ft, revenue. Filter by service type. Pull all stops into a route in one click.</p></div>
-          <div className="step-box"><div className="step-circle">3</div><h3>Optimize &amp; Dispatch</h3><p>Drive order is optimized automatically to cut windshield time. Push the route to your tech&#39;s phone. They see stops in order, property notes, gate codes, and the compliance log form.</p></div>
-          <div className="step-box"><div className="step-circle">4</div><h3>Log, SMS &amp; Reschedule</h3><p>Tech logs the application at the door. Re-entry SMS fires to the customer automatically. The next round reschedules itself on the waiting list. Card on file is charged. Done.</p></div>
-        </div>
-      </section>
-
-      {/* ════ PREMIUM BAND ════ */}
+      {/* PREMIUM BAND */}
       <div className="premium-band">
-        <h2>Lawn Care Scheduling Built for Companies That Spray.<br /><span>$129/Month. Everything Included.</span></h2>
-        <p>SprayBossPro isn&#39;t a generic scheduling app adapted for lawn care. The waiting list, Lasso route builder, compliance logging, auto-rescheduling, and automated SMS alerts are all built specifically for companies that apply chemical treatments on recurring lawn care programs.</p>
+        <h2>Scheduling Software That Actually<br /><span>Understands Recurring Mowing Routes.</span></h2>
+        <p>$79/month sounds modest. But what you&apos;re getting isn&apos;t. MowBossPro was built to schedule the way mowing companies really run &mdash; recurring weekly and biweekly visits, geographic routes, multiple crews, and a calendar that fills itself once you set the cycle. No per-seat fees, no add-ons for the features you use every single day.</p>
         <div className="premium-grid">
-          <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Circle Map Route Builder</h4><p>Draw a circle on any neighborhood and see every lawn care stop due inside. Build and dispatch a full day of routes in minutes.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Sq Ft or Linear Ft Waiting List</h4><p>Every service due today in one list — organized by type with total sq ft or linear ft. Know your full day before you build a single route.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🔄</div><h4>Auto-Rescheduling Programs</h4><p>Treatments reschedule automatically when complete. Recurring lawn care programs manage themselves all season.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Automated SMS Alerts</h4><p>Day-before, on-the-way, and service complete alerts fire automatically on every job. 10+ pre-built templates.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Chemical Application Logs</h4><p>Log product, EPA reg number, rate per 1,000 sq ft, area treated, and applicator license on every job. Print compliance reports on demand.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">📦</div><h4>Lawn Care Package Plans</h4><p>Sell 5-round, 6-round, and custom seasonal lawn care packages. Track treatments remaining per customer.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">📱</div><h4>Mobile App for Technicians</h4><p>Techs see their optimized route, property notes, gate codes, service history, and the compliance log form on their phone.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Card-on-File Payments</h4><p>Charge cards automatically after each treatment is completed — no separate payment add-on, no extra percentage per transaction.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Technicians</h4><p>Run 1 truck or 10. SprayBossPro never charges per user — every tech in your company is included at $129/month.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Recurring Visit Engine</h4><p>Set a yard to mow every 7 or 14 days and MowBossPro auto-generates every future visit for the whole season. Skip a rain day, bump the cycle, or pause a stop &mdash; the schedule rebuilds itself without you touching a spreadsheet.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Route Building</h4><p>Drag-and-drop stop ordering, geographic clustering, and a live map that shows your whole day in driving order. Tighten routes so crews spend the day mowing, not driving across town between yards.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">👷</div><h4>Crew Dispatch</h4><p>Assign each route to a crew and a truck, then send the day to their phones. Every crew sees their own stops in order &mdash; no group texts, no paper sheets, no &quot;which yard is next?&quot; calls to the office.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Billing &amp; Payments</h4><p>Per-cut billing, monthly flat-rate, cards on file, and instant invoices through Stripe. Charge after each mow or bill the whole month &mdash; every dollar tracked in one place without a second app.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Customer Texts</h4><p>Automatic &quot;crew is on the way&quot; and &quot;mow complete&quot; texts, plus reschedule notices when weather pushes a route. Set it once and MowBossPro keeps every customer in the loop on every visit.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📱</div><h4>Crew Mobile App</h4><p>Your mowing crews get a phone view of the day&apos;s stops in route order. Mark each yard complete, skip, or add a note from the truck &mdash; the office sees it update live without a single phone call.</p></div>
         </div>
       </div>
 
-      {/* ════ PRICING ════ */}
+      {/* LASSO */}
+      <section className="dark-section">
+        <div className="highlight-row">
+          <div className="highlight-text">
+            <span className="section-label">Lasso — Map Route Builder</span>
+            <h2 style={{color:'#fff'}}>Draw a Circle on the Map. Build a Mowing Route Inside It.</h2>
+            <p style={{color:'rgba(255,255,255,.65)'}}>Lasso is the fastest way to build a mowing route we&apos;ve ever seen. Draw a circle on your service-area map and MowBossPro instantly surfaces every yard inside that radius that&apos;s due for a cut &mdash; with stop count, route order, and estimated revenue calculated in real time before you commit a single crew to a single day.</p>
+            <ul className="check-list" style={{marginTop:'20px'}}>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Draw any size circle on the map &mdash; instantly see every yard due inside</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Counts stops and totals the route revenue automatically</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Shows what&apos;s already scheduled vs. what&apos;s still waiting for a cut</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>One click to schedule every selected yard to a date and crew</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Tighten routes geographically &mdash; stop burning the day driving cross-town</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Splits a packed area cleanly across two crews when you need to</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Cuts route building from an hour to under 5 minutes</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>No mowing scheduling software does this. It doesn&apos;t exist anywhere else.</li>
+            </ul>
+          </div>
+          <div className="highlight-visual">
+            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>Lasso — Route Selector</div>
+            <div style={{background:'rgba(255,255,255,.04)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'10px', padding:'20px', marginBottom:'14px', position:'relative', minHeight:'130px', display:'flex', alignItems:'center', justifyContent:'center', overflow:'hidden'}}>
+              <div style={{position:'absolute', top:'14px', left:'18px', right:'18px', bottom:'14px', border:'2.5px dashed #b22234', borderRadius:'50%', opacity:.7}}></div>
+              <div style={{display:'flex', gap:'12px', flexWrap:'wrap', justifyContent:'center', position:'relative', zIndex:1}}>
+                {['s','s','u','s','s','s','u','s','s','u','s','s','s','u','s','s','s','u','s'].map((t,i) => (
+                  <div key={i} style={{width:'11px', height:'11px', borderRadius:'50%', flexShrink:0, background: t==='s' ? '#b22234' : 'rgba(255,255,255,.2)', boxShadow: t==='s' ? '0 0 0 3px rgba(178,34,52,.3)' : 'none'}}></div>
+                ))}
+              </div>
+            </div>
+            <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:'8px'}}>
+              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}>
+                <div style={{color:'#b22234', fontSize:'18px', fontWeight:800}}>14</div>
+                <div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Yards Selected</div>
+              </div>
+              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}>
+                <div style={{color:'#b22234', fontSize:'18px', fontWeight:800}}>19</div>
+                <div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Total Stops Due</div>
+              </div>
+              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}>
+                <div style={{color:'#b22234', fontSize:'18px', fontWeight:800}}>$1,140</div>
+                <div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Route Revenue</div>
+              </div>
+              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px'}}>
+                <div style={{color:'#b22234', fontSize:'18px', fontWeight:800}}>2</div>
+                <div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Crews Needed</div>
+              </div>
+              <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px', gridColumn:'span 2'}}>
+                <div style={{color:'#fff', fontSize:'13px', fontWeight:600}}>Weekly Mow · 9 &nbsp;|&nbsp; Biweekly Mow · 8 &nbsp;|&nbsp; Cleanup · 2</div>
+                <div style={{color:'rgba(255,255,255,.42)', fontSize:'11px', marginTop:'1px'}}>Breakdown by Visit Type</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* EASIER TO USE */}
       <section style={{background:'var(--light-bg)'}}>
-        <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
+        <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 56px'}}>
+          <span className="section-label">Simplicity</span>
+          <h2 className="section-title">The Most Capable Mowing Scheduler Is Also the Easiest to Learn</h2>
+          <p className="section-sub" style={{maxWidth:'720px'}}>Most powerful software is complicated. MowBossPro is the exception. Every screen was designed by people who ran mowing routes &mdash; not UX designers who&apos;ve never sat in a truck at 6 a.m. Your crews will be using it confidently on day one.</p>
+        </div>
+        <div style={{display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(240px, 1fr))', gap:'24px', maxWidth:'1100px', margin:'0 auto'}}>
+          {[
+            {n:'01', title:'Set Up in One Afternoon', body:'Add your yards, set each one to a weekly or biweekly cycle, build your routes, and connect Stripe — most owners are scheduling their whole season the same day they sign up. No implementation consultant, no onboarding call, no 90-day setup timeline.'},
+            {n:'02', title:'One Screen Runs the Day', body:'Calendar, route map, dispatch board, and crew assignments are all connected. You\'re not jumping between five tabs. Pull up the day and every yard, every crew, and every route is right there in a single view you can dispatch from.'},
+            {n:'03', title:'Your Crews Learn It in Minutes', body:'The mobile app your crews use shows them exactly what they need and nothing they don\'t. Their stops for the day, the address, the gate code, the job notes, and the complete button. No training videos, no IT ticket, no frustrated crew leads.'},
+            {n:'04', title:'The Schedule Runs Without You', body:'Set each yard\'s mowing cycle and your customer texts once. After that, MowBossPro generates every recurring visit, sends every on-the-way and completion text, and rolls rain days forward automatically — whether you\'re on a route, at home, or asleep.'},
+          ].map(({n, title, body}) => (
+            <div key={n} style={{background:'#fff', border:'1.5px solid var(--border)', borderRadius:'12px', padding:'30px 26px'}}>
+              <div style={{fontSize:'40px', fontWeight:800, color:'var(--orange)', opacity:.25, lineHeight:1, marginBottom:'12px'}}>{n}</div>
+              <h3 style={{fontSize:'17px', fontWeight:700, color:'var(--text)', marginBottom:'8px'}}>{title}</h3>
+              <p style={{color:'var(--muted)', fontSize:'14px', lineHeight:1.6}}>{body}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* THE PROBLEM */}
+      <section style={{background:'var(--light-bg)'}}>
+        <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
+          <span className="section-label">The Problem</span>
+          <h2 className="section-title">Generic Scheduling Apps Weren&apos;t Built for Mowing Routes</h2>
+          <p className="section-sub">Mowing is not a one-off job. You&apos;re not booking a single appointment for next Tuesday. You&apos;re running the same hundreds of yards on a 7- or 14-day cycle, route by route, crew by crew, week after week &mdash; and a generic calendar app falls apart the moment it rains.</p>
+        </div>
+        <div style={{maxWidth:'900px', margin:'0 auto'}}>
+          <div style={{background:'#fff', border:'1.5px solid var(--border)', borderRadius:'14px', padding:'36px 40px', borderLeft:'5px solid var(--orange)'}}>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:1.8, marginBottom:'16px'}}>When we were running our own mowing routes, we tried every piece of software out there. The big names, the small names, the ones built for &quot;field service.&quot; None of them understood what it meant to have <strong>300 yards on a weekly cycle</strong> and need the next four weeks of routes to build themselves &mdash; and then rebuild when Tuesday gets rained out.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:1.8, marginBottom:'16px'}}>They don&apos;t have that. Because they weren&apos;t built by someone who runs a mowing business. <strong>We were.</strong> We&apos;ve been in this industry since 2006, and MowBossPro is the scheduling software we always wished existed.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:1.8}}>Every feature in MowBossPro exists because we needed it on a real mowing route. Not because a product manager in a tech office decided it sounded good. To see how the whole system fits together, start with <a href="/blogs/mowing-scheduling-software-complete-guide" style={{color:'var(--orange)', fontWeight:600}}>Mowing Scheduling Software: The Complete Guide for Lawn Care Businesses</a>.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* FEATURES */}
+      <section>
+        <div className="centered" style={{maxWidth:'1200px', margin:'0 auto'}}>
+          <span className="section-label">Built for Mowing</span>
+          <h2 className="section-title">Scheduling Features Designed Around Your Routes</h2>
+          <p className="section-sub">Every tool in MowBossPro was built with recurring mowing workflows in mind &mdash; not adapted from a one-off appointment app and called good enough.</p>
+        </div>
+        <div className="feature-grid">
+          {[
+            {icon:'🔁', title:'Recurring Visit Scheduling', body:'Set a yard to mow every 7 or 14 days and MowBossPro builds out every future visit automatically. The calendar fills itself for the whole season — no re-entering the same stop fifty times.'},
+            {icon:'🗺️', title:'Live Route Map', body:'See every scheduled mow pinned on an interactive map in driving order. Drag to reorder stops, build tight geographic routes, and cut drive time before your crew ever leaves the yard.'},
+            {icon:'📅', title:'Season Calendar', body:'A full calendar view of every mowing visit, by day, route, and crew. See the week at a glance, spot gaps, and balance the load so no single day or crew is overbooked.'},
+            {icon:'🌧️', title:'Rain-Day Rescheduling', body:'When weather kills a day, push the whole route forward in one click. MowBossPro shifts the visits, keeps the cycle intact, and texts every affected customer the new day automatically.'},
+            {icon:'👷', title:'Crew Assignment & Dispatch', body:'Assign each route to a crew and a truck, then send the day to their phones. Every crew sees only their own stops, in order, ready to mow.'},
+            {icon:'💬', title:'Automated Visit Texts', body:'Automatically text customers when the crew is on the way and when the mow is done. Set it once — MowBossPro handles the communication for every single visit.'},
+            {icon:'💰', title:'Estimates That Close', body:'Build a mowing estimate in minutes from your service catalog, email it from the platform, and let prospects accept with one click. Auto-follow-ups go out if they don\'t respond.'},
+            {icon:'💳', title:'Per-Cut & Flat-Rate Billing', body:'Charge per mow or bill a flat monthly rate per yard. Store cards on file via Stripe and collect after every visit — every dollar tracked in one place.'},
+            {icon:'🏠', title:'Property Profiles', body:'Every yard has its own record — gate codes, mow notes, service history, GPS coordinates, and photos. Everything tied to the address, so any crew can run the stop cold.'},
+            {icon:'💬', title:'Two-Way SMS Inbox', body:'Send and receive texts with customers directly inside MowBossPro. Full conversation history organized by contact — no more switching to your personal phone.'},
+            {icon:'⭐', title:'Automated Review Requests', body:'After every completed mow, MowBossPro can send a Google review request to the customer — on your schedule, every time, without you lifting a finger.'},
+            {icon:'🔁', title:'Estimate Follow-Up Sequences', body:'3 automated follow-up texts go out if a prospect doesn\'t respond to your mowing estimate. Let MowBossPro chase the deal so you don\'t have to.'},
+            {icon:'💳', title:'Payment Follow-Up Sequences', body:'Unpaid invoices trigger 3 automated payment reminder texts. Collect what you\'re owed for the season without making uncomfortable calls.'},
+            {icon:'👥', title:'Customer & Lead Management', body:'Manage active mowing customers and new prospects side by side. Track estimates, visit history, and notes tied to each contact — in one searchable database.'},
+            {icon:'📄', title:'Invoice Management', body:'Convert accepted estimates to invoices instantly, or batch-bill a month of mows at once. Filter by unpaid, partial, paid, or overdue with full payment history.'},
+            {icon:'🏷️', title:'Discount Codes & Sales Tax', body:'Apply percentage or fixed-dollar discounts to any mowing estimate. Set sales tax by jurisdiction and let MowBossPro calculate and track it on every invoice.'},
+            {icon:'👑', title:'Role-Based Access', body:'Owner, Manager, Office, Crew Lead, and Mobile roles. Control exactly what each person can see and do — from full access down to field-only stops.'},
+            {icon:'🚛', title:'Truck & Equipment Tracking', body:'Create truck profiles, assign vehicles to routes, and track which truck ran each route. Know exactly what crew and truck handled every yard.'},
+            {icon:'⏱️', title:'Crew Hour Tracking', body:'Track crew hours per route and generate payroll-ready reports. Know exactly what you owe before payday without running a separate timeclock app.'},
+            {icon:'📊', title:'Dashboard & Reports', body:'Stat cards show today\'s mows completed, yards remaining, revenue booked, money owed, and more — all at a glance the moment you log in.'},
+            {icon:'🔔', title:'10+ Automated Alert Types', body:'Visit scheduled, on the way, completed, skipped, rescheduled, estimate sent, estimate accepted, review request, payment reminder, inbound text — all automated.'},
+            {icon:'👥', title:'Unlimited Users', body:'Add every crew member, office staffer, and crew lead at no extra cost. No per-seat fees. Unlimited users are included in the flat $79/month rate.'},
+            {icon:'🏢', title:'Unlimited Yards & Customers', body:'No caps on customers, yards, or leads. Whether you mow 50 lawns or 5,000 — MowBossPro schedules them all at the same flat price.'},
+          ].map(({icon, title, body}) => (
+            <div key={title} className="feature-card">
+              <span className="feature-icon">{icon}</span>
+              <h3>{title}</h3>
+              <p>{body}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* SCHEDULING */}
+      <section style={{background:'var(--light-bg)'}}>
+        <div className="highlight-row">
+          <div className="highlight-text">
+            <span className="section-label">Recurring Mowing Schedule</span>
+            <h2>Set the Cycle Once. Watch the Whole Season Schedule Itself.</h2>
+            <p>This is the feature generic apps don&apos;t have. MowBossPro&apos;s recurring engine doesn&apos;t just book one visit &mdash; you tell it a yard mows every 7 or 14 days and it generates every future visit, slots each one into the right route, and rolls rain days forward without you re-entering a thing. For a full walkthrough of how it works as the daily hub of a mowing business, read <a href="/blogs/mowing-scheduling-software-complete-guide" style={{color:'var(--orange)', fontWeight:600}}>Mowing Scheduling Software: The Complete Guide for Lawn Care Businesses</a>.</p>
+            <ul className="check-list">
+              <li>Set weekly or biweekly cycles per yard &mdash; visits build automatically</li>
+              <li>Schedule directly onto a route in one click</li>
+              <li>Assign date, crew, and truck at scheduling time</li>
+              <li>Full dispatch board for the day&apos;s scheduled mows</li>
+              <li>Drag-and-drop route reordering on the map</li>
+              <li>Mark stops complete, skipped, or rescheduled from the field</li>
+              <li>One-click rain-day push for an entire route</li>
+              <li>Summary bar: total stops, crews, and revenue for the day</li>
+            </ul>
+          </div>
+          <div className="highlight-visual">
+            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Today&apos;s Routes — By Crew</div>
+            <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px', marginBottom:'10px', display:'flex', alignItems:'center', gap:'12px'}}>
+              <div style={{width:'10px', height:'10px', borderRadius:'50%', background:'#22c55e', flexShrink:0}}></div>
+              <div style={{flex:1}}><div style={{color:'rgba(255,255,255,.85)', fontSize:'13px', fontWeight:600}}>Crew A — North Route</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', marginTop:'1px'}}>18 weekly yards due</div></div>
+              <div style={{marginLeft:'auto', background:'#16a34a', color:'#fff', fontSize:'11px', fontWeight:700, padding:'3px 9px', borderRadius:'10px'}}>18 stops</div>
+            </div>
+            <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px', marginBottom:'10px', display:'flex', alignItems:'center', gap:'12px'}}>
+              <div style={{width:'10px', height:'10px', borderRadius:'50%', background:'#b22234', flexShrink:0}}></div>
+              <div style={{flex:1}}><div style={{color:'rgba(255,255,255,.85)', fontSize:'13px', fontWeight:600}}>Crew B — East Route</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', marginTop:'1px'}}>16 weekly yards due</div></div>
+              <div style={{marginLeft:'auto', background:'#b22234', color:'#fff', fontSize:'11px', fontWeight:700, padding:'3px 9px', borderRadius:'10px'}}>16 stops</div>
+            </div>
+            <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px', marginBottom:'10px', display:'flex', alignItems:'center', gap:'12px'}}>
+              <div style={{width:'10px', height:'10px', borderRadius:'50%', background:'#7fb0ff', flexShrink:0}}></div>
+              <div style={{flex:1}}><div style={{color:'rgba(255,255,255,.85)', fontSize:'13px', fontWeight:600}}>Crew C — South Route</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', marginTop:'1px'}}>14 biweekly yards due</div></div>
+              <div style={{marginLeft:'auto', background:'#2272c3', color:'#fff', fontSize:'11px', fontWeight:700, padding:'3px 9px', borderRadius:'10px'}}>14 stops</div>
+            </div>
+            <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px', marginBottom:'10px', display:'flex', alignItems:'center', gap:'12px'}}>
+              <div style={{width:'10px', height:'10px', borderRadius:'50%', background:'#22c55e', flexShrink:0}}></div>
+              <div style={{flex:1}}><div style={{color:'rgba(255,255,255,.85)', fontSize:'13px', fontWeight:600}}>Cleanups &amp; Add-Ons</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', marginTop:'1px'}}>4 one-time visits due</div></div>
+              <div style={{marginLeft:'auto', background:'#16a34a', color:'#fff', fontSize:'11px', fontWeight:700, padding:'3px 9px', borderRadius:'10px'}}>4 stops</div>
+            </div>
+            <div style={{marginTop:'16px', background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'14px 16px', textAlign:'center'}}>
+              <div style={{color:'#b22234', fontSize:'16px', fontWeight:700}}>Set the cycle once.</div>
+              <div style={{color:'rgba(255,255,255,.45)', fontSize:'12px', marginTop:'4px'}}>The season schedules itself.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CREW DISPATCH */}
+      <section>
+        <div className="highlight-row reverse">
+          <div className="highlight-text">
+            <span className="section-label">Crew Dispatch</span>
+            <h2>Every Crew Knows Exactly Where to Mow Next</h2>
+            <p>Dispatch a route to a crew and it lands on their phones in driving order. They tap into the next yard, see the gate code and mow notes, mow it, and mark it complete &mdash; and the office watches the route close out live. No group texts, no paper sheets, no calling in for the next address.</p>
+            <ul className="check-list">
+              <li>Send each route to the assigned crew&apos;s phone in one tap</li>
+              <li>Stops appear in driving order &mdash; next yard always on top</li>
+              <li>Gate codes, mow notes, and photos attached to every stop</li>
+              <li>Crews mark complete, skip, or reschedule from the truck</li>
+              <li>Office sees the route close out live, stop by stop</li>
+              <li>Reassign a yard between crews mid-day in seconds</li>
+              <li>Completed mows trigger the customer&apos;s done text automatically</li>
+            </ul>
+          </div>
+          <div className="highlight-visual">
+            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Crew App — North Route</div>
+            <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:'8px', marginBottom:'12px'}}>
+              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}>
+                <div style={{color:'#fff', fontSize:'20px', fontWeight:700}}>18</div>
+                <div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Stops Today</div>
+              </div>
+              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}>
+                <div style={{color:'#fff', fontSize:'20px', fontWeight:700}}>11</div>
+                <div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Mowed</div>
+              </div>
+              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}>
+                <div style={{color:'#b22234', fontSize:'20px', fontWeight:700}}>7</div>
+                <div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Remaining</div>
+              </div>
+              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}>
+                <div style={{color:'#b22234', fontSize:'20px', fontWeight:700}}>$720</div>
+                <div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Route Revenue</div>
+              </div>
+            </div>
+            <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px', marginBottom:'10px', display:'flex', alignItems:'center', gap:'12px'}}>
+              <div style={{width:'10px', height:'10px', borderRadius:'50%', background:'#b22234', flexShrink:0}}></div>
+              <div style={{flex:1}}><div style={{color:'rgba(255,255,255,.85)', fontSize:'13px', fontWeight:600}}>Next: 412 Oak St · Weekly Mow</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', marginTop:'1px'}}>Gate code 1845 · Dog in back yard</div></div>
+              <div style={{background:'#b22234', color:'#fff', fontSize:'11px', fontWeight:700, padding:'3px 9px', borderRadius:'10px'}}>$45</div>
+            </div>
+            <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px', display:'flex', alignItems:'center', gap:'12px'}}>
+              <div style={{width:'10px', height:'10px', borderRadius:'50%', background:'#22c55e', flexShrink:0}}></div>
+              <div style={{flex:1}}><div style={{color:'rgba(255,255,255,.85)', fontSize:'13px', fontWeight:600}}>Done: 388 Oak St · Weekly Mow</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', marginTop:'1px'}}>Completed 9:42 AM · Customer texted</div></div>
+              <div style={{background:'#16a34a', color:'#fff', fontSize:'11px', fontWeight:700, padding:'3px 9px', borderRadius:'10px'}}>✓ Paid</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* PRICING */}
+      <section style={{background:'var(--light-bg)'}}>
+        <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
-          <h2 className="section-title">$129/Month. Every Feature. No Add-Ons.</h2>
-          <p className="section-sub">One flat price covers scheduling, routing, compliance logs, SMS alerts, card-on-file payments, and unlimited technicians.</p>
+          <h2 className="section-title">One Flat Price. Everything Included.</h2>
+          <p className="section-sub">We were paying $500–$700 a month for software that nickel-and-dimed us. We built MowBossPro to be the pricing we always wished existed.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="lc-price-card featured">
-            <div className="featured-badge">Everything Included — One Price</div>
-            <div className="price-tier">Lawn Care Scheduling Software — One Plan</div>
-            <div className="price-amount"><sup>$</sup>129</div>
-            <div className="price-period">per month — cancel anytime</div>
+            <div className="featured-badge">Everything Included</div>
+            <div className="price-tier">One Plan. No Surprises.</div>
+            <div style={{fontSize:'48px', fontWeight:800, color:'var(--text)', lineHeight:1}}><sup style={{fontSize:'22px', verticalAlign:'super'}}>$</sup>129</div>
+            <div style={{color:'var(--muted)', fontSize:'13px', marginBottom:'24px', marginTop:'4px'}}>per month</div>
+            <div style={{color:'var(--muted)', fontSize:'14px', marginBottom:'24px', lineHeight:1.5}}>Every feature. Unlimited customers, yards, crews, and users. No tiers, no locked features, no per-seat fees.</div>
             <ul className="price-features">
-              <li>Lasso Circle Map Route Builder</li>
-              <li>Sq Ft or Linear Ft Waiting List by Service Type</li>
-              <li>Recurring Program Auto-Rescheduling All Season</li>
-              <li>Lawn Care Package Plans &amp; Treatment Tracking</li>
-              <li>Automated SMS Alerts — 10+ pre-built types</li>
-              <li>Re-Entry Interval SMS — Fires Automatically After Every Job</li>
-              <li>Two-Way SMS Customer Inbox</li>
-              <li>Chemical Application Compliance Logs</li>
-              <li>EPA Reg Number &amp; Rate Logging on Every Job</li>
-              <li>Full Scheduling, Dispatch &amp; Route Map</li>
-              <li>Estimates, Invoices &amp; Card-on-File Payments</li>
-              <li>Mobile App for Technicians</li>
-              <li>Unlimited Technicians — no per-user fees ever</li>
-              <li>500 Outbound SMS/month included</li>
-              <li>14-day free trial — no credit card required</li>
+              <li>Unlimited Customers, Yards &amp; Leads</li>
+              <li>Unlimited Crews &amp; Users</li>
+              <li>Recurring Weekly &amp; Biweekly Scheduling</li>
+              <li>Route Map, Dispatch &amp; Crew Assignment</li>
+              <li>Rain-Day Rescheduling in One Click</li>
+              <li>Estimates, Invoices &amp; Stripe Payments</li>
+              <li>Two-Way SMS &amp; Automated Visit Texts</li>
+              <li>Per-Cut &amp; Flat-Rate Billing</li>
+              <li>Crew Mobile App</li>
+              <li>500 Outbound Texts/month included</li>
+              <li>+$15 per additional 500 texts after that</li>
             </ul>
-            <button onClick={(e) => openSignupModal(2, e.currentTarget as HTMLElement)} className="price-btn price-btn-primary">
-              Start Your 14-Day Free Trial
-            </button>
+            <button onClick={(e) => openSignupModal(2, e.currentTarget as HTMLElement)} className="price-btn price-btn-primary">Start Your 14-Day Free Trial</button>
           </div>
         </div>
-        <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. No add-ons. No per-technician fees. Cancel anytime.</p>
+        <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. Cancel anytime. No hidden fees — ever.</p>
       </section>
 
       {/* FAQ */}
       <section style={{background:'#fff'}}>
         <div style={{maxWidth:'860px', margin:'0 auto', padding:'80px 40px'}}>
           <span className="section-label">FAQ</span>
-          <h2 className="section-title" style={{marginBottom:'48px'}}>Lawn Care Scheduling Software — Common Questions</h2>
+          <h2 className="section-title" style={{marginBottom:'48px'}}>Mowing Scheduling Software — Common Questions</h2>
           {[
-            {q:'Does SprayBossPro work for lawn care scheduling?', a:'Yes. SprayBossPro handles recurring lawn care program scheduling — pre-emergent, fertilizer, post-emergent, weed control — with a waiting list dispatch board, circle-map route building, sq ft pricing, and automated SMS for every visit.'},
-            {q:'How does the waiting list work for lawn care?', a:'The waiting list shows every customer due for service, sorted by due date. When you\'re building routes, you open the circle map, lasso a geographic area, and all the accounts inside are selected and added to your route. Sq ft and revenue totals update in real time as you select stops.'},
-            {q:'Can I schedule multiple rounds of a recurring program?', a:'Yes. You can set up recurring programs with any number of rounds. SprayBossPro tracks which round each customer is on, when they\'re due, and how many treatments remain. When a round is completed, the next goes back on the waiting list automatically.'},
-            {q:'Does it send automatic reminders to lawn care customers?', a:'Yes. SprayBossPro sends automated SMS alerts for every visit: day-before reminders, on-the-way notifications, and completion messages. Alerts are configured once and fire automatically for every service. 500 outbound SMS/month are included at no extra charge.'},
-            {q:'Can I price lawn care services by square footage?', a:'Yes. SprayBossPro stores sq ft per property and calculates service pricing based on per-sq-ft rates you set. Pricing appears automatically on the waiting list and in estimates — no manual calculation per stop.'},
-            {q:'How much does SprayBossPro cost for a lawn care business?', a:'$129/month, flat. No per-user fees, no SMS add-ons, no extra charge for chemical logs or route building. Every feature is included. 14-day free trial, no credit card required.'},
+            {q:'Is MowBossPro built for lawn mowing businesses?', a:'Yes. MowBossPro is scheduling software built for recurring mowing routes: weekly and biweekly cycles, geographic route building, crew dispatch, estimate-to-customer conversion, automated visit texts, and per-cut or flat-rate billing. It\'s designed for companies running mowing routes, not general one-off service jobs.'},
+            {q:'How does recurring scheduling work for mowing?', a:'You set each yard to a 7- or 14-day cycle, and MowBossPro generates every future visit automatically, slotting each one into the right route. The whole season builds itself — and when a yard pauses or changes cycles, the schedule rebuilds without you re-entering anything.'},
+            {q:'Can I run multiple crews and routes from one account?', a:'Yes. MowBossPro supports as many crews and routes as you need. Assign each route to a crew and a truck, dispatch the day to their phones, and reassign yards between crews mid-day in seconds. Every crew sees only their own stops, in driving order.'},
+            {q:'What happens when it rains and a route gets pushed?', a:'One click pushes the entire route forward. MowBossPro shifts every visit, keeps each yard\'s cycle intact, and automatically texts every affected customer their new mow day — so you\'re not making thirty phone calls after a storm.'},
+            {q:'Does it replace spreadsheets and calendar apps?', a:'Yes. MowBossPro replaces spreadsheet scheduling, route planning, customer tracking, and texting tools in one platform. Most owners are scheduling their whole season the same day they sign up — no onboarding consultant, no implementation timeline.'},
+            {q:'How much does MowBossPro cost?', a:'$79/month, all features included. No per-user fees, no add-ons for SMS or route tools, no setup fees. 14-day free trial with no credit card required.'},
           ].map(({q, a}, i, arr) => (
             <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
               <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
               <p style={{color:'var(--muted)', lineHeight:1.7, margin:0, fontSize:'15px'}}>{a}</p>
             </div>
           ))}
-          <p style={{marginTop:'40px', color:'var(--muted)', fontSize:'15px', lineHeight:1.7}}>SprayBossPro is lawn care scheduling software built for route-based spray businesses — <a href="/" style={{color:'var(--orange)', fontWeight:600}}>see the full platform overview</a> to learn what's included.</p>
+          <p style={{marginTop:'40px', color:'var(--muted)', fontSize:'15px', lineHeight:1.7}}>MowBossPro schedules, routes, dispatches, and bills your entire mowing operation from one platform &mdash; <a href="/" style={{color:'var(--orange)', fontWeight:600}}>see the full platform overview</a>.</p>
         </div>
       </section>
 
-      {/* ════ CTA ════ */}
+      {/* CTA */}
       <div className="cta-band">
-        <h2>Lawn Care Scheduling Software<br /><span style={{color:'var(--orange)'}}>That Actually Saves You Time Every Morning.</span></h2>
-        <p>$129/month gets you Lasso routing, sq ft or linear ft waiting lists, auto-rescheduling, compliance logs, and automated SMS alerts. Everything built for lawn care companies that spray on recurring programs. No add-ons. No contracts.</p>
-        <div className="hero-btns" style={{justifyContent:'center'}}>
-          <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>
-            Start Your 14-Day Free Trial
-          </a>
+        <h2>Stop Running Your Mowing Routes<br />on a Calendar App That Wasn&apos;t Built for You.</h2>
+        <p>MowBossPro is the only mowing scheduling software built by someone who has actually run a mowing route. Try it free for 14 days.</p>
+        <div className="hero-btns">
+          <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
         </div>
       </div>
 
-      {/* ════ MODALS ════ */}
       <div id="sbp-backdrop" className="sbp-backdrop" onClick={() => closeAllModals()}></div>
       <SignupForm n={1} />
       <SignupForm n={2} />
