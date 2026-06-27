@@ -16,15 +16,12 @@ export default function Footer() {
             </div>
             <div className="site-footer-col">
               <h4>Solutions</h4>
+              <a href="/lawn-mowing-software">Lawn Mowing Software</a>
               <a href="/lawn-care-software">Lawn Care Software</a>
-              <a href="/lawn-care-scheduling-software">Lawn Care Scheduling</a>
-              <a href="/mosquito-spray-software">Mosquito Spray</a>
-              <a href="/mosquito-control-software">Mosquito Control</a>
-              <a href="/pest-control-software">Pest Control</a>
-              <a href="/pest-control-scheduling-software">Pest Control Scheduling</a>
-              <a href="/weed-control-software">Weed Control</a>
-              <a href="/fertilizer-software">Fertilizer Software</a>
-              <a href="/spray-business-software">Spray Business</a>
+              <a href="/lawn-care-scheduling-software">Mowing Scheduling</a>
+              <a href="/lawn-mowing-routes-software">Routes &amp; Dispatch</a>
+              <a href="/lawn-care-invoicing-software">Invoicing &amp; Payments</a>
+              <a href="/mowing-business-software">Mowing Business Software</a>
             </div>
             <div className="site-footer-col">
               <h4>Compare</h4>
@@ -38,7 +35,6 @@ export default function Footer() {
               <a href="/vs-lawnpro">vs. LawnPro</a>
               <a href="/vs-aspire">vs. Aspire</a>
               <a href="/vs-clip">vs. CLIP</a>
-              <a href="/vs-spraye">vs. Spraye</a>
             </div>
             <div className="site-footer-col">
               <h4>Resources</h4>

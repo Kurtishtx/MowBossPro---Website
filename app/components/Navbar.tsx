@@ -2,15 +2,12 @@
 import { useState } from 'react';
 
 const solutions = [
-  { label: 'Lawn Care Software',           href: '/lawn-care-software' },
-  { label: 'Lawn Care Scheduling',         href: '/lawn-care-scheduling-software' },
-  { label: 'Mosquito Control Software',    href: '/mosquito-control-software' },
-  { label: 'Mosquito Spray Software',      href: '/mosquito-spray-software' },
-  { label: 'Pest Control Software',        href: '/pest-control-software' },
-  { label: 'Pest Control Scheduling',      href: '/pest-control-scheduling-software' },
-  { label: 'Spray Business Software',      href: '/spray-business-software' },
-  { label: 'Weed Control Software',        href: '/weed-control-software' },
-  { label: 'Fertilizer Software',          href: '/fertilizer-software' },
+  { label: 'Lawn Mowing Software',     href: '/lawn-mowing-software' },
+  { label: 'Lawn Care Software',       href: '/lawn-care-software' },
+  { label: 'Mowing Scheduling',        href: '/lawn-care-scheduling-software' },
+  { label: 'Routes & Dispatch',        href: '/lawn-mowing-routes-software' },
+  { label: 'Invoicing & Payments',     href: '/lawn-care-invoicing-software' },
+  { label: 'Mowing Business Software', href: '/mowing-business-software' },
 ];
 
 const comparisons = [
@@ -20,7 +17,6 @@ const comparisons = [
   { label: 'vs. Housecall Pro',      href: '/vs-housecallpro' },
   { label: 'vs. FieldRoutes',        href: '/vs-fieldroutes' },
   { label: 'vs. Service AutoPilot',  href: '/vs-serviceautopilot' },
-  { label: 'vs. Spraye',             href: '/vs-spraye' },
   { label: 'vs. RealGreen',          href: '/vs-realgreen' },
   { label: 'vs. LawnPro',            href: '/vs-lawnpro' },
   { label: 'vs. CLIP',               href: '/vs-clip' },
