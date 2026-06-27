@@ -131,7 +131,7 @@ export default function VsLawnPro() {
       <div className="hero">
         <div className="hero-badge">LawnPro Alternative</div>
         <h1>LawnPro Grow Is $79/Month — With a 7-Employee Cap, No SMS, and No Card-on-File Payments.<br /><span>MowBossPro Is $79 With Unlimited Users, SMS, and Payments Included.</span></h1>
-        <p>LawnPro Grow matches MowBossPro&apos;s price but caps you at 7 employees, locks two-way SMS behind the $249 Plus plan, and doesn&apos;t include card-on-file auto-charge. MowBossPro is the same $79 — with no caps, no locked features, and everything spray businesses actually need included.</p>
+        <p>LawnPro Grow matches MowBossPro&apos;s price but caps you at 7 employees, locks two-way SMS behind the $249 Plus plan, and doesn&apos;t include card-on-file auto-charge. MowBossPro is the same $79 — with no caps, no locked features, and everything mowing businesses actually need included.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
@@ -162,20 +162,20 @@ export default function VsLawnPro() {
                 <div className="sbp-contrast-label">MowBossPro at $79 — What You Actually Get</div>
                 <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Users &amp; Employees</span><span className="sbp-contrast-row-val">Unlimited — no cap</span></div>
                 <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">2-Way SMS &amp; Card-on-File</span><span className="sbp-contrast-row-val">Included at $79</span></div>
-                <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Lasso, Sq Ft List, Chemical Logs</span><span className="sbp-contrast-row-val">Included — LawnPro doesn&apos;t have these</span></div>
+                <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Lasso, Sq Ft List, Service Logs</span><span className="sbp-contrast-row-val">Included — LawnPro doesn&apos;t have these</span></div>
               </div>
             </div>
             <div className="highlight-text" style={{flex:1, minWidth:'280px'}}>
               <span className="section-label">No Upgrade Walls</span>
               <h2>The Same $79 Should Get You Everything. At LawnPro, It Doesn&apos;t.</h2>
               <p>LawnPro Grow costs $79/month — the same as MowBossPro. But it caps your team at 7 employees, locks two-way text messaging behind the $249 Plus plan, and doesn&apos;t include card-on-file auto-charge at any price below Plus.</p>
-              <p>MowBossPro is $79/month with unlimited users, SMS, card-on-file payments, lasso routing, sq ft waiting list, and chemical compliance logs — all included. No tier upgrades required.</p>
+              <p>MowBossPro is $79/month with unlimited users, SMS, card-on-file payments, lasso routing, sq ft job board, and service compliance logs — all included. No tier upgrades required.</p>
               <ul className="check-list">
                 <li>Unlimited employees — not 7, not 15, unlimited</li>
                 <li>2-Way SMS included at $79 — not locked behind $249</li>
                 <li>Card-on-file auto-charge included — not a Plus-only feature</li>
                 <li>Lasso circle routing — LawnPro doesn&apos;t have this at any price</li>
-                <li>Sq ft waiting list by service type — not in LawnPro</li>
+                <li>Sq ft job board by service type — not in LawnPro</li>
               </ul>
             </div>
           </div>
@@ -193,13 +193,13 @@ export default function VsLawnPro() {
             <div className="highlight-text" style={{flex:1, minWidth:'280px'}}>
               <span className="section-label">Always Included at $79</span>
               <h2>MowBossPro Doesn&apos;t Have Plus Plans. One Price Gets You Everything.</h2>
-              <p>At LawnPro, you start at $79/month and realize the features your spray business needs are Plus-only. You&apos;re pushed to $249/month — nearly double. At MowBossPro, $79 is the only plan because one plan is all you need.</p>
+              <p>At LawnPro, you start at $79/month and realize the features your mowing business needs are Plus-only. You&apos;re pushed to $249/month — nearly double. At MowBossPro, $79 is the only plan because one plan is all you need.</p>
               <ul className="check-list">
                 <li>Two-way SMS: included at $79 — not a Plus upgrade</li>
                 <li>Auto-charge cards on file: included at $79</li>
                 <li>Text invoices and estimates to clients: included</li>
                 <li>Unlimited employee logins: no cap, no upgrade</li>
-                <li>Lasso, sq ft list, chemical logs: included — LawnPro has none of these</li>
+                <li>Lasso, sq ft list, service photos: included — LawnPro has none of these</li>
               </ul>
             </div>
             <div className="highlight-visual" style={{flex:1.5, minWidth:'280px'}}>
@@ -227,7 +227,7 @@ export default function VsLawnPro() {
         <div className="centered" style={{maxWidth:'960px', margin:'0 auto 48px'}}>
           <span className="section-label">Side by Side</span>
           <h2 className="section-title">MowBossPro vs LawnPro — Feature by Feature</h2>
-          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>A complete look at what&apos;s included at each price point. LawnPro was built for mowing businesses — MowBossPro was built for spray.</p>
+          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>A complete look at what&apos;s included at each price point. LawnPro was built for mowing businesses — MowBossPro was built for mowing.</p>
         </div>
         <div className="compare-wrap">
           <table className="compare-table">
@@ -245,13 +245,13 @@ export default function VsLawnPro() {
               <tr><td className="feature-name">2-Way SMS Inbox</td><td className="sbp-col"><span className="chk">✓ Included</span></td><td><span className="crs">✗ Not included</span></td><td><span className="chk">✓ Included</span></td></tr>
               <tr><td className="feature-name">Card-on-File Auto-Charge</td><td className="sbp-col"><span className="chk">✓ Included</span></td><td><span className="crs">✗ Not included</span></td><td><span className="chk">✓ Included</span></td></tr>
               <tr><td className="feature-name">Text Invoices &amp; Estimates</td><td className="sbp-col"><span className="chk">✓ Included</span></td><td><span className="crs">✗ Not included</span></td><td><span className="chk">✓ Included</span></td></tr>
-              <tr><td className="feature-name">Sq Ft Waiting List by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Lawn Square Footage by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Lasso Circle Map Route Selector</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Chemical Compliance Logs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Service Compliance Logs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Automated SMS Alerts</td><td className="sbp-col"><span className="chk">✓ 10+ alerts</span></td><td><span className="prt">Basic</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Package Plans &amp; Renewals</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Estimates &amp; Online Acceptance</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
-              <tr><td className="feature-name">Mobile App for Technicians</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Mobile App for Crews</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">14-Day Free Trial</td><td className="sbp-col"><span className="chk">✓ No card</span></td><td><span className="prt">Free plan available</span></td><td><span className="prt">Free plan available</span></td></tr>
             </tbody>
           </table>
@@ -261,13 +261,13 @@ export default function VsLawnPro() {
       <section>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 56px'}}>
           <span className="section-label">Right Tool</span>
-          <h2 className="section-title">LawnPro Was Built for Mowing Routes. MowBossPro Was Built for Spray.</h2>
-          <p className="section-sub" style={{maxWidth:'720px'}}>LawnPro is a solid choice for lawn mowing businesses. But spray businesses have specific requirements — sq ft tracking, chemical compliance, waiting list management by service type — that LawnPro doesn&apos;t address at any tier. MowBossPro was built for exactly those needs.</p>
+          <h2 className="section-title">LawnPro Was Built for Mowing Routes. MowBossPro Was Built for Mowing.</h2>
+          <p className="section-sub" style={{maxWidth:'720px'}}>LawnPro is a solid choice for lawn mowing businesses. But mowing businesses have specific requirements — sq ft tracking, service compliance, job board management by service type — that LawnPro doesn&apos;t address at any tier. MowBossPro was built for exactly those needs.</p>
         </div>
         <div className="simple-grid">
-          <div className="simple-card"><div className="simple-num">01</div><h3>Same Price — More Included</h3><p>LawnPro Grow is $79/month with a 7-employee cap, no SMS, and no card-on-file payments. MowBossPro is $79/month with unlimited users, full SMS, card-on-file auto-charge, lasso routing, sq ft waiting list, and chemical logs — all included from day one.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>No Employee Caps — Ever</h3><p>As your spray business grows, you add trucks and technicians. LawnPro charges $249/month to get to 15 employees, and you&apos;re still capped. MowBossPro never limits your team size — unlimited employees are included in the base $79 price, no upgrade required.</p></div>
-          <div className="simple-card"><div className="simple-num">03</div><h3>Spray-Specific Features at Every Tier</h3><p>Sq ft waiting list by service type, lasso circle route selector, chemical compliance logs — LawnPro doesn&apos;t have these at any price tier. They&apos;re core features in MowBossPro because they were built for how spray businesses actually manage recurring treatment schedules.</p></div>
+          <div className="simple-card"><div className="simple-num">01</div><h3>Same Price — More Included</h3><p>LawnPro Grow is $79/month with a 7-employee cap, no SMS, and no card-on-file payments. MowBossPro is $79/month with unlimited users, full SMS, card-on-file auto-charge, lasso routing, sq ft job board, and service photos — all included from day one.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>No Employee Caps — Ever</h3><p>As your mowing business grows, you add trucks and crews. LawnPro charges $249/month to get to 15 employees, and you&apos;re still capped. MowBossPro never limits your team size — unlimited employees are included in the base $79 price, no upgrade required.</p></div>
+          <div className="simple-card"><div className="simple-num">03</div><h3>Mowing-Specific Features at Every Tier</h3><p>Sq ft job board by service type, lasso circle route selector, service compliance logs — LawnPro doesn&apos;t have these at any price tier. They&apos;re core features in MowBossPro because they were built for how mowing businesses actually manage recurring treatment schedules.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>14-Day Free Trial — No Card Required</h3><p>MowBossPro has a 14-day free trial with full access. No credit card required. You can see every feature, set up your routes, add your clients, and confirm it&apos;s the right fit before paying anything. LawnPro offers a perpetual free plan with limits but no full-feature trial.</p></div>
         </div>
       </section>
@@ -275,27 +275,27 @@ export default function VsLawnPro() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
-          <h2 className="section-title">Same Price as LawnPro Grow — More for Spray Businesses</h2>
+          <h2 className="section-title">Same Price as LawnPro Grow — More for Mowing Businesses</h2>
           <p className="section-sub">$79/month. Unlimited users. Everything included. No Plus plan required.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="price-card featured" style={{width:'100%'}}>
             <div className="featured-badge">Same Price as LawnPro Grow — More Included</div>
             <div className="price-tier">One Plan. Unlimited Users. Everything Included.</div>
-            <div className="price-amount"><sup>$</sup>129</div>
+            <div className="price-amount"><sup>$</sup>79</div>
             <div className="price-period">per month — cancel anytime</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users — No Caps</li>
-              <li>Sq Ft Waiting List by Service Type</li>
+              <li>Lawn Square Footage by Service Type</li>
               <li>Lasso Circle Map Route Selector</li>
-              <li>Chemical Compliance Logs &amp; Reports</li>
+              <li>Service Compliance Logs &amp; Reports</li>
               <li>Full Scheduling, Dispatch &amp; Route Map</li>
               <li>Estimates, Invoices &amp; Card-on-File Auto-Charge</li>
               <li>Two-Way SMS &amp; 10+ Automated Alerts</li>
               <li>Text Invoices &amp; Estimates to Clients</li>
               <li>Package Plans &amp; Renewal Tracking</li>
-              <li>Mobile App for Technicians</li>
+              <li>Mobile App for Crews</li>
               <li>500 Outbound SMS/month included</li>
               <li>14-day free trial — no credit card required</li>
             </ul>

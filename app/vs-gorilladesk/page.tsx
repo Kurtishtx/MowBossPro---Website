@@ -152,7 +152,7 @@ export default function VsGorillaDesk() {
           <div><div className="hero-stat-val">$79</div><div className="hero-stat-lbl">Flat — vs GorillaDesk&apos;s per-route pricing</div></div>
           <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Routes</div></div>
           <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Stops — Basic caps at 25</div></div>
-          <div><div className="hero-stat-val">Built</div><div className="hero-stat-lbl">For Spray Routes</div></div>
+          <div><div className="hero-stat-val">Built</div><div className="hero-stat-lbl">For Mowing Routes</div></div>
         </div>
       </div>
 
@@ -174,15 +174,15 @@ export default function VsGorillaDesk() {
             <tbody>
               <tr><td className="feature-name">Flat Monthly Pricing — No Per-Route Fees</td><td className="sbp-col"><span className="chk">✓ $79/mo</span></td><td><span className="crs">✗ Per-route model</span></td></tr>
               <tr><td className="feature-name">Unlimited Stops per Route</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Basic: 25 stop cap</span></td></tr>
-              <tr><td className="feature-name">Sq Ft Waiting List by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Lawn Square Footage by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Lasso Circle Map Route Selector</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Chemical Compliance Logs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Basic logs only</span></td></tr>
-              <tr><td className="feature-name">Recurring Treatment Waiting List</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Service Compliance Logs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Basic logs only</span></td></tr>
+              <tr><td className="feature-name">Recurring Treatment Square Footage</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Two-Way SMS Inbox Included</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Pro plan only</span></td></tr>
               <tr><td className="feature-name">Package Plans &amp; Renewal Tracking</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited</span></td></tr>
               <tr><td className="feature-name">Estimates &amp; Online Acceptance</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Card-on-File Payments</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
-              <tr><td className="feature-name">Mobile App for Technicians</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Mobile App for Crews</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Automated SMS Alerts &amp; Follow-Ups</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Unlimited Users at Flat Price</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Price for 3 Routes</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$79 flat</td><td style={{color:'var(--muted)'}}>$147/mo (Basic ×3)</td></tr>
@@ -199,11 +199,11 @@ export default function VsGorillaDesk() {
         <p>GorillaDesk&apos;s per-route model sounds fine until you&apos;re running three trucks. At Basic ×3, you&apos;re at $147/month with a 25-stop cap and no two-way SMS. At Pro ×3, you&apos;re at $297/month. MowBossPro is $79/month for your entire operation — unlimited routes, unlimited stops, every feature included. The more you grow, the more MowBossPro saves you.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">💰</div><h4>Price Doesn&apos;t Scale With Routes</h4><p>$79/month covers your entire operation regardless of route count. Run 1 truck or 10 — same price. GorillaDesk multiplies by your route count every single month. That math only gets worse as you grow.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Sq Ft Waiting List</h4><p>Before scheduling, see exactly how much square footage is waiting per service type. Know your lawn care 4, mosquito, and insect control backlog before you build a route. GorillaDesk doesn&apos;t have a sq ft waiting list model.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Lawn Square Footage</h4><p>Before scheduling, see exactly how much square footage is waiting per service type. Know your lawn care 4, mowing, and insect control backlog before you build a route. GorillaDesk doesn&apos;t have a sq ft job board model.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Circle Selector</h4><p>Draw a circle on the map, see every stop inside with a service due. GorillaDesk has route optimization. Not the same as drawing a geographic circle and instantly seeing all your due work inside it before you schedule.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Chemical Compliance</h4><p>Full chemical application logs with product, mix rate, area, weather, and tech license. Pull compliance reports on demand. GorillaDesk has basic job notes — not a dedicated pesticide compliance logging system.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>SMS Inbox Included</h4><p>True two-way SMS inbox at $79/month. GorillaDesk locks SMS behind their Pro tier. Add up the per-route Pro pricing and you&apos;re paying more for less — and still missing spray-specific features.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Unlimited Stops</h4><p>GorillaDesk Basic caps routes at 25 stops. MowBossPro has no stop limit. Schedule 50-stop routes, 100-stop routes — no restrictions. Spray businesses run dense routes. A 25-stop cap is a real operational problem.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Service Compliance</h4><p>Full service application logs with product, mix rate, area, weather, and tech license. Pull compliance reports on demand. GorillaDesk has basic job notes — not a dedicated pesticide compliance logging system.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>SMS Inbox Included</h4><p>True two-way SMS inbox at $79/month. GorillaDesk locks SMS behind their Pro tier. Add up the per-route Pro pricing and you&apos;re paying more for less — and still missing mowing-specific features.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Unlimited Stops</h4><p>GorillaDesk Basic caps routes at 25 stops. MowBossPro has no stop limit. Schedule 50-stop routes, 100-stop routes — no restrictions. Mowing businesses run dense routes. A 25-stop cap is a real operational problem.</p></div>
         </div>
       </div>
 
@@ -218,9 +218,9 @@ export default function VsGorillaDesk() {
               <li>GorillaDesk Pro ×3 = $297/mo — SMS unlocked, stop cap removed</li>
               <li>GorillaDesk Basic ×5 = $245/mo — missing lasso, sq ft list, compliance logs</li>
               <li>MowBossPro = $79/mo — unlimited routes, all features, forever</li>
-              <li>No sq ft waiting list at any GorillaDesk tier</li>
+              <li>No sq ft job board at any GorillaDesk tier</li>
               <li>No lasso route selector at any GorillaDesk tier</li>
-              <li>No dedicated chemical compliance logs at any GorillaDesk tier</li>
+              <li>No dedicated service compliance logs at any GorillaDesk tier</li>
             </ul>
           </div>
           <div className="highlight-visual">
@@ -242,10 +242,10 @@ export default function VsGorillaDesk() {
             </div>
             <div className="mock-extra">
               <div className="mock-extra-title">At every GorillaDesk tier, you still don&apos;t get:</div>
-              <div className="mock-extra-item"><span style={{color:'#dc2626'}}>✗</span> Sq Ft Waiting List by Service Type</div>
+              <div className="mock-extra-item"><span style={{color:'#dc2626'}}>✗</span> Lawn Square Footage by Service Type</div>
               <div className="mock-extra-item"><span style={{color:'#dc2626'}}>✗</span> Lasso Circle Map Route Selector</div>
-              <div className="mock-extra-item"><span style={{color:'#dc2626'}}>✗</span> Recurring Treatment Waiting List</div>
-              <div className="mock-extra-item"><span style={{color:'#dc2626'}}>✗</span> Dedicated Chemical Compliance Logs</div>
+              <div className="mock-extra-item"><span style={{color:'#dc2626'}}>✗</span> Recurring Treatment Square Footage</div>
+              <div className="mock-extra-item"><span style={{color:'#dc2626'}}>✗</span> Dedicated Service Compliance Logs</div>
             </div>
           </div>
         </div>
@@ -282,7 +282,7 @@ export default function VsGorillaDesk() {
               <div className="stat-cell"><div className="stat-val">19</div><div className="stat-lbl">Total Services</div></div>
               <div className="stat-cell"><div className="stat-val">118,400</div><div className="stat-lbl">Sq Ft</div></div>
               <div className="stat-cell"><div className="stat-val">4,200</div><div className="stat-lbl">Linear Ft (Beds)</div></div>
-              <div className="stat-cell full"><div className="stat-val">Lawn Care 4 · 8 &nbsp;|&nbsp; Mosquito · 6 &nbsp;|&nbsp; Insect · 5</div><div className="stat-lbl">Breakdown by Service Type</div></div>
+              <div className="stat-cell full"><div className="stat-val">Lawn Care 4 · 8 &nbsp;|&nbsp; Mowing · 6 &nbsp;|&nbsp; Insect · 5</div><div className="stat-lbl">Breakdown by Service Type</div></div>
             </div>
           </div>
         </div>
@@ -291,12 +291,12 @@ export default function VsGorillaDesk() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 56px'}}>
           <span className="section-label">Simplicity</span>
-          <h2 className="section-title">Built for Spray Businesses. Not Generic Pest Control Software.</h2>
-          <p className="section-sub" style={{maxWidth:'720px'}}>GorillaDesk is built for general pest control — termites, rodents, general bugs. MowBossPro is built around lawn care and spray routes with recurring treatment schedules, sq ft tracking, and the specific way spray businesses manage their client base.</p>
+          <h2 className="section-title">Built for Mowing Businesses. Not Generic Lawn Care Software.</h2>
+          <p className="section-sub" style={{maxWidth:'720px'}}>GorillaDesk is built for general lawn care — termites, rodents, general bugs. MowBossPro is built around lawn care and mowing routes with recurring treatment schedules, sq ft tracking, and the specific way mowing businesses manage their client base.</p>
         </div>
         <div className="simple-grid">
-          <div className="simple-card"><div className="simple-num">01</div><h3>Sq Ft First — Not Just Stop Count</h3><p>MowBossPro tracks everything in square feet — waiting list, route totals, property-level breakdown. Not just stop counts. Because lawn care and pest control pricing is based on sq ft, and your routing should be too.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>Recurring Spray Route Model</h3><p>Built around the way spray businesses work — recurring treatment schedules, waiting lists, package programs, chemical logs. GorillaDesk is built around one-off pest service calls. Different model entirely.</p></div>
+          <div className="simple-card"><div className="simple-num">01</div><h3>Sq Ft First — Not Just Stop Count</h3><p>MowBossPro tracks everything in square feet — job board, route totals, property-level breakdown. Not just stop counts. Because lawn care and lawn care pricing is based on sq ft, and your routing should be too.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>Recurring Mowing Route Model</h3><p>Built around the way mowing businesses work — recurring treatment schedules, job boards, package programs, service photos. GorillaDesk is built around one-off pest service calls. Different model entirely.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>Set Up in One Afternoon</h3><p>Add your services, import clients and properties, connect payments — fully operational same day. No onboarding call, no implementation timeline, no training manual. Self-serve from minute one.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>Price That Doesn&apos;t Scale Against You</h3><p>$79/month flat. Add routes, trucks, employees — price doesn&apos;t change. GorillaDesk&apos;s per-route model turns every growth decision into a cost increase. MowBossPro doesn&apos;t do that.</p></div>
         </div>
@@ -312,16 +312,16 @@ export default function VsGorillaDesk() {
           <div className="price-card featured" style={{width:'100%'}}>
             <div className="featured-badge">Everything Included</div>
             <div className="price-tier">One Plan. No Route Fees.</div>
-            <div className="price-amount"><sup>$</sup>129</div>
+            <div className="price-amount"><sup>$</sup>79</div>
             <div className="price-period">per month — flat, regardless of route count</div>
             <ul className="price-features">
               <li>Unlimited Routes — No Per-Route Fees Ever</li>
               <li>Unlimited Stops Per Route</li>
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>
-              <li>Sq Ft Waiting List by Service Type</li>
+              <li>Lawn Square Footage by Service Type</li>
               <li>Lasso Circle Map Route Selector</li>
-              <li>Chemical Compliance Logs &amp; Reports</li>
+              <li>Service Compliance Logs &amp; Reports</li>
               <li>Full Scheduling, Dispatch &amp; Route Map</li>
               <li>Estimates, Invoices &amp; Card-on-File Payments</li>
               <li>Two-Way SMS &amp; 10+ Automated Alerts</li>

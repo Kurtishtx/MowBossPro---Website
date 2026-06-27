@@ -128,7 +128,7 @@ export default function VsClip() {
 
       <div className="hero">
         <div className="hero-badge">CLIP Lawn Software Alternative</div>
-        <h1>CLIP Caps You at 40 Properties, Charges Extra Per User, and Still Doesn&apos;t Have Lasso, Chemical Logs, or a Sq Ft Waiting List.</h1>
+        <h1>CLIP Caps You at 40 Properties, Charges Extra Per User, and Still Doesn&apos;t Have Lasso, Service Logs, or a Lawn Square Footage.</h1>
         <p>CLIP Basic limits you to 40 properties and 1 user. Add users at $20/month each. Add payment processing separately. MowBossPro is $79/month flat — unlimited properties, unlimited users, everything included.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
@@ -145,7 +145,7 @@ export default function VsClip() {
         <div className="centered" style={{maxWidth:'960px', margin:'0 auto 48px'}}>
           <span className="section-label">CLIP Pricing Reality</span>
           <h2 className="section-title">CLIP Has Three Tiers — All With Property Caps, Per-User Fees, and Add-On Charges.</h2>
-          <p className="section-sub" style={{maxWidth:'760px', marginLeft:'auto', marginRight:'auto'}}>CLIP&apos;s pricing starts at $64.99/month but includes strict property and user limits. Add more users at $20/month each, add payment processing, and by the time you remove all the caps you&apos;re spending more than MowBossPro&apos;s flat $79 — without the spray-specific features.</p>
+          <p className="section-sub" style={{maxWidth:'760px', marginLeft:'auto', marginRight:'auto'}}>CLIP&apos;s pricing starts at $64.99/month but includes strict property and user limits. Add more users at $20/month each, add payment processing, and by the time you remove all the caps you&apos;re spending more than MowBossPro&apos;s flat $79 — without the mowing-specific features.</p>
         </div>
         <div style={{maxWidth:'1100px', margin:'0 auto'}}>
           <div className="highlight-row">
@@ -184,13 +184,13 @@ export default function VsClip() {
               <span className="section-label">No Caps. No Per-User Fees.</span>
               <h2>At the Same Price as CLIP Plus, MowBossPro Has No Caps and 5 Features CLIP Doesn&apos;t Have at Any Price.</h2>
               <p>CLIP Plus is $79.99/month — a penny more than MowBossPro — and it caps you at 400 properties and 2 users. Additional users are $20/month each. Payment processing is a separate add-on.</p>
-              <p>MowBossPro is $79/month with unlimited properties, unlimited users, payments included, lasso routing, sq ft waiting list, and chemical compliance logs. CLIP doesn&apos;t have any of those spray-specific features at any price tier.</p>
+              <p>MowBossPro is $79/month with unlimited properties, unlimited users, payments included, lasso routing, sq ft job board, and service compliance logs. CLIP doesn&apos;t have any of those mowing-specific features at any price tier.</p>
               <ul className="check-list">
                 <li>No property caps — unlimited at $79</li>
                 <li>No per-user fees — unlimited employees included</li>
                 <li>Lasso circle route selector — CLIP doesn&apos;t have this</li>
-                <li>Sq ft waiting list by service type — not in CLIP</li>
-                <li>Chemical compliance logs — not in CLIP at any tier</li>
+                <li>Sq ft job board by service type — not in CLIP</li>
+                <li>Service compliance logs — not in CLIP at any tier</li>
                 <li>Two-way SMS included — CLIP doesn&apos;t offer this</li>
               </ul>
             </div>
@@ -202,7 +202,7 @@ export default function VsClip() {
         <div className="centered" style={{maxWidth:'960px', margin:'0 auto 48px'}}>
           <span className="section-label">Side by Side</span>
           <h2 className="section-title">MowBossPro vs CLIP Lawn Software</h2>
-          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>CLIP was designed for lawn maintenance and mowing. MowBossPro was built for spray. Here&apos;s how the features compare.</p>
+          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>CLIP was designed for lawn maintenance and mowing. MowBossPro was built for mowing. Here&apos;s how the features compare.</p>
         </div>
         <div className="compare-wrap">
           <table className="compare-table">
@@ -217,12 +217,12 @@ export default function VsClip() {
               <tr><td className="feature-name">Property Limit</td><td className="sbp-col"><span className="chk">Unlimited</span></td><td><span className="prt">40 / 400 / Unlimited by tier</span></td></tr>
               <tr><td className="feature-name">Users Included</td><td className="sbp-col"><span className="chk">Unlimited — $0 each</span></td><td><span className="prt">1–4 included; +$20/mo each</span></td></tr>
               <tr><td className="feature-name">Payment Processing Included</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ $14.95/mo add-on</span></td></tr>
-              <tr><td className="feature-name">Sq Ft Waiting List by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Not available</span></td></tr>
+              <tr><td className="feature-name">Lawn Square Footage by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Not available</span></td></tr>
               <tr><td className="feature-name">Lasso Circle Map Route Selector</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Not available</span></td></tr>
-              <tr><td className="feature-name">Chemical Compliance Logs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Not available</span></td></tr>
+              <tr><td className="feature-name">Service Compliance Logs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Not available</span></td></tr>
               <tr><td className="feature-name">Two-Way SMS Inbox</td><td className="sbp-col"><span className="chk">✓ Included</span></td><td><span className="crs">✗ Not available</span></td></tr>
               <tr><td className="feature-name">Automated SMS Alerts</td><td className="sbp-col"><span className="chk">✓ 10+ alerts</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Recurring Treatment Waiting List</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Recurring Treatment Square Footage</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Estimates &amp; Online Acceptance</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Scheduling &amp; Dispatch</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Package Plans &amp; Renewals</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited</span></td></tr>
@@ -234,20 +234,20 @@ export default function VsClip() {
 
       <div className="premium-band">
         <h2>At the Same Price as CLIP Plus, MowBossPro Has No Caps and<span>5 Features CLIP Doesn&apos;t Have at Any Price.</span></h2>
-        <p>CLIP Plus is $79.99/month. MowBossPro is $79/month with unlimited properties, unlimited users, lasso routing, sq ft waiting list, chemical logs, and two-way SMS — none of which exist in CLIP. You pay less and get more, built specifically for spray businesses.</p>
+        <p>CLIP Plus is $79.99/month. MowBossPro is $79/month with unlimited properties, unlimited users, lasso routing, sq ft job board, service photos, and two-way SMS — none of which exist in CLIP. You pay less and get more, built specifically for mowing businesses.</p>
       </div>
 
       <section>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 56px'}}>
           <span className="section-label">Why It Matters</span>
-          <h2 className="section-title">CLIP Was Built for Mowing. MowBossPro Was Built for Spray.</h2>
-          <p className="section-sub" style={{maxWidth:'720px'}}>CLIP has been around since the 1990s as a lawn maintenance platform. It&apos;s reliable for mowing schedules and simple invoicing. But spray businesses need more — sq ft tracking, chemical compliance, recurring treatment waiting lists — and CLIP doesn&apos;t provide any of that.</p>
+          <h2 className="section-title">CLIP Was Built for Mowing. MowBossPro Was Built for Mowing.</h2>
+          <p className="section-sub" style={{maxWidth:'720px'}}>CLIP has been around since the 1990s as a lawn maintenance platform. It&apos;s reliable for mowing schedules and simple invoicing. But mowing businesses need more — sq ft tracking, service compliance, recurring treatment job boards — and CLIP doesn&apos;t provide any of that.</p>
         </div>
         <div className="simple-grid">
-          <div className="simple-card"><div className="simple-num">01</div><h3>No Property Caps — Ever</h3><p>CLIP Basic caps you at 40 properties. CLIP Plus goes to 400. MowBossPro has no property caps at any price — unlimited from day one. As your spray routes grow, your software grows with you. No upgrade required to add more clients.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>Unlimited Users at $79</h3><p>CLIP charges $20/month for each additional user beyond what&apos;s included in your tier. If you have 3 trucks and 3 technicians, that&apos;s $40–$60/month in extra user fees on top of your plan price. MowBossPro includes unlimited users — zero per-user fees, no matter how many technicians you add.</p></div>
-          <div className="simple-card"><div className="simple-num">03</div><h3>5 Features CLIP Doesn&apos;t Have</h3><p>Lasso circle route selector, sq ft waiting list by service type, chemical compliance logs, two-way SMS inbox, automated SMS alerts — none of these exist in CLIP at any price. They&apos;re built into MowBossPro because they&apos;re how spray businesses actually operate.</p></div>
-          <div className="simple-card"><div className="simple-num">04</div><h3>14-Day Free Trial — No Card Required</h3><p>MowBossPro has a 14-day free trial with full access to every feature. No credit card required. Explore the lasso routing, set up your waiting list, try the chemical logs — and decide if it&apos;s the right fit before paying anything. CLIP offers a demo but no self-serve free trial.</p></div>
+          <div className="simple-card"><div className="simple-num">01</div><h3>No Property Caps — Ever</h3><p>CLIP Basic caps you at 40 properties. CLIP Plus goes to 400. MowBossPro has no property caps at any price — unlimited from day one. As your mowing routes grow, your software grows with you. No upgrade required to add more clients.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>Unlimited Users at $79</h3><p>CLIP charges $20/month for each additional user beyond what&apos;s included in your tier. If you have 3 trucks and 3 crews, that&apos;s $40–$60/month in extra user fees on top of your plan price. MowBossPro includes unlimited users — zero per-user fees, no matter how many crews you add.</p></div>
+          <div className="simple-card"><div className="simple-num">03</div><h3>5 Features CLIP Doesn&apos;t Have</h3><p>Lasso circle route selector, sq ft job board by service type, service compliance logs, two-way SMS inbox, automated SMS alerts — none of these exist in CLIP at any price. They&apos;re built into MowBossPro because they&apos;re how mowing businesses actually operate.</p></div>
+          <div className="simple-card"><div className="simple-num">04</div><h3>14-Day Free Trial — No Card Required</h3><p>MowBossPro has a 14-day free trial with full access to every feature. No credit card required. Explore the lasso routing, set up your job board, try the service photos — and decide if it&apos;s the right fit before paying anything. CLIP offers a demo but no self-serve free trial.</p></div>
         </div>
       </section>
 
@@ -261,19 +261,19 @@ export default function VsClip() {
           <div className="price-card featured" style={{width:'100%'}}>
             <div className="featured-badge">Everything Included — No Caps</div>
             <div className="price-tier">One Plan. Flat Price. Unlimited Scale.</div>
-            <div className="price-amount"><sup>$</sup>129</div>
+            <div className="price-amount"><sup>$</sup>79</div>
             <div className="price-period">per month — cancel anytime</div>
             <ul className="price-features">
               <li>Unlimited Properties — No Cap</li>
               <li>Unlimited Employees &amp; Users — $0 Each</li>
-              <li>Sq Ft Waiting List by Service Type</li>
+              <li>Lawn Square Footage by Service Type</li>
               <li>Lasso Circle Map Route Selector</li>
-              <li>Chemical Compliance Logs &amp; Reports</li>
+              <li>Service Compliance Logs &amp; Reports</li>
               <li>Full Scheduling, Dispatch &amp; Route Map</li>
               <li>Estimates, Invoices &amp; Card-on-File Payments</li>
               <li>Two-Way SMS &amp; 10+ Automated Alerts</li>
               <li>Package Plans &amp; Renewal Tracking</li>
-              <li>Mobile App for Technicians</li>
+              <li>Mobile App for Crews</li>
               <li>500 Outbound SMS/month included</li>
               <li>14-day free trial — no credit card required</li>
             </ul>
@@ -285,7 +285,7 @@ export default function VsClip() {
 
       <div className="cta-band">
         <h2>Done Hitting Property Caps and Paying Per User?<span>MowBossPro Is $79. Unlimited. Start Today.</span></h2>
-        <p>No property caps. No per-user fees. 5 spray-specific features CLIP doesn&apos;t have at any price. Start your free trial now.</p>
+        <p>No property caps. No per-user fees. 5 mowing-specific features CLIP doesn&apos;t have at any price. Start your free trial now.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>

@@ -222,7 +222,7 @@ export default function LawnMowingSoftware() {
       <div className="hero">
         <div className="hero-badge">Built Specifically for Lawn Mowing</div>
         <h1>Lawn Mowing Software<br /><span>Built for How Mowing Crews Actually Run</span></h1>
-        <p>Most field service software is built for plumbers and HVAC techs. MowBossPro is built from the ground up for lawn mowing businesses — the way you schedule recurring cuts, route your trucks, dispatch your crews, and bill for weekly visits is completely different, and your software should be too.</p>
+        <p>Most field service software is built for plumbers and HVAC crews. MowBossPro is built from the ground up for lawn mowing businesses — the way you schedule recurring cuts, route your trucks, dispatch your crews, and bill for weekly visits is completely different, and your software should be too.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
         </div>
@@ -506,7 +506,7 @@ export default function LawnMowingSoftware() {
           <div className="lc-price-card featured">
             <div className="featured-badge">Everything Included</div>
             <div className="price-tier">One Plan. No Surprises.</div>
-            <div style={{fontSize:'48px', fontWeight:800, color:'var(--text)', lineHeight:1}}><sup style={{fontSize:'22px', verticalAlign:'super'}}>$</sup>129</div>
+            <div style={{fontSize:'48px', fontWeight:800, color:'var(--text)', lineHeight:1}}><sup style={{fontSize:'22px', verticalAlign:'super'}}>$</sup>79</div>
             <div style={{color:'var(--muted)', fontSize:'13px', marginBottom:'24px', marginTop:'4px'}}>per month</div>
             <div style={{color:'var(--muted)', fontSize:'14px', marginBottom:'24px', lineHeight:1.5}}>Every feature. Unlimited clients, properties, crews, and users. No tiers, no locked features, no per-seat fees.</div>
             <ul className="price-features">

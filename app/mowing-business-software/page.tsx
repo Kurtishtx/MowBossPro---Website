@@ -222,7 +222,7 @@ export default function MowingBusinessSoftware() {
       <div className="hero">
         <div className="hero-badge">Built Specifically for Mowing Crews</div>
         <h1>Mowing Business Software<br /><span>Built for How Your Crews Actually Run</span></h1>
-        <p>Most field service software is built for plumbers and HVAC techs. MowBossPro is built from the ground up for lawn mowing businesses — the way you schedule recurring visits, route trucks, dispatch crews, and bill week after week is completely different, and your software should be too.</p>
+        <p>Most field service software is built for plumbers and HVAC crews. MowBossPro is built from the ground up for lawn mowing businesses — the way you schedule recurring visits, route trucks, dispatch crews, and bill week after week is completely different, and your software should be too.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
         </div>
@@ -405,7 +405,7 @@ export default function MowingBusinessSoftware() {
             <p>This is the feature no other mowing software gets right. MowBossPro&apos;s recurring engine doesn&apos;t just remind you what&apos;s due — it generates the next visit automatically, holds the right crew and truck, and rolls skips and rain delays forward without a single edit. New to setting it all up? Walk through <a href="/blogs/set-up-mowing-business-software-in-a-weekend" style={{color:'var(--orange)', fontWeight:600}}>How to Set Up Your Mowing Business Software in a Single Weekend</a>.</p>
             <ul className="check-list">
               <li>Recurring visits grouped by crew and route</li>
-              <li>Schedule directly from the waiting list in one click</li>
+              <li>Schedule directly from the job board in one click</li>
               <li>Assign date, crew, and truck at scheduling time</li>
               <li>Full dispatch board for the day&apos;s scheduled mows</li>
               <li>Drag-and-drop route reordering on the map</li>
@@ -506,7 +506,7 @@ export default function MowingBusinessSoftware() {
           <div className="lc-price-card featured">
             <div className="featured-badge">Everything Included</div>
             <div className="price-tier">One Plan. No Surprises.</div>
-            <div style={{fontSize:'48px', fontWeight:800, color:'var(--text)', lineHeight:1}}><sup style={{fontSize:'22px', verticalAlign:'super'}}>$</sup>129</div>
+            <div style={{fontSize:'48px', fontWeight:800, color:'var(--text)', lineHeight:1}}><sup style={{fontSize:'22px', verticalAlign:'super'}}>$</sup>79</div>
             <div style={{color:'var(--muted)', fontSize:'13px', marginBottom:'24px', marginTop:'4px'}}>per month</div>
             <div style={{color:'var(--muted)', fontSize:'14px', marginBottom:'24px', lineHeight:1.5}}>Every feature. Unlimited clients, properties, crews, and users. No tiers, no locked features, no per-seat fees.</div>
             <ul className="price-features">

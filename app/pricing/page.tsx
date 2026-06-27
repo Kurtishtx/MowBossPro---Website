@@ -122,10 +122,10 @@ async function sbpCreateAccount(n: number) {
 function sbpShowErr(el: HTMLElement, msg: string) { el.textContent = msg; el.style.display = 'block'; }
 
 const tableRows = [
-  ['Scheduling & Dispatch Board', 'Schedule stops, assign techs, build routes, view day summary'],
-  ['Sq Ft Waiting List', 'See total sq ft waiting per service type before you build a route'],
+  ['Scheduling & Dispatch Board', 'Schedule stops, assign crews, build routes, view day summary'],
+  ['Lawn Square Footage', 'See total lawn square footage per property before you build a route'],
   ['Live Route Map', 'Interactive map with all stops pinned — drag to reorder'],
-  ['Chemical Application Tracking', 'Log product, rate, gallons, weather, and tech per stop'],
+  ['Photo Proof of Service', 'Capture before/after photos, completion time, and crew per stop'],
   ['Compliance Reports', 'Print-ready pesticide application reports for any inspector'],
   ['Estimates', 'Build, email, and track estimates with a service catalog'],
   ['Invoices & Payments', 'Stripe card-on-file billing, payment history, partial payments'],
@@ -135,8 +135,8 @@ const tableRows = [
   ['Payment Follow-Up Sequence', '3 automated texts for unpaid invoices'],
   ['Package Programs', 'Multi-treatment packages with renewal tracking'],
   ['Client & Lead Management', 'Full CRM for existing customers and open prospects'],
-  ['Property Profiles', 'Service history, chemical logs, notes, sq ft, GPS per address'],
-  ['Mobile App for Technicians', 'Field-optimized stop list, mark complete, log chemicals'],
+  ['Property Profiles', 'Service history, service photos, notes, sq ft, GPS per address'],
+  ['Mobile App for Crews', 'Field-optimized stop list, mark complete, capture photos'],
   ['Role-Based Access', 'Owner, Manager, Office, Tech, Mobile — granular permissions'],
   ['Truck Management', 'Assign vehicles to routes, track by truck'],
   ['Employee Hour Tracking', 'Hours per job, payroll-ready reports'],
@@ -155,7 +155,7 @@ const faqs = [
   { q: 'How many users can I add?', a: 'Unlimited. Add every tech, office staff member, and manager at no extra cost. No per-user fees. Ever.' },
   { q: "What's the SMS pricing?", a: '500 outbound SMS messages per month are included in your $79. If you go over, you can add blocks of 500 for $15 each. Most businesses with under 300 active properties never hit the 500 limit.' },
   { q: 'Are there any contracts or annual commitments?', a: 'None. Month to month, always. Cancel anytime from your account settings.' },
-  { q: 'Does this work for both lawn care and pest control?', a: 'Yes. MowBossPro was built for spray businesses — lawn care, pest control, mosquito treatment, or any combination. The service types, chemical tracking, and waiting list work the same way regardless of what you spray.' },
+  { q: 'Does this work for any size mowing operation?', a: 'Yes. MowBossPro was built for mowing businesses — weekly, biweekly, or one-time mowing. The service types, service tracking, and job board work the same way regardless of how many crews you run.' },
   { q: 'What if I have questions or need help getting set up?', a: "We're a small team and we respond fast. Reach us anytime at support@mowbosspro.com. We've run routes ourselves — we know what setup actually looks like and we're here to help." },
 ];
 
@@ -194,11 +194,11 @@ export default function Pricing() {
         <div style={{background:'#fff',border:'3px solid var(--orange)',borderRadius:'20px',padding:'52px 48px',maxWidth:'620px',margin:'0 auto',position:'relative',boxShadow:'0 0 0 6px rgba(178,34,52,.1), 0 24px 80px rgba(4,22,46,.12)'}}>
           <div style={{position:'absolute',top:'-16px',left:'50%',transform:'translateX(-50%)',background:'var(--orange)',color:'#fff',fontSize:'12px',fontWeight:700,letterSpacing:'1px',textTransform:'uppercase',padding:'5px 20px',borderRadius:'20px',whiteSpace:'nowrap'}}>One Plan — No Surprises</div>
           <div style={{fontSize:'13px',fontWeight:700,color:'var(--muted)',textTransform:'uppercase',letterSpacing:'1px',marginBottom:'10px'}}>MowBossPro</div>
-          <div style={{fontSize:'72px',fontWeight:800,color:'var(--text)',lineHeight:1}}><sup style={{fontSize:'30px',verticalAlign:'super'}}>$</sup>129</div>
+          <div style={{fontSize:'72px',fontWeight:800,color:'var(--text)',lineHeight:1}}><sup style={{fontSize:'30px',verticalAlign:'super'}}>$</sup>79</div>
           <div style={{color:'var(--muted)',fontSize:'15px',marginBottom:'8px',marginTop:'6px'}}>per month</div>
-          <div style={{fontSize:'16px',color:'var(--text)',fontWeight:600,marginBottom:'32px'}}>Your entire lawn care or pest control operation. One price.</div>
+          <div style={{fontSize:'16px',color:'var(--text)',fontWeight:600,marginBottom:'32px'}}>Your entire lawn care or mowing operation. One price.</div>
           <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:'10px 24px',marginBottom:'36px',textAlign:'left'}}>
-            {['Unlimited Users','Unlimited Clients','Unlimited Properties','Unlimited Leads','Scheduling & Dispatch','Live Route Map','Sq Ft Waiting List','Chemical Tracking','Estimates & Invoices','Stripe Payments','Two-Way SMS Inbox','Automated Alerts','Package Programs','Mobile App for Techs','Chemical Compliance Reports','Role-Based Access','Truck Management','Hour Tracking','Review Requests','Dashboard & Reports'].map((item,i) => (
+            {['Unlimited Users','Unlimited Clients','Unlimited Properties','Unlimited Leads','Scheduling & Dispatch','Live Route Map','Lawn Square Footage','Photo Proof','Estimates & Invoices','Stripe Payments','Two-Way SMS Inbox','Automated Alerts','Package Programs','Mobile App for Crews','Service Reports','Role-Based Access','Truck Management','Hour Tracking','Review Requests','Dashboard & Reports'].map((item,i) => (
               <div key={i} style={{display:'flex',alignItems:'center',gap:'8px',fontSize:'14px',color:'var(--text)'}}>
                 <span style={{color:'var(--orange)',fontWeight:700,flexShrink:0,fontSize:'15px'}}>✓</span>{item}
               </div>
@@ -219,9 +219,9 @@ export default function Pricing() {
         <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(200px,1fr))',gap:'24px',maxWidth:'900px',margin:'0 auto'}}>
           {[
             {old:'$149/user/mo',nw:'$79 flat',desc:'Unlimited users. Add every tech and office staff at no extra cost.'},
-            {old:'Locked features',nw:'All features',desc:'No tiers. No "upgrade to access chemical tracking." Everything is included.'},
+            {old:'Locked features',nw:'All features',desc:'No tiers. No "upgrade to access route mapping." Everything is included.'},
             {old:'Annual contracts',nw:'Month to month',desc:'No contracts. No cancellation fees. Stop whenever you want.'},
-            {old:'Generic software',nw:'Built for spray',desc:'Sq ft waiting lists, chemical logs, spray-specific workflows. Not adapted from a plumbing app.'},
+            {old:'Generic software',nw:'Built for mowing',desc:'Sq ft job boards, service photos, mowing-specific workflows. Not adapted from a plumbing app.'},
           ].map((c,i) => (
             <div key={i} style={{background:'rgba(255,255,255,.06)',border:'1px solid rgba(255,255,255,.1)',borderRadius:'12px',padding:'24px 20px'}}>
               <div style={{color:'rgba(255,255,255,.35)',fontSize:'13px',fontWeight:600,textTransform:'uppercase',letterSpacing:'1px',marginBottom:'6px',textDecoration:'line-through'}}>{c.old}</div>
@@ -304,7 +304,7 @@ export default function Pricing() {
             <div style={{flex:1}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>First Name</label><input id="sbp1-first" type="text" placeholder="John" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
             <div style={{flex:1}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Last Name</label><input id="sbp1-last" type="text" placeholder="Smith" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           </div>
-          <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Company Name</label><input id="sbp1-company" type="text" placeholder="Smith Lawn & Spray Co." style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
+          <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Company Name</label><input id="sbp1-company" type="text" placeholder="Smith Lawn & Mowing Co." style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Email Address</label><input id="sbp1-email" type="email" placeholder="you@yourcompany.com" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <button onClick={() => sbpStep2(1)} style={{width:'100%',background:'#b22234',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Next: Create Password →</button>
         </div>
@@ -342,7 +342,7 @@ export default function Pricing() {
             <div style={{flex:1}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>First Name</label><input id="sbp2-first" type="text" placeholder="John" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
             <div style={{flex:1}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Last Name</label><input id="sbp2-last" type="text" placeholder="Smith" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           </div>
-          <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Company Name</label><input id="sbp2-company" type="text" placeholder="Smith Lawn & Spray Co." style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
+          <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Company Name</label><input id="sbp2-company" type="text" placeholder="Smith Lawn & Mowing Co." style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Email Address</label><input id="sbp2-email" type="email" placeholder="you@yourcompany.com" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <button onClick={() => sbpStep2(2)} style={{width:'100%',background:'#b22234',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Next: Create Password →</button>
         </div>

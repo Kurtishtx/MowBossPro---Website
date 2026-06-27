@@ -193,7 +193,7 @@ export default function VsRealGreen() {
                 <li>14-day free trial — no credit card required</li>
                 <li>Set up in one afternoon — no onboarding call</li>
                 <li>No device fees, no module add-ons, no marketing packages</li>
-                <li>Sq ft waiting list, lasso, chemical logs — RealGreen doesn&apos;t have these</li>
+                <li>Sq ft job board, lasso, service photos — RealGreen doesn&apos;t have these</li>
               </ul>
             </div>
           </div>
@@ -224,7 +224,7 @@ export default function VsRealGreen() {
             <div className="highlight-visual" style={{flex:1.5, minWidth:'280px'}}>
               <div className="cost-path">
                 <div className="cost-step"><div className="cost-step-num">1</div><div className="cost-step-body"><div className="cost-step-title">Base Platform — ~$199/month</div><div className="cost-step-note">Core scheduling and customer management. Routing and some features included.</div></div></div>
-                <div className="cost-step"><div className="cost-step-num">2</div><div className="cost-step-body"><div className="cost-step-title">Per-Device Licensing</div><div className="cost-step-note">Additional cost per device/tablet as you add trucks and technicians to the field.</div></div></div>
+                <div className="cost-step"><div className="cost-step-num">2</div><div className="cost-step-body"><div className="cost-step-title">Per-Device Licensing</div><div className="cost-step-note">Additional cost per device/tablet as you add trucks and crews to the field.</div></div></div>
                 <div className="cost-step"><div className="cost-step-num">3</div><div className="cost-step-body"><div className="cost-step-title">Routing, Marketing &amp; Payment Add-Ons</div><div className="cost-step-note">Advanced routing, email marketing, and payment processing each carry additional monthly costs.</div></div></div>
               </div>
               <div className="cost-total"><span className="cost-total-label">RealGreen — Typical Monthly Total</span><span className="cost-total-val">~$380/mo</span></div>
@@ -256,18 +256,18 @@ export default function VsRealGreen() {
             <tbody>
               <tr><td className="feature-name">Published, Transparent Pricing</td><td className="sbp-col"><span className="chk">✓ $79/mo</span></td><td><span className="crs">✗ Custom quote only</span></td></tr>
               <tr><td className="feature-name">Start Without a Demo</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Demo required</span></td></tr>
-              <tr><td className="feature-name">Sq Ft Waiting List by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Lawn Square Footage by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Lasso Circle Map Route Selector</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Chemical Compliance Logs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Basic records</span></td></tr>
+              <tr><td className="feature-name">Service Compliance Logs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Basic records</span></td></tr>
               <tr><td className="feature-name">No Per-Device Fees</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Per-device licensing</span></td></tr>
               <tr><td className="feature-name">Two-Way SMS Inbox Included</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Add-on</span></td></tr>
-              <tr><td className="feature-name">Recurring Treatment Waiting List</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Recurring Treatment Square Footage</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Routing Included at Base Price</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Module add-on</span></td></tr>
               <tr><td className="feature-name">14-Day Free Trial</td><td className="sbp-col"><span className="chk">✓ No card required</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Package Plans &amp; Renewal Tracking</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Estimates &amp; Online Acceptance</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Card-on-File Payments</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
-              <tr><td className="feature-name">Mobile App for Technicians</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Mobile App for Crews</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">No Annual Contract Required</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Contract required</span></td></tr>
               <tr><td className="feature-name">All-In Monthly Cost</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$79/month</td><td style={{color:'var(--muted)'}}>~$380+/month with add-ons</td></tr>
             </tbody>
@@ -279,11 +279,11 @@ export default function VsRealGreen() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 56px'}}>
           <span className="section-label">Right Fit</span>
           <h2 className="section-title">RealGreen Is Built for Large Lawn Care Operations. MowBossPro Fits Your Business Right Now.</h2>
-          <p className="section-sub" style={{maxWidth:'720px'}}>RealGreen is a mature, enterprise-grade platform built for large lawn care companies with hundreds of routes. If you&apos;re a growing spray business, you&apos;d pay 3x more for complexity you don&apos;t need — and still miss the spray-specific features MowBossPro includes at $79.</p>
+          <p className="section-sub" style={{maxWidth:'720px'}}>RealGreen is a mature, enterprise-grade platform built for large lawn care companies with hundreds of routes. If you&apos;re a growing mowing business, you&apos;d pay 3x more for complexity you don&apos;t need — and still miss the mowing-specific features MowBossPro includes at $79.</p>
         </div>
         <div className="simple-grid">
           <div className="simple-card"><div className="simple-num">01</div><h3>$79 vs $380+ — No Contest</h3><p>MowBossPro is $79/month, all-in, no add-ons. RealGreen&apos;s published $199 base grows fast with per-device fees, module add-ons, and marketing tools. Most operators estimate $380+/month for a real working setup. MowBossPro saves you $250/month from day one.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>Features RealGreen Doesn&apos;t Have</h3><p>Sq ft waiting list by service type, lasso circle route selector, dedicated chemical compliance logs — these don&apos;t exist in RealGreen at any price. They&apos;re core features in MowBossPro, built specifically for how spray businesses manage recurring treatment schedules.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>Features RealGreen Doesn&apos;t Have</h3><p>Sq ft job board by service type, lasso circle route selector, dedicated service compliance logs — these don&apos;t exist in RealGreen at any price. They&apos;re core features in MowBossPro, built specifically for how mowing businesses manage recurring treatment schedules.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>Start Today — No Demo, No Waiting</h3><p>MowBossPro has a 14-day free trial you can start right now. No demo required, no sales rep, no callback to wait for. RealGreen requires a full sales process before you can even see a price. MowBossPro&apos;s price is $79. It&apos;s right here. Start now.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>Month-to-Month — No Lock-In</h3><p>No annual contract required. MowBossPro is month-to-month from day one — the software has to earn your business every month. RealGreen typically requires annual agreements. If you decide to switch, you&apos;re not stuck.</p></div>
         </div>
@@ -299,19 +299,19 @@ export default function VsRealGreen() {
           <div className="price-card featured" style={{width:'100%'}}>
             <div className="featured-badge">Less Than RealGreen Basic — More Included</div>
             <div className="price-tier">One Plan. Everything Included. No Add-Ons.</div>
-            <div className="price-amount"><sup>$</sup>129</div>
+            <div className="price-amount"><sup>$</sup>79</div>
             <div className="price-period">per month — cancel anytime</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users — No Per-Device Fees</li>
-              <li>Sq Ft Waiting List by Service Type</li>
+              <li>Lawn Square Footage by Service Type</li>
               <li>Lasso Circle Map Route Selector</li>
-              <li>Chemical Compliance Logs &amp; Reports</li>
+              <li>Service Compliance Logs &amp; Reports</li>
               <li>Full Scheduling, Dispatch &amp; Route Map</li>
               <li>Estimates, Invoices &amp; Card-on-File Payments</li>
               <li>Two-Way SMS &amp; 10+ Automated Alerts</li>
               <li>Package Plans &amp; Renewal Tracking</li>
-              <li>Mobile App for Technicians</li>
+              <li>Mobile App for Crews</li>
               <li>500 Outbound SMS/month included</li>
               <li>14-day free trial — no credit card required</li>
             </ul>

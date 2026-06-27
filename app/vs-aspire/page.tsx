@@ -139,7 +139,7 @@ export default function VsAspire() {
       <div className="hero">
         <div className="hero-badge">Aspire Software Alternative</div>
         <h1>Aspire Costs $1,299/Month on Average.<br /><span>MowBossPro Is $79. That&apos;s 10x Less — With Features Aspire Doesn&apos;t Have.</span></h1>
-        <p>Aspire is an enterprise ERP built for $5M+ landscaping companies with 100+ employees. If you&apos;re a spray business, you&apos;d pay 10x more for complexity you&apos;ll never use — and still miss the spray-specific features MowBossPro has at $79.</p>
+        <p>Aspire is an enterprise ERP built for $5M+ landscaping companies with 100+ employees. If you&apos;re a mowing business, you&apos;d pay 10x more for complexity you&apos;ll never use — and still miss the mowing-specific features MowBossPro has at $79.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
@@ -147,7 +147,7 @@ export default function VsAspire() {
           <div><div className="hero-stat-val">$1,299</div><div className="hero-stat-lbl">Aspire Monthly Average</div></div>
           <div><div className="hero-stat-val">$79</div><div className="hero-stat-lbl">MowBossPro — Everything Included</div></div>
           <div><div className="hero-stat-val">10x</div><div className="hero-stat-lbl">Less Than Aspire</div></div>
-          <div><div className="hero-stat-val">Grows</div><div className="hero-stat-lbl">With Your Spray Business</div></div>
+          <div><div className="hero-stat-val">Grows</div><div className="hero-stat-lbl">With Your Mowing Business</div></div>
         </div>
       </div>
 
@@ -155,7 +155,7 @@ export default function VsAspire() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">What Aspire Actually Costs</span>
           <h2 className="section-title">Aspire at $1,299/Month vs MowBossPro at $79/Month — The 10x Difference</h2>
-          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>Aspire is a full enterprise ERP — job costing, crew management, equipment tracking, multi-branch operations, CRM, and more. It&apos;s built for large landscaping companies with complex operational needs. For a spray business, you&apos;d pay $1,299/month on average for tools you&apos;ll never use, without the spray-specific features MowBossPro has.</p>
+          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>Aspire is a full enterprise ERP — job costing, crew management, equipment tracking, multi-branch operations, CRM, and more. It&apos;s built for large landscaping companies with complex operational needs. For a mowing business, you&apos;d pay $1,299/month on average for tools you&apos;ll never use, without the mowing-specific features MowBossPro has.</p>
         </div>
         <div style={{maxWidth:'1100px', margin:'0 auto'}}>
           <div className="highlight-row">
@@ -186,14 +186,14 @@ export default function VsAspire() {
             </div>
             <div className="highlight-text" style={{flex:1, minWidth:'280px'}}>
               <span className="section-label">10x Less</span>
-              <h2>Aspire Is an Enterprise ERP. MowBossPro Is Built for Spray Routes. Those Aren&apos;t the Same Thing.</h2>
+              <h2>Aspire Is an Enterprise ERP. MowBossPro Is Built for Mowing Routes. Those Aren&apos;t the Same Thing.</h2>
               <p>Aspire software is a full business management platform built for large landscaping operations with multi-million dollar revenue, dozens of crews, and complex job costing requirements. The average operator pays ~$1,299/month or more once licensing and implementation are factored in.</p>
-              <p>MowBossPro is $79/month — designed for spray businesses running recurring treatment schedules. Lasso routing, sq ft waiting lists by service type, chemical compliance logs — these are built into MowBossPro. They don&apos;t exist in Aspire.</p>
+              <p>MowBossPro is $79/month — designed for mowing businesses running recurring treatment schedules. Lasso routing, sq ft job boards by service type, service compliance logs — these are built into MowBossPro. They don&apos;t exist in Aspire.</p>
               <ul className="check-list">
                 <li>$79/month — 10x less than Aspire&apos;s average</li>
-                <li>Sq ft waiting list by service type — not in Aspire</li>
+                <li>Sq ft job board by service type — not in Aspire</li>
                 <li>Lasso circle route selector — not in Aspire</li>
-                <li>Chemical compliance logs — not a core Aspire feature</li>
+                <li>Service compliance logs — not a core Aspire feature</li>
                 <li>14-day free trial — no card required, start now</li>
                 <li>Set up in hours — not months of onboarding</li>
               </ul>
@@ -203,15 +203,15 @@ export default function VsAspire() {
       </section>
 
       <div className="premium-band">
-        <h2>Aspire Is an ERP for $5M Landscaping Companies.<span>You&apos;re a Spray Business. That&apos;s Not the Same Thing.</span></h2>
-        <p>Aspire has job costing, equipment tracking, multi-branch management, proposal tools, and full crew management. It&apos;s powerful — for the right company. A spray business running recurring treatment routes doesn&apos;t need an enterprise ERP. It needs sq ft tracking, lasso routing, chemical logs, and a waiting list by service type. MowBossPro has all of that at $79/month.</p>
+        <h2>Aspire Is an ERP for $5M Landscaping Companies.<span>You&apos;re a Mowing Business. That&apos;s Not the Same Thing.</span></h2>
+        <p>Aspire has job costing, equipment tracking, multi-branch management, proposal tools, and full crew management. It&apos;s powerful — for the right company. A mowing business running recurring treatment routes doesn&apos;t need an enterprise ERP. It needs sq ft tracking, lasso routing, service photos, and a job board by service type. MowBossPro has all of that at $79/month.</p>
       </div>
 
       <section>
         <div className="centered" style={{maxWidth:'960px', margin:'0 auto 48px'}}>
           <span className="section-label">Side by Side</span>
           <h2 className="section-title">MowBossPro vs Aspire Software</h2>
-          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>A complete feature comparison — including the spray-specific tools MowBossPro has that Aspire doesn&apos;t, and the price difference that matters most.</p>
+          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>A complete feature comparison — including the mowing-specific tools MowBossPro has that Aspire doesn&apos;t, and the price difference that matters most.</p>
         </div>
         <div className="compare-wrap">
           <table className="compare-table">
@@ -225,18 +225,18 @@ export default function VsAspire() {
             <tbody>
               <tr><td className="feature-name">Monthly Price</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$79/month flat</td><td style={{color:'#dc2626', fontWeight:700}}>~$1,299/month avg</td></tr>
               <tr><td className="feature-name">Published Pricing</td><td className="sbp-col"><span className="chk">✓ $79 — right here</span></td><td><span className="crs">✗ Custom quote only</span></td></tr>
-              <tr><td className="feature-name">Sq Ft Waiting List by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Lawn Square Footage by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Lasso Circle Map Route Selector</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Chemical Compliance Logs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Not a core feature</span></td></tr>
+              <tr><td className="feature-name">Service Compliance Logs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Not a core feature</span></td></tr>
               <tr><td className="feature-name">Two-Way SMS Inbox</td><td className="sbp-col"><span className="chk">✓ Included</span></td><td><span className="prt">Add-on / integration</span></td></tr>
               <tr><td className="feature-name">14-Day Free Trial</td><td className="sbp-col"><span className="chk">✓ No card required</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Recurring Treatment Waiting List</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Recurring Treatment Square Footage</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Setup Time</td><td className="sbp-col"><span className="chk">Hours — self-serve</span></td><td><span className="prt">Weeks of onboarding</span></td></tr>
               <tr><td className="feature-name">No Annual Contract</td><td className="sbp-col"><span className="chk">✓ Month-to-month</span></td><td><span className="crs">✗ Annual contract</span></td></tr>
               <tr><td className="feature-name">Package Plans &amp; Renewals</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Scheduling &amp; Dispatch</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
-              <tr><td className="feature-name">Job Costing &amp; Crew Management</td><td className="sbp-col"><span className="prt">Not applicable — spray</span></td><td><span className="chk">✓ Enterprise-grade</span></td></tr>
-              <tr><td className="feature-name">Mobile App for Technicians</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Job Costing &amp; Crew Management</td><td className="sbp-col"><span className="prt">Not applicable — mowing</span></td><td><span className="chk">✓ Enterprise-grade</span></td></tr>
+              <tr><td className="feature-name">Mobile App for Crews</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
             </tbody>
           </table>
         </div>
@@ -245,12 +245,12 @@ export default function VsAspire() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 56px'}}>
           <span className="section-label">Right Fit</span>
-          <h2 className="section-title">Aspire Is Built for Large Landscaping Operations. MowBossPro Is Built for Spray Routes.</h2>
-          <p className="section-sub" style={{maxWidth:'720px'}}>Aspire is a genuinely powerful platform — for the right company. It&apos;s overkill for a spray business and still misses the spray-specific features you need. MowBossPro is purpose-built for how spray businesses actually work.</p>
+          <h2 className="section-title">Aspire Is Built for Large Landscaping Operations. MowBossPro Is Built for Mowing Routes.</h2>
+          <p className="section-sub" style={{maxWidth:'720px'}}>Aspire is a genuinely powerful platform — for the right company. It&apos;s overkill for a mowing business and still misses the mowing-specific features you need. MowBossPro is purpose-built for how mowing businesses actually work.</p>
         </div>
         <div className="simple-grid">
-          <div className="simple-card"><div className="simple-num">01</div><h3>10x Less — $1,170 Saved Every Month</h3><p>Aspire averages ~$1,299/month. MowBossPro is $79/month. That&apos;s $1,170 saved every single month — $14,040 per year — on software that was actually built for how spray businesses operate. The savings alone pay for significant business growth.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>Built for Spray — Not Landscaping ERPs</h3><p>Aspire was designed for multi-million dollar landscaping companies with complex crew management, equipment tracking, and multi-branch operations. Spray businesses need sq ft waiting lists, lasso routing, chemical compliance logs, and recurring treatment tracking. Those features don&apos;t exist in Aspire. They&apos;re built into MowBossPro.</p></div>
+          <div className="simple-card"><div className="simple-num">01</div><h3>10x Less — $1,170 Saved Every Month</h3><p>Aspire averages ~$1,299/month. MowBossPro is $79/month. That&apos;s $1,170 saved every single month — $14,040 per year — on software that was actually built for how mowing businesses operate. The savings alone pay for significant business growth.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>Built for Mowing — Not Landscaping ERPs</h3><p>Aspire was designed for multi-million dollar landscaping companies with complex crew management, equipment tracking, and multi-branch operations. Mowing businesses need sq ft job boards, lasso routing, service compliance logs, and recurring treatment tracking. Those features don&apos;t exist in Aspire. They&apos;re built into MowBossPro.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>Hours to Set Up — Not Months</h3><p>Aspire requires a significant implementation and onboarding process — weeks of setup, training, and configuration before you&apos;re operational. MowBossPro is self-serve. Start your free trial, add your clients, build your routes, and send your first estimate in a single afternoon.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>Month-to-Month — No Lock-In</h3><p>MowBossPro is month-to-month from day one with a 14-day free trial. No annual contract required. No implementation fees. No credit card to start your trial. Aspire requires an annual contract and a significant upfront commitment. MowBossPro has to earn your business every month.</p></div>
         </div>
@@ -266,20 +266,20 @@ export default function VsAspire() {
           <div className="price-card featured" style={{width:'100%'}}>
             <div className="featured-badge">10x Less Than Aspire&apos;s Average</div>
             <div className="price-tier">One Plan. Flat Forever. Start Today.</div>
-            <div className="price-amount"><sup>$</sup>129</div>
+            <div className="price-amount"><sup>$</sup>79</div>
             <div className="price-period">per month — cancel anytime</div>
             <div className="price-note">No annual contract required</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>
-              <li>Sq Ft Waiting List by Service Type</li>
+              <li>Lawn Square Footage by Service Type</li>
               <li>Lasso Circle Map Route Selector</li>
-              <li>Chemical Compliance Logs &amp; Reports</li>
+              <li>Service Compliance Logs &amp; Reports</li>
               <li>Full Scheduling, Dispatch &amp; Route Map</li>
               <li>Estimates, Invoices &amp; Card-on-File Payments</li>
               <li>Two-Way SMS &amp; 10+ Automated Alerts</li>
               <li>Package Plans &amp; Renewal Tracking</li>
-              <li>Mobile App for Technicians</li>
+              <li>Mobile App for Crews</li>
               <li>500 Outbound SMS/month included</li>
               <li>14-day free trial — no credit card required</li>
             </ul>
@@ -291,7 +291,7 @@ export default function VsAspire() {
 
       <div className="cta-band">
         <h2>Why Pay $1,299/Month for Software<span>Built for a Different Industry? MowBossPro Is $79.</span></h2>
-        <p>Spray-specific features, $79/month flat, 14-day free trial. Start today — no demo required, no card needed.</p>
+        <p>Mowing-specific features, $79/month flat, 14-day free trial. Start today — no demo required, no card needed.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>

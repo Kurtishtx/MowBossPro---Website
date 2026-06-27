@@ -150,7 +150,7 @@ export default function VsServiceAutopilot() {
       <div className="hero">
         <div className="hero-badge">Service Autopilot Alternative</div>
         <h1>SA Costs $500+/Month to Get Close to What SBP Offers.<br /><span>And Even Then, It Still Doesn&apos;t Have Everything.</span></h1>
-        <p>Service Autopilot has tiers. Route optimization is $199/month. Automations are $499/month. Two-way texting costs even more. MowBossPro is $79/month with everything included — plus an accurate lasso, sq ft waiting list, and chemical compliance logs that SA doesn&apos;t have at any price.</p>
+        <p>Service Autopilot has tiers. Route optimization is $199/month. Automations are $499/month. Two-way texting costs even more. MowBossPro is $79/month with everything included — plus an accurate lasso, sq ft job board, and service compliance logs that SA doesn&apos;t have at any price.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
@@ -178,20 +178,20 @@ export default function VsServiceAutopilot() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="feature-name">Sq Ft Waiting List by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Lawn Square Footage by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Accurate Lasso Sq Ft Calculation</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Overstates by service count</span></td></tr>
-              <tr><td className="feature-name">Chemical Compliance Logs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Service Compliance Logs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Route Optimization</td><td className="sbp-col"><span className="chk">✓ Included</span></td><td><span className="prt">Pro tier — $199/mo</span></td></tr>
               <tr><td className="feature-name">Automations &amp; Workflows</td><td className="sbp-col"><span className="chk">✓ Included</span></td><td><span className="prt">Pro Plus — $499/mo</span></td></tr>
               <tr><td className="feature-name">Two-Way SMS Texting</td><td className="sbp-col"><span className="chk">✓ Included</span></td><td><span className="prt">Elite tier — call for pricing</span></td></tr>
               <tr><td className="feature-name">No Sign-Up Fee</td><td className="sbp-col"><span className="chk">✓ $0</span></td><td><span className="crs">✗ Sign-up fee required</span></td></tr>
               <tr><td className="feature-name">Unlimited Users at Flat Price</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Per-user pricing applies</span></td></tr>
               <tr><td className="feature-name">Lasso Circle Map Route Selector</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Map select — inaccurate sq ft</span></td></tr>
-              <tr><td className="feature-name">Recurring Treatment Waiting List</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Recurring Treatment Square Footage</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Package Plans &amp; Renewal Tracking</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Estimates &amp; Online Acceptance</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Card-on-File Payments</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
-              <tr><td className="feature-name">Mobile App for Technicians</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Mobile App for Crews</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">No Annual Contract</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Varies by tier</span></td></tr>
               <tr><td className="feature-name">Entry Price (basic features)</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$79/month</td><td style={{color:'var(--muted)'}}>$49/month (very limited)</td></tr>
               <tr><td className="feature-name">Price with Route Optimization</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$79/month</td><td style={{color:'var(--muted)'}}>$199/month (Pro)</td></tr>
@@ -206,10 +206,10 @@ export default function VsServiceAutopilot() {
           <div className="highlight-text">
             <span className="section-label">Lasso — Accurate by Service Type</span>
             <h2 style={{color:'#fff'}}>Service Autopilot Has Map Selection.<br />MowBossPro Has an Accurate Lasso.</h2>
-            <p style={{color:'rgba(255,255,255,.65)'}}>Service Autopilot has a map selection tool — but it overstates sq ft by counting each service separately. If a property has Lawn Care 4 and Mosquito scheduled, SA counts the sq ft twice. MowBossPro counts the property sq ft once and breaks down the services separately. The difference is roughly 2x — and it matters when you&apos;re pricing and planning routes.</p>
+            <p style={{color:'rgba(255,255,255,.65)'}}>Service Autopilot has a map selection tool — but it overstates sq ft by counting each service separately. If a property has Lawn Care 4 and Mowing scheduled, SA counts the sq ft twice. MowBossPro counts the property sq ft once and breaks down the services separately. The difference is roughly 2x — and it matters when you&apos;re pricing and planning routes.</p>
             <ul className="check-list" style={{marginTop:'20px'}}>
               <li style={{color:'rgba(255,255,255,.75)'}}>SBP counts property sq ft once — SA counts per service and overstates</li>
-              <li style={{color:'rgba(255,255,255,.75)'}}>Accurate sq ft waiting list — know exactly how much work is due</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Accurate sq ft job board — know exactly how much work is due</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>Service type breakdown shown separately from total sq ft</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>Accurate data means accurate pricing and route planning</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>Available at $79/month — not locked behind SA&apos;s $199 Pro tier</li>
@@ -231,7 +231,7 @@ export default function VsServiceAutopilot() {
               <div className="stat-cell"><div className="stat-val">118,400</div><div className="stat-lbl">What SBP shows — actual property sq ft</div></div>
               <div className="stat-cell"><div className="stat-val">14</div><div className="stat-lbl">Stops Selected</div></div>
               <div className="stat-cell"><div className="stat-val">19</div><div className="stat-lbl">Total Services</div></div>
-              <div className="stat-cell full"><div className="stat-val">Lawn Care 4 · 8 &nbsp;|&nbsp; Mosquito · 6 &nbsp;|&nbsp; Insect · 5</div><div className="stat-lbl">SBP Breakdown — Services Counted Separately</div></div>
+              <div className="stat-cell full"><div className="stat-val">Lawn Care 4 · 8 &nbsp;|&nbsp; Mowing · 6 &nbsp;|&nbsp; Insect · 5</div><div className="stat-lbl">SBP Breakdown — Services Counted Separately</div></div>
             </div>
           </div>
         </div>
@@ -273,17 +273,17 @@ export default function VsServiceAutopilot() {
                 <div className="mock-item"><div className="mock-dot red"></div><div><div className="mock-label">Route Optimization</div><div className="mock-sub">SA Pro tier required</div></div><div className="mock-badge red-badge">$199/mo</div></div>
                 <div className="mock-item"><div className="mock-dot red"></div><div><div className="mock-label">Automations</div><div className="mock-sub">SA Pro Plus tier required</div></div><div className="mock-badge red-badge">$499/mo</div></div>
                 <div className="mock-item"><div className="mock-dot red"></div><div><div className="mock-label">Two-Way Texting</div><div className="mock-sub">SA Elite tier required</div></div><div className="mock-badge red-badge">Call</div></div>
-                <div className="mock-item"><div className="mock-dot orange"></div><div><div className="mock-label">MowBossPro</div><div className="mock-sub">Everything included — plus lasso &amp; chemical logs</div></div><div className="mock-badge">$79/mo</div></div>
+                <div className="mock-item"><div className="mock-dot orange"></div><div><div className="mock-label">MowBossPro</div><div className="mock-sub">Everything included — plus lasso &amp; service photos</div></div><div className="mock-badge">$79/mo</div></div>
               </div>
             </div>
             <div className="highlight-text" style={{flex:1, minWidth:'280px'}}>
               <span className="section-label">The Real Cost</span>
               <h2>$499+/Month at SA Still Doesn&apos;t Get You Everything SBP Includes at $79.</h2>
-              <p>Even at SA&apos;s top published tier ($499/month for Pro Plus), you&apos;re still missing the accurate lasso, sq ft waiting list by service type, and chemical compliance logs. Those don&apos;t exist in SA at any price. MowBossPro includes everything at $79/month with no sign-up fee.</p>
+              <p>Even at SA&apos;s top published tier ($499/month for Pro Plus), you&apos;re still missing the accurate lasso, sq ft job board by service type, and service compliance logs. Those don&apos;t exist in SA at any price. MowBossPro includes everything at $79/month with no sign-up fee.</p>
               <ul className="check-list">
                 <li>Accurate sq ft lasso — SA double-counts it</li>
-                <li>Sq ft waiting list by service type — not in SA at any tier</li>
-                <li>Chemical compliance logs — not in SA at any tier</li>
+                <li>Sq ft job board by service type — not in SA at any tier</li>
+                <li>Service compliance logs — not in SA at any tier</li>
                 <li>Automations included at $79 — SA charges $499 for these</li>
                 <li>Two-way SMS included — SA charges Elite pricing (custom quote)</li>
                 <li>No sign-up fee at SBP — SA charges one</li>
@@ -295,12 +295,12 @@ export default function VsServiceAutopilot() {
 
       <div className="premium-band">
         <h2>SA Costs 4x More to Get Close to SBP.<br /><span>And Close Isn&apos;t the Same as Equal.</span></h2>
-        <p>The features that matter most to lawn care and pest control businesses — accurate sq ft tracking, chemical compliance logs, sq ft waiting lists — don&apos;t exist in Service Autopilot. You can climb from Startup to Elite and you still won&apos;t find them. MowBossPro was built with those features at its core.</p>
+        <p>The features that matter most to lawn care and lawn care businesses — accurate sq ft tracking, service compliance logs, sq ft job boards — don&apos;t exist in Service Autopilot. You can climb from Startup to Elite and you still won&apos;t find them. MowBossPro was built with those features at its core.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">📐</div><h4>Accurate Sq Ft — Not Doubled</h4><p>SBP tracks sq ft per property and shows service breakdowns separately. SA counts sq ft per service — so a property with 2 services appears twice as large. That&apos;s a real problem when you&apos;re planning routes by sq ft capacity.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Sq Ft Waiting List</h4><p>See exactly how much sq ft is waiting per service type before you build a route. Know your Lawn Care 4, Mosquito, and Insect Control backlog in real time. This workflow doesn&apos;t exist in Service Autopilot at any tier.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Chemical Compliance</h4><p>Log every application with product, mix rate, area, weather, and tech license. Pull compliance reports any time. SA has job records. That&apos;s not the same as a dedicated pesticide compliance log built for applicator licensing requirements.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💰</div><h4>$79 — Not $499+</h4><p>Getting route optimization, automations, and SMS at SA costs $499+/month. MowBossPro includes all of these at $79/month — plus the spray-specific features SA doesn&apos;t have. It&apos;s not even close on value.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Lawn Square Footage</h4><p>See exactly how much sq ft is waiting per service type before you build a route. Know your Lawn Care 4, Mowing, and Insect Control backlog in real time. This workflow doesn&apos;t exist in Service Autopilot at any tier.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Service Compliance</h4><p>Log every application with product, mix rate, area, weather, and tech license. Pull compliance reports any time. SA has job records. That&apos;s not the same as a dedicated pesticide compliance log built for applicator licensing requirements.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💰</div><h4>$79 — Not $499+</h4><p>Getting route optimization, automations, and SMS at SA costs $499+/month. MowBossPro includes all of these at $79/month — plus the mowing-specific features SA doesn&apos;t have. It&apos;s not even close on value.</p></div>
           <div className="premium-card"><div className="premium-card-icon">⚡</div><h4>No Sign-Up Fee</h4><p>SA charges a sign-up fee to get started. MowBossPro charges $0 to sign up and offers a 14-day free trial with no credit card required. You can start today and be scheduling routes this afternoon.</p></div>
           <div className="premium-card"><div className="premium-card-icon">💬</div><h4>SMS Included at $79</h4><p>Two-way SMS inbox, automated alerts, estimate follow-ups — all included at $79/month. SA locks two-way texting behind their Elite tier. At SA, SMS alone costs more than SBP&apos;s entire platform.</p></div>
         </div>
@@ -309,12 +309,12 @@ export default function VsServiceAutopilot() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 56px'}}>
           <span className="section-label">Built Different</span>
-          <h2 className="section-title">SA Is a General Lawn Care Platform. SBP Is Built Around Spray Routes.</h2>
-          <p className="section-sub" style={{maxWidth:'720px'}}>Service Autopilot serves a wide range of lawn service businesses. MowBossPro was built specifically around recurring spray routes, sq ft scheduling, and chemical compliance — the things that make lawn care and pest control operations different from general landscaping.</p>
+          <h2 className="section-title">SA Is a General Lawn Care Platform. SBP Is Built Around Mowing Routes.</h2>
+          <p className="section-sub" style={{maxWidth:'720px'}}>Service Autopilot serves a wide range of lawn service businesses. MowBossPro was built specifically around recurring mowing routes, sq ft scheduling, and service compliance — the things that make lawn care and mowing operations different from general landscaping.</p>
         </div>
         <div className="simple-grid">
-          <div className="simple-card"><div className="simple-num">01</div><h3>Sq Ft Is the Right Unit</h3><p>MowBossPro tracks everything in square feet — waiting lists, route totals, property-level breakdown by service. SA tracks job durations and stop counts. For spray businesses, sq ft is the unit that drives pricing, routing, and capacity planning.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>No Tier-Climbing Required</h3><p>MowBossPro gives you route optimization, automations, two-way SMS, and chemical logs at $79/month. SA starts at $49 and charges you more for each major feature until you&apos;re at $499+/month before you have what SBP includes at the entry level.</p></div>
+          <div className="simple-card"><div className="simple-num">01</div><h3>Sq Ft Is the Right Unit</h3><p>MowBossPro tracks everything in square feet — job boards, route totals, property-level breakdown by service. SA tracks job durations and stop counts. For mowing businesses, sq ft is the unit that drives pricing, routing, and capacity planning.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>No Tier-Climbing Required</h3><p>MowBossPro gives you route optimization, automations, two-way SMS, and service photos at $79/month. SA starts at $49 and charges you more for each major feature until you&apos;re at $499+/month before you have what SBP includes at the entry level.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>No Sign-Up Fee. No Lock-In.</h3><p>Start a free trial right now — no credit card required, no sign-up fee. SA charges to get started and has an onboarding process. MowBossPro is self-serve and you can be fully operational today.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>Accurate Data for Accurate Decisions</h3><p>When SBP tells you there&apos;s 118,400 sq ft of Lawn Care 4 waiting, that&apos;s accurate. SA&apos;s count is inflated by how many services each property has. You can&apos;t plan routes or quote jobs accurately on inflated sq ft numbers.</p></div>
         </div>
@@ -330,20 +330,20 @@ export default function VsServiceAutopilot() {
           <div className="price-card featured" style={{width:'100%'}}>
             <div className="featured-badge">Everything Included — No Tiers</div>
             <div className="price-tier">One Plan. One Price. No Sign-Up Fee.</div>
-            <div className="price-amount"><sup>$</sup>129</div>
+            <div className="price-amount"><sup>$</sup>79</div>
             <div className="price-period">per month — cancel anytime, no sign-up fee</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>
-              <li>Sq Ft Waiting List by Service Type</li>
+              <li>Lawn Square Footage by Service Type</li>
               <li>Accurate Lasso Circle Map Route Selector</li>
-              <li>Chemical Compliance Logs &amp; Reports</li>
+              <li>Service Compliance Logs &amp; Reports</li>
               <li>Route Optimization Included (not a $199 add-on)</li>
               <li>Automations Included (not a $499 add-on)</li>
               <li>Two-Way SMS Included (not a custom-quote add-on)</li>
               <li>Estimates, Invoices &amp; Card-on-File Payments</li>
               <li>Package Plans &amp; Renewal Tracking</li>
-              <li>Mobile App for Technicians</li>
+              <li>Mobile App for Crews</li>
               <li>500 Outbound SMS/month included</li>
             </ul>
             <button className="price-btn price-btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(2, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
@@ -353,7 +353,7 @@ export default function VsServiceAutopilot() {
       </section>
 
       <div className="cta-band">
-        <h2>SA at $500+/Month Still Doesn&apos;t Have Everything SBP Does at $79.<span>Accurate Lasso. Sq Ft Waiting List. Chemical Compliance. All Included.</span></h2>
+        <h2>SA at $500+/Month Still Doesn&apos;t Have Everything SBP Does at $79.<span>Accurate Lasso. Lawn Square Footage. Service Compliance. All Included.</span></h2>
         <p>Try MowBossPro free for 14 days. No credit card required. No sign-up fee.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>

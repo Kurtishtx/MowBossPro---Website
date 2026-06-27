@@ -178,15 +178,15 @@ export default function VsFieldRoutes() {
               <tr><td className="feature-name">Published, Transparent Pricing</td><td className="sbp-col"><span className="chk">✓ $79/mo</span></td><td><span className="crs">✗ Demo required</span></td></tr>
               <tr><td className="feature-name">Start Today — No Sales Call</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Demo + implementation</span></td></tr>
               <tr><td className="feature-name">14-Day Free Trial</td><td className="sbp-col"><span className="chk">✓ No card required</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Sq Ft Waiting List by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Lawn Square Footage by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Lasso Circle Map Route Selector</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Chemical Compliance Logs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Basic logs</span></td></tr>
-              <tr><td className="feature-name">Recurring Treatment Waiting List</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Service Compliance Logs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Basic logs</span></td></tr>
+              <tr><td className="feature-name">Recurring Treatment Square Footage</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Two-Way SMS Inbox Included</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Add-on</span></td></tr>
               <tr><td className="feature-name">Package Plans &amp; Renewal Tracking</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Estimates &amp; Online Acceptance</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Card-on-File Payments</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
-              <tr><td className="feature-name">Mobile App for Technicians</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Mobile App for Crews</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">No Annual Contract Required</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Annual contracts</span></td></tr>
               <tr><td className="feature-name">Set Up in One Afternoon</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Weeks of implementation</span></td></tr>
               <tr><td className="feature-name">Starting Price</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$79/month</td><td style={{color:'var(--muted)'}}>Not published — must demo</td></tr>
@@ -225,7 +225,7 @@ export default function VsFieldRoutes() {
               <div className="stat-cell"><div className="stat-val">19</div><div className="stat-lbl">Total Services</div></div>
               <div className="stat-cell"><div className="stat-val">118,400</div><div className="stat-lbl">Sq Ft</div></div>
               <div className="stat-cell"><div className="stat-val">4,200</div><div className="stat-lbl">Linear Ft (Beds)</div></div>
-              <div className="stat-cell full"><div className="stat-val">Lawn Care 4 · 8 &nbsp;|&nbsp; Mosquito · 6 &nbsp;|&nbsp; Insect · 5</div><div className="stat-lbl">Breakdown by Service Type</div></div>
+              <div className="stat-cell full"><div className="stat-val">Lawn Care 4 · 8 &nbsp;|&nbsp; Mowing · 6 &nbsp;|&nbsp; Insect · 5</div><div className="stat-lbl">Breakdown by Service Type</div></div>
             </div>
           </div>
         </div>
@@ -282,7 +282,7 @@ export default function VsFieldRoutes() {
                 <li>14-day free trial with no credit card required</li>
                 <li>Set up in one afternoon — no implementation team</li>
                 <li>No annual contract required — month to month</li>
-                <li>Sq ft waiting list + lasso — features FR doesn&apos;t have</li>
+                <li>Sq ft job board + lasso — features FR doesn&apos;t have</li>
               </ul>
             </div>
           </div>
@@ -292,13 +292,13 @@ export default function VsFieldRoutes() {
       <section>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 56px'}}>
           <span className="section-label">Right Size</span>
-          <h2 className="section-title">FieldRoutes Is Built for Large Pest Control Operations. MowBossPro Fits Your Business Right Now.</h2>
-          <p className="section-sub" style={{maxWidth:'720px'}}>FieldRoutes is powerful software built for large-scale pest control companies with hundreds of routes. If you&apos;re a growing lawn care or spray business, you&apos;d be paying for complexity you don&apos;t need — and waiting weeks before you can do anything with it.</p>
+          <h2 className="section-title">FieldRoutes Is Built for Large Lawn Care Operations. MowBossPro Fits Your Business Right Now.</h2>
+          <p className="section-sub" style={{maxWidth:'720px'}}>FieldRoutes is powerful software built for large-scale lawn care companies with hundreds of routes. If you&apos;re a growing lawn care or mowing business, you&apos;d be paying for complexity you don&apos;t need — and waiting weeks before you can do anything with it.</p>
         </div>
         <div className="simple-grid">
           <div className="simple-card"><div className="simple-num">01</div><h3>Start Today — Not After a Demo</h3><p>MowBossPro has a 14-day free trial you can start right now without talking to anyone. FieldRoutes requires a demo before you can even see a price. If you want to be operational this week, you need software that lets you start this week.</p></div>
           <div className="simple-card"><div className="simple-num">02</div><h3>$79. Always. No Custom Quotes.</h3><p>FieldRoutes pricing varies based on your operation size — you negotiate it during the sales process. MowBossPro is $79/month. There&apos;s no call to make, no rep to wait for, no pricing package to compare. Just $79.</p></div>
-          <div className="simple-card"><div className="simple-num">03</div><h3>Features Built for Spray Routes</h3><p>Sq ft waiting list by service type, lasso circle route selector, chemical compliance logs, recurring treatment tracking — features built around how spray businesses actually run routes. FieldRoutes doesn&apos;t have these at any tier.</p></div>
+          <div className="simple-card"><div className="simple-num">03</div><h3>Features Built for Mowing Routes</h3><p>Sq ft job board by service type, lasso circle route selector, service compliance logs, recurring treatment tracking — features built around how mowing businesses actually run routes. FieldRoutes doesn&apos;t have these at any tier.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>Month-to-Month — No Lock-In</h3><p>MowBossPro is month-to-month. No annual contract required. FieldRoutes uses annual agreements. If the software doesn&apos;t work for your business, you shouldn&apos;t be stuck in it for a year. MowBossPro earns your business every month.</p></div>
         </div>
       </section>
@@ -313,19 +313,19 @@ export default function VsFieldRoutes() {
           <div className="price-card featured" style={{width:'100%'}}>
             <div className="featured-badge">Everything Included — Start Today</div>
             <div className="price-tier">One Plan. Published Price. No Surprises.</div>
-            <div className="price-amount"><sup>$</sup>129</div>
+            <div className="price-amount"><sup>$</sup>79</div>
             <div className="price-period">per month — cancel anytime, no annual contract</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>
-              <li>Sq Ft Waiting List by Service Type</li>
+              <li>Lawn Square Footage by Service Type</li>
               <li>Lasso Circle Map Route Selector</li>
-              <li>Chemical Compliance Logs &amp; Reports</li>
+              <li>Service Compliance Logs &amp; Reports</li>
               <li>Full Scheduling, Dispatch &amp; Route Map</li>
               <li>Estimates, Invoices &amp; Card-on-File Payments</li>
               <li>Two-Way SMS &amp; 10+ Automated Alerts</li>
               <li>Package Plans &amp; Renewal Tracking</li>
-              <li>Mobile App for Technicians</li>
+              <li>Mobile App for Crews</li>
               <li>500 Outbound SMS/month included</li>
               <li>14-day free trial — no credit card required</li>
             </ul>

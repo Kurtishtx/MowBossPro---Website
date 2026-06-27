@@ -259,7 +259,7 @@ export default function Home() {
           <div className="highlight-text">
             <span className="section-label">Only in MowBossPro</span>
             <h2>Circle Any Area on the Map.<br />Instantly Know Everything Inside It.</h2>
-            <p>No other lawn mowing software has this. On the waiting list map, draw a circle around any geographic area &mdash; a neighborhood, a ZIP code, a corridor &mdash; and MowBossPro instantly calculates every detail of what&apos;s inside before you schedule a single stop or send a single crew.</p>
+            <p>No other lawn mowing software has this. On the job board map, draw a circle around any geographic area &mdash; a neighborhood, a ZIP code, a corridor &mdash; and MowBossPro instantly calculates every detail of what&apos;s inside before you schedule a single stop or send a single crew.</p>
             <p style={{marginTop:'12px'}}>This isn&apos;t just a map feature. It&apos;s a business intelligence tool. You can look at a section of your service area and know in seconds whether it&apos;s worth building a route around, how many trucks to send, and how much mowing work is sitting there. No calls. No guesses. No wasted windshield time.</p>
             <ul className="check-list">
               <li>Total lawn square footage for all properties inside the circle</li>
@@ -273,7 +273,7 @@ export default function Home() {
             </ul>
           </div>
           <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>Waiting List Map &mdash; Circle Selection</div>
+            <div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>Square Footage Map &mdash; Circle Selection</div>
             <div className="lasso-map">
               <div className="lasso-ring"></div>
               <div className="lasso-pins">
@@ -305,7 +305,7 @@ export default function Home() {
         </div>
         <div className="simple-grid">
           <div className="simple-card"><div className="simple-num">01</div><h3>Set Up in One Afternoon</h3><p>Add your service types, import your clients and properties, set up your recurring cut cycles, and configure your SMS alert templates. Most businesses are scheduling real routes the same day they sign up. No implementation fee. No onboarding consultant. No 6-hour kickoff call.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>One Screen Does Everything</h3><p>The dispatch board shows your waiting list, your scheduled stops, your route map, and your day summary all in one place. Your crew gets their stops on their phone. You&apos;re not switching between six different apps to run your day.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>One Screen Does Everything</h3><p>The dispatch board shows your job board, your scheduled stops, your route map, and your day summary all in one place. Your crew gets their stops on their phone. You&apos;re not switching between six different apps to run your day.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>Your Crews Learn It in Minutes</h3><p>The mobile crew view is built for people in trucks, not office managers at desks. Big buttons, clear status, one tap to mark a yard complete, skip a stop, or add a note. We&apos;ve had crews learn the system while sitting in the parking lot before their first stop.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>Automation Runs Without You</h3><p>Set your alert templates once &mdash; scheduled, completed, skipped, estimate follow-ups, payment follow-ups, review requests. After that, MowBossPro handles customer communication automatically on every single visit, every single day, without you having to think about it again.</p></div>
         </div>
@@ -319,7 +319,7 @@ export default function Home() {
           <p className="section-sub">MowBossPro replaces your scheduling app, your billing software, your texting tool, and your route planner &mdash; all under one roof.</p>
         </div>
         <div className="feature-grid">
-          <div className="feature-card"><span className="feature-icon">📋</span><h3>Smart Scheduling</h3><p>MowBossPro is smart enough to know exactly how much work is waiting. For every service type on your waiting list, it automatically totals the lawn square footage so you know precisely how much you can mow in a day before you ever make a single call. No more guessing, no more overbooking &mdash; just look at your waiting list, see the ft&sup2; for each service, and schedule with confidence.</p></div>
+          <div className="feature-card"><span className="feature-icon">📋</span><h3>Smart Scheduling</h3><p>MowBossPro is smart enough to know exactly how much work is waiting. For every service type on your job board, it automatically totals the lawn square footage so you know precisely how much you can mow in a day before you ever make a single call. No more guessing, no more overbooking &mdash; just look at your job board, see the ft&sup2; for each service, and schedule with confidence.</p></div>
           <div className="feature-card"><span className="feature-icon">🗺️</span><h3>Live Route Map</h3><p>See all your stops pinned on an interactive map. Build efficient routes, drag to reorder, and give your crews a clear path every single day.</p></div>
           <div className="feature-card"><span className="feature-icon">🔁</span><h3>Recurring Visits</h3><p>Put a property on a weekly, biweekly, or custom cut cycle and MowBossPro keeps generating the visits automatically. Never forget a recurring yard again.</p></div>
           <div className="feature-card"><span className="feature-icon">💰</span><h3>Estimates &amp; Invoices</h3><p>Create professional estimates in seconds, email them to clients, and convert accepted estimates directly to invoices. Track every dollar owed.</p></div>
@@ -354,7 +354,7 @@ export default function Home() {
           <a className="hub-card" href="/lawn-care-scheduling-software">
             <span className="hub-card-icon">📅</span>
             <h4>Mowing Scheduling Software</h4>
-            <p>Build recurring cut cycles, fill your week from the waiting list, and never miss a scheduled yard again.</p>
+            <p>Build recurring cut cycles, fill your week from the job board, and never miss a scheduled yard again.</p>
             <span className="hub-arrow">Learn more →</span>
           </a>
           <a className="hub-card" href="/lawn-mowing-routes-software">
@@ -394,7 +394,7 @@ export default function Home() {
           <div className="price-card featured" style={{width:'100%'}}>
             <div className="featured-badge">Everything Included</div>
             <div className="price-tier">One Plan. No Surprises.</div>
-            <div className="price-amount"><sup>$</sup>129</div>
+            <div className="price-amount"><sup>$</sup>79</div>
             <div className="price-period">per month</div>
             <div className="price-desc">Every feature. Unlimited clients, properties, employees, and users. No tiers, no locked features, no per-seat fees.</div>
             <ul className="price-features">
@@ -421,10 +421,10 @@ export default function Home() {
         <div className="highlight-row">
           <div className="highlight-text">
             <span className="section-label">Scheduling</span>
-            <h2>From Waiting List to Dispatched in Seconds</h2>
-            <p>MowBossPro gives you a waiting list of everything not yet scheduled, a full dispatch board for scheduled mows, and a live map so you can build tight, efficient routes every morning.</p>
+            <h2>From Square Footage to Dispatched in Seconds</h2>
+            <p>MowBossPro gives you a job board of everything not yet scheduled, a full dispatch board for scheduled mows, and a live map so you can build tight, efficient routes every morning.</p>
             <ul className="check-list">
-              <li>Waiting list with lawn sq ft totals and service counts per type</li>
+              <li>Job board with lawn sq ft totals and service counts per type</li>
               <li>One-click scheduling with date picker and crew assignment</li>
               <li>Drag-and-drop route ordering</li>
               <li>Interactive map showing all stops with stop detail panel</li>
@@ -636,7 +636,7 @@ export default function Home() {
           <p className="section-sub">We&apos;re not a big corporation. We&apos;re not a venture-backed tech startup. We&apos;re a privately owned company built by someone who has been in the field since 2006.</p>
           <div style={{background:'#fff', border:'1.5px solid var(--border)', borderRadius:'14px', padding:'36px 40px', maxWidth:'800px', margin:'0 auto 56px', textAlign:'left', borderLeft:'5px solid var(--orange)'}}>
             <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We own and operate a lawn mowing business. We&apos;ve been in this industry since <strong>2006</strong> &mdash; which means when we built MowBossPro, we didn&apos;t have to guess what mowing operators need. We already knew. We lived it every day.</p>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We built this software because everything else out there was built by people who have never driven a mowing truck, never managed a waiting list of hundreds or thousands of properties, never had to chase down a payment while also trying to dispatch a full crew. They build features they <em>think</em> you need. We build features we <em>know</em> you need.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We built this software because everything else out there was built by people who have never driven a mowing truck, never managed a job board of hundreds or thousands of properties, never had to chase down a payment while also trying to dispatch a full crew. They build features they <em>think</em> you need. We build features we <em>know</em> you need.</p>
             <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8'}}>MowBossPro is <strong>privately owned</strong> &mdash; no corporate board, no outside investors, no decisions made by people who have never pushed a mower. When you call or message us, you&apos;re talking to the owner. That&apos;s the way we like it, and that&apos;s never going to change.</p>
           </div>
         </div>

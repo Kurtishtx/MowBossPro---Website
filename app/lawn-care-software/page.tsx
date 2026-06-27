@@ -222,7 +222,7 @@ export default function LawnCareSoftware() {
       <div className="hero">
         <div className="hero-badge">Built Specifically for Lawn Mowing Businesses</div>
         <h1>Lawn Care Software<br /><span>Built for How Mowing Crews Actually Run</span></h1>
-        <p>Most field service software is built for plumbers and HVAC techs. <a href="/">MowBossPro</a> is built from the ground up for lawn mowing businesses &mdash; the way you schedule recurring visits, route your crews, dispatch trucks, and bill for weekly cuts is completely different, and your software should be too.</p>
+        <p>Most field service software is built for plumbers and HVAC crews. <a href="/">MowBossPro</a> is built from the ground up for lawn mowing businesses &mdash; the way you schedule recurring visits, route your crews, dispatch trucks, and bill for weekly cuts is completely different, and your software should be too.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
         </div>
@@ -325,7 +325,7 @@ export default function LawnCareSoftware() {
         <div style={{display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(240px, 1fr))', gap:'24px', maxWidth:'1100px', margin:'0 auto'}}>
           {[
             {n:'01', title:'Set Up in One Afternoon', body:'Add your services, import your clients and properties, set your recurring mow cadences, turn on automated alerts, and connect Stripe &mdash; most owners are fully operational the same day they sign up. No implementation consultant, no onboarding call, no 90-day setup timeline.'},
-            {n:'02', title:'One Screen Does Everything', body:'Scheduling, dispatch, the waiting list, and the route map are all connected. You’re not jumping between five different modules or browser tabs. Pull up the dispatch board and everything your crews need for the day is right there in a single view.'},
+            {n:'02', title:'One Screen Does Everything', body:'Scheduling, dispatch, the job board, and the route map are all connected. You’re not jumping between five different modules or browser tabs. Pull up the dispatch board and everything your crews need for the day is right there in a single view.'},
             {n:'03', title:'Your Crews Learn It in Minutes', body:'The mobile app your crews use shows them exactly what they need and nothing they don’t. Their mowing stops for the day, the property info, the gate codes and notes, and the complete button. No training videos, no IT ticket, no frustrated crew members.'},
             {n:'04', title:'Automation Runs Without You', body:'Set up your SMS alerts, estimate follow-ups, and payment reminders once. After that, MowBossPro handles every notification, every follow-up, and every review request automatically &mdash; whether you’re on a route, at home, or on vacation.'},
           ].map(({n, title, body}) => (
@@ -343,7 +343,7 @@ export default function LawnCareSoftware() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">The Problem</span>
           <h2 className="section-title">Generic Software Wasn&apos;t Built for Mowing Routes</h2>
-          <p className="section-sub">Lawn mowing is not plumbing. You&apos;re not sending one tech to one job for two hours. You&apos;re running recurring weekly routes across hundreds of properties, juggling crews and trucks, and managing a waiting list of new lawns that never stops growing.</p>
+          <p className="section-sub">Lawn mowing is not plumbing. You&apos;re not sending one tech to one job for two hours. You&apos;re running recurring weekly routes across hundreds of properties, juggling crews and trucks, and managing a job board of new lawns that never stops growing.</p>
         </div>
         <div style={{maxWidth:'900px', margin:'0 auto'}}>
           <div style={{background:'#fff', border:'1.5px solid var(--border)', borderRadius:'14px', padding:'36px 40px', borderLeft:'5px solid var(--orange)'}}>
@@ -365,7 +365,7 @@ export default function LawnCareSoftware() {
           {[
             {icon:'🔁', title:'Recurring Mow Scheduling', body:'Set a lawn to weekly, biweekly, or every-other-week and MowBossPro generates every future visit automatically. Each property stays on its assigned route day and crew without you rebuilding the schedule each week.'},
             {icon:'🗺️', title:'Live Route Map', body:'See every scheduled mowing stop pinned on an interactive map. Drag to reorder stops, build tight geographic routes, and cut drive time before your crew ever leaves the yard.'},
-            {icon:'📋', title:'Waiting List for New Lawns', body:'Every new mowing prospect lands on a waiting list with stop count and square footage. See exactly how much new work you can slot into an existing route before you make a single call.'},
+            {icon:'📋', title:'Square Footage for New Lawns', body:'Every new mowing prospect lands on a job board with stop count and square footage. See exactly how much new work you can slot into an existing route before you make a single call.'},
             {icon:'🚛', title:'Crew Dispatch Board', body:'Assign every stop to a crew and truck for the day. The dispatch board shows each crew’s full route in order so nobody starts the morning wondering where to go first.'},
             {icon:'💬', title:'Automated Service Alerts', body:'Automatically text customers when their mow is scheduled, when the crew is on the way, and when the job is done. Set it once &mdash; MowBossPro handles the communication for every single stop.'},
             {icon:'💰', title:'Estimates That Close', body:'Build a mowing estimate in minutes with your service catalog, email it directly from the platform, and let clients accept with one click. Auto-follow-ups go out if they don’t respond.'},
@@ -402,11 +402,11 @@ export default function LawnCareSoftware() {
           <div className="highlight-text">
             <span className="section-label">Mowing Scheduling</span>
             <h2>Know Exactly What&apos;s Due Before You Send a Single Crew Out</h2>
-            <p>This is where MowBossPro earns its keep. Recurring schedules generate every future mow automatically, and the waiting list shows you the new lawns ready to slot into a route &mdash; with stop counts and square footage &mdash; so you know exactly how much you can fit in a day before you start dispatching. For a closer look at how recurring scheduling and the route map work together as the daily hub for a mowing business, read <a href="/blogs/lawn-care-software-complete-guide" style={{color:'var(--orange)', fontWeight:600}}>Lawn Care Software: The Complete Guide for Lawn Mowing Businesses</a>.</p>
+            <p>This is where MowBossPro earns its keep. Recurring schedules generate every future mow automatically, and the job board shows you the new lawns ready to slot into a route &mdash; with stop counts and square footage &mdash; so you know exactly how much you can fit in a day before you start dispatching. For a closer look at how recurring scheduling and the route map work together as the daily hub for a mowing business, read <a href="/blogs/lawn-care-software-complete-guide" style={{color:'var(--orange)', fontWeight:600}}>Lawn Care Software: The Complete Guide for Lawn Mowing Businesses</a>.</p>
             <ul className="check-list">
               <li>Recurring weekly, biweekly &amp; monthly mow cadences</li>
-              <li>Waiting list of new lawns with sq ft and stop counts</li>
-              <li>Schedule directly from the waiting list in one click</li>
+              <li>Job board of new lawns with sq ft and stop counts</li>
+              <li>Schedule directly from the job board in one click</li>
               <li>Assign date, crew, and truck at scheduling time</li>
               <li>Full dispatch board for the day&apos;s scheduled mows</li>
               <li>Drag-and-drop route reordering on the map</li>
@@ -433,7 +433,7 @@ export default function LawnCareSoftware() {
             </div>
             <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px', marginBottom:'10px', display:'flex', alignItems:'center', gap:'12px'}}>
               <div style={{width:'10px', height:'10px', borderRadius:'50%', background:'#22c55e', flexShrink:0}}></div>
-              <div style={{flex:1}}><div style={{color:'rgba(255,255,255,.85)', fontSize:'13px', fontWeight:600}}>Waiting List — New Lawns</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', marginTop:'1px'}}>15 properties ready to route</div></div>
+              <div style={{flex:1}}><div style={{color:'rgba(255,255,255,.85)', fontSize:'13px', fontWeight:600}}>Square Footage — New Lawns</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', marginTop:'1px'}}>15 properties ready to route</div></div>
               <div style={{marginLeft:'auto', background:'#16a34a', color:'#fff', fontSize:'11px', fontWeight:700, padding:'3px 9px', borderRadius:'10px'}}>42,300 ft²</div>
             </div>
             <div style={{marginTop:'16px', background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'14px 16px', textAlign:'center'}}>
@@ -506,7 +506,7 @@ export default function LawnCareSoftware() {
           <div className="lc-price-card featured">
             <div className="featured-badge">Everything Included</div>
             <div className="price-tier">One Plan. No Surprises.</div>
-            <div style={{fontSize:'48px', fontWeight:800, color:'var(--text)', lineHeight:1}}><sup style={{fontSize:'22px', verticalAlign:'super'}}>$</sup>129</div>
+            <div style={{fontSize:'48px', fontWeight:800, color:'var(--text)', lineHeight:1}}><sup style={{fontSize:'22px', verticalAlign:'super'}}>$</sup>79</div>
             <div style={{color:'var(--muted)', fontSize:'13px', marginBottom:'24px', marginTop:'4px'}}>per month</div>
             <div style={{color:'var(--muted)', fontSize:'14px', marginBottom:'24px', lineHeight:1.5}}>Every feature. Unlimited clients, properties, crews, and users. No tiers, no locked features, no per-seat fees.</div>
             <ul className="price-features">
@@ -514,7 +514,7 @@ export default function LawnCareSoftware() {
               <li>Unlimited Crews &amp; Users</li>
               <li>Full Scheduling, Dispatch &amp; Route Map</li>
               <li>Recurring Weekly &amp; Biweekly Mow Cadences</li>
-              <li>Waiting List for New Lawns</li>
+              <li>Square Footage for New Lawns</li>
               <li>Estimates, Invoices &amp; Stripe Payments</li>
               <li>Two-Way SMS &amp; Automated Alerts</li>
               <li>Crew Dispatch &amp; Live Route Map</li>
