@@ -43,7 +43,16 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
         <div className="navbar-inner">
           <div className="navbar-brand">
             <a href="/" style={{textDecoration:'none', display:'flex', alignItems:'center', gap:'8px'}}>
-              <span className="navbar-icon">🌿</span>
+              <svg className="navbar-icon" width="30" height="30" viewBox="0 0 32 32" fill="none" style={{display:'block'}} aria-hidden="true">
+                <rect width="32" height="32" rx="8" fill="#ffffff"/>
+                <g fill="#2e9e3f">
+                  <path d="M16 28 C 14.4 19 14.4 11 16 4.5 C 17.6 11 17.6 19 16 28 Z"/>
+                  <path d="M9.5 28 C 8 19.5 6 13 4 7 C 7 13 9.5 19.5 11 28 Z"/>
+                  <path d="M22.5 28 C 24 19.5 26 13 28 7 C 25 13 22.5 19.5 21 28 Z"/>
+                  <path d="M13 28 C 11.4 20 10.3 14.5 8.5 9.5 C 11 14.5 13 20 14 28 Z"/>
+                  <path d="M19 28 C 20.6 20 21.7 14.5 23.5 9.5 C 21 14.5 19 20 18 28 Z"/>
+                </g>
+              </svg>
               <span className="navbar-name">MowBossPro</span>
             </a>
           </div>

@@ -96,7 +96,7 @@ export default function Home() {
         .centered .section-sub { margin-left: auto; margin-right: auto; }
         .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; max-width: 1200px; margin: 0 auto; }
         .feature-card { background: #fff; border: 1.5px solid var(--border); border-radius: 12px; padding: 30px 28px; transition: box-shadow .2s, border-color .2s, transform .2s; }
-        .feature-card:hover { box-shadow: 0 8px 32px rgba(8,0,16,.1); border-color: var(--orange); transform: translateY(-3px); }
+        .feature-card:hover { box-shadow: 0 8px 32px rgba(4,22,46,.1); border-color: var(--orange); transform: translateY(-3px); }
         .feature-icon { font-size: 32px; margin-bottom: 14px; display: block; }
         .feature-card h3 { font-size: 18px; font-weight: 700; margin-bottom: 10px; color: var(--text); }
         .feature-card p { color: var(--muted); font-size: 14px; line-height: 1.6; }
@@ -135,7 +135,7 @@ export default function Home() {
         .stat-item .lbl { color: rgba(255,255,255,.85); font-size: 14px; margin-top: 6px; }
         .pricing-grid { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; max-width: 1000px; margin: 0 auto; }
         .price-card { background: #fff; border: 2px solid var(--border); border-radius: 14px; padding: 36px 32px; width: 280px; position: relative; transition: box-shadow .2s, transform .2s; }
-        .price-card:hover { box-shadow: 0 12px 40px rgba(8,0,16,.12); transform: translateY(-4px); }
+        .price-card:hover { box-shadow: 0 12px 40px rgba(4,22,46,.12); transform: translateY(-4px); }
         .price-card.featured { border-color: var(--orange); background: linear-gradient(180deg, #fff 0%, #fff8f2 100%); }
         .featured-badge { position: absolute; top: -13px; left: 50%; transform: translateX(-50%); background: var(--orange); color: #fff; font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; padding: 4px 14px; border-radius: 20px; white-space: nowrap; }
         .price-tier { font-size: 13px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }

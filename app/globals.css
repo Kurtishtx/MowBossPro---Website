@@ -19,7 +19,7 @@ html { scroll-behavior: smooth; }
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 100;
-  background: rgba(8,0,16,.92);
+  background: rgba(4,22,46,.92);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(255,255,255,.07);
 }
@@ -203,7 +203,7 @@ section { padding: 96px 40px; }
 .vs-table td:first-child { text-align: left; font-weight: 600; }
 .vs-table tr:last-child td { border-bottom: none; }
 .vs-table tr:nth-child(odd) td { background: #fff; }
-.vs-table td.sbp-col { background: rgba(8,0,16,.03) !important; font-weight: 700; color: var(--orange); font-size: 17px; }
+.vs-table td.sbp-col { background: rgba(4,22,46,.03) !important; font-weight: 700; color: var(--orange); font-size: 17px; }
 .vs-table td.other-col { color: #aaa; }
 .vs-note { text-align: center; color: var(--muted); font-size: 13px; margin-top: 20px; }
 
@@ -224,7 +224,7 @@ section { padding: 96px 40px; }
 .feat-card p { color: var(--muted); font-size: 13px; line-height: 1.6; }
 
 /* ─── PRICING ─── */
-.price-card { background: #fff; border: 3px solid var(--orange); border-radius: 18px; padding: 48px 44px; max-width: 580px; margin: 0 auto; position: relative; box-shadow: 0 0 0 6px rgba(178,34,52,.1), 0 20px 60px rgba(8,0,16,.1); }
+.price-card { background: #fff; border: 3px solid var(--orange); border-radius: 18px; padding: 48px 44px; max-width: 580px; margin: 0 auto; position: relative; box-shadow: 0 0 0 6px rgba(178,34,52,.1), 0 20px 60px rgba(4,22,46,.1); }
 .price-badge { position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: var(--orange); color: #fff; font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; padding: 5px 18px; border-radius: 20px; white-space: nowrap; }
 .price-amount { font-size: 68px; font-weight: 800; color: var(--text); line-height: 1; }
 .price-amount sup { font-size: 28px; vertical-align: super; }
@@ -334,7 +334,7 @@ section { padding: 96px 40px; }
 /* ─── FEATURE GRID (silo pages) ─── */
 .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; max-width: 1200px; margin: 0 auto; }
 .feature-card { background: #fff; border: 1.5px solid var(--border); border-radius: 12px; padding: 30px 28px; transition: box-shadow .2s, border-color .2s, transform .2s; }
-.feature-card:hover { box-shadow: 0 8px 32px rgba(8,0,16,.1); border-color: var(--orange); transform: translateY(-3px); }
+.feature-card:hover { box-shadow: 0 8px 32px rgba(4,22,46,.1); border-color: var(--orange); transform: translateY(-3px); }
 .feature-icon { font-size: 32px; margin-bottom: 14px; display: block; }
 .feature-card h3 { font-size: 18px; font-weight: 700; margin-bottom: 10px; color: var(--text); }
 .feature-card p { color: var(--muted); font-size: 14px; line-height: 1.6; }
