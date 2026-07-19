@@ -39,6 +39,7 @@ export default function Page() {
           <h3>See Which Lawns Actually Make You Money</h3>
           <p>MowBossPro ties labor, drive time, and billing to every account so you know your true margin on each lawn and grow the routes that pay.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing job costing software, lawn care profit tracking, mowing account profitability, lawn mowing software, crew labor cost tracking, mowing route cost analysis</div>
       </article>

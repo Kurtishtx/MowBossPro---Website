@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Put Your Mowing Billing on Autopilot</h3>
           <p>MowBossPro generates recurring invoices, charges cards and bank accounts automatically, and chases failed payments for you &mdash; so you can stay on the mower.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: recurring billing mowing software, lawn mowing autopay, mowing business software, recurring invoices lawn care, automatic payments mowing accounts, mowing billing automation</div>
       </article>

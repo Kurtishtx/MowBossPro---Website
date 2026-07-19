@@ -94,6 +94,7 @@ export default function Page() {
           <h3>Let your texts run themselves</h3>
           <p>MowBossPro fires off reminders, on-the-way alerts, and job-done texts automatically so every mowing customer stays in the loop.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing software, automatic customer texts, mowing crew dispatch, recurring mow reminders, lawn care scheduling software, on-the-way text alerts</div>
       </article>

@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Let Your Software Send the Texts For You</h3>
           <p>MowBossPro fires automatic on-my-way texts the moment your crew hits the road, so customers always know you are coming.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing business software, on-my-way texts, automated customer texts, lawn care scheduling software, mowing crew dispatch, recurring lawn billing</div>
       </article>

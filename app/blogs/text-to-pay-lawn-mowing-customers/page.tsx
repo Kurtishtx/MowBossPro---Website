@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Get Paid the Same Day You Mow</h3>
           <p>MowBossPro texts a one-tap pay link the moment a job is done, so lawn mowing customers settle invoices in seconds and your cash flow stops waiting on the mail.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: text-to-pay lawn mowing, lawn care invoicing software, mowing payment links, recurring mow billing, lawn care payment software, mowing invoice automation</div>
       </article>

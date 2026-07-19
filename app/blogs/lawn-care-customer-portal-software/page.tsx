@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Give Your Mowing Clients a Portal They&apos;ll Actually Use</h3>
           <p>MowBossPro lets your customers book, reschedule, and pay online while your crews and office work from one live schedule.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn care customer portal software, mowing client self-service, online payments for lawn care, recurring mowing billing, lawn care scheduling software, mowing business management software</div>
       </article>

@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Put Your Mowing Routes on Autopilot</h3>
           <p>MowBossPro generates your recurring visits, optimizes every route, dispatches crews, and bills each cut automatically &mdash; so you run the business instead of rebuilding the schedule.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: recurring mowing software, lawn care scheduling software, mowing route optimization, lawn crew dispatch app, automated lawn billing, recurring lawn visits</div>
       </article>

@@ -100,6 +100,7 @@ export default function Page() {
           <h3>Prove Every Mow Automatically</h3>
           <p>MowBossPro logs every completed stop with time, location, and photos so each lawn carries its own proof of service.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing proof of service software, lawn care service verification, completed stop logging, mowing crew tracking app, lawn mowing dispatch software, automatic visit logging</div>
       </article>

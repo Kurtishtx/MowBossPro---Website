@@ -49,6 +49,7 @@ export default function Page() {
           <h3>Bill Seasonal Mowing Contracts on Autopilot</h3>
           <p>MowBossPro tracks every prepaid cut, spreads payments evenly, and invoices your recurring routes without the spreadsheet.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: prepaid mowing contract software, seasonal lawn care billing, recurring mowing invoices, lawn care installment billing, mowing contract management, automatic lawn invoicing</div>
       </article>

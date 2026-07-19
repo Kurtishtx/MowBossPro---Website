@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Turn finished mows into paid invoices automatically</h3>
           <p>MowBossPro connects your crews&apos; field app straight to billing, so every completed lawn becomes a bill and a payment without the office grind.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing invoicing software, field to invoice workflow, lawn care billing automation, mowing crew payment software, recurring mowing invoices, automatic lawn care payments</div>
       </article>

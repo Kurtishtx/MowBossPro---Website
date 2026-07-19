@@ -106,6 +106,7 @@ export default function Page() {
           <h3>Let Your Customers Pay While You Mow</h3>
           <p>MowBossPro gives every lawn mowing customer a self-service portal so invoices get paid online &mdash; no chase calls, no paper.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing payment portal, self-service customer payments, lawn care invoicing software, online lawn mowing payments, recurring mowing billing, mowing business software</div>
       </article>

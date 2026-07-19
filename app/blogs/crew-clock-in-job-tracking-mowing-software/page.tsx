@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Know the Real Time on Every Lawn</h3>
           <p>MowBossPro pairs crew clock-in with per-yard job tracking so you can price right, pay fairly, and build routes that actually finish.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: crew clock-in mowing software, per-yard job tracking, lawn mowing time tracking, mowing crew payroll software, mowing job board app, mowing business software</div>
       </article>

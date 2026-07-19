@@ -109,6 +109,7 @@ export default function Page() {
           <h3>Confirm Every Mow Without Lifting a Finger</h3>
           <p>MowBossPro fires automated customer texts off your schedule so every mowing visit is confirmed, tracked, and trip-tested before the truck rolls.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: automated customer texts, mowing visit confirmation software, lawn care text reminders, mowing scheduling software, recurring mowing visit alerts, lawn care dispatch software</div>
       </article>

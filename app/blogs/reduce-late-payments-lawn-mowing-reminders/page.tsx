@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Stop Chasing Late Payments</h3>
           <p>MowBossPro automatically invoices every completed mow and sends smart reminders with one-tap pay links, so you get paid on time without lifting a finger.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing invoice software, automated payment reminders, lawn care billing software, recurring lawn service invoicing, mowing payment collection, lawn care cash flow software</div>
       </article>

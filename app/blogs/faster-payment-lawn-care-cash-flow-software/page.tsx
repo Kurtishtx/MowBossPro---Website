@@ -52,6 +52,7 @@ export default function Page() {
           <h3>Get Paid the Day You Mow, Not the Month After</h3>
           <p>MowBossPro charges cards on file the moment a job is done, runs autopay on every recurring route, and keeps each payment tied to the visit &mdash; so your cash flow finally matches your schedule.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing cash flow software, lawn care invoicing software, mowing autopay software, get paid faster lawn care, recurring mowing payments, lawn mowing billing software</div>
       </article>

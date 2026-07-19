@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Stop Paying Crews to Sit in Traffic</h3>
           <p>MowBossPro optimizes every mowing route automatically so your crews cut more lawns, drive fewer miles, and burn less fuel every single day.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing route optimization, lawn care scheduling software, mowing scheduling software, crew dispatch software, recurring mowing schedule, reduce drive time</div>
       </article>

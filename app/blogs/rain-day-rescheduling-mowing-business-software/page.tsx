@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Stop Dreading the Rain Forecast</h3>
           <p>MowBossPro reschedules entire mowing routes in one tap, re-routes them tight, and texts every customer automatically &mdash; so a rain day takes minutes, not your whole afternoon.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing business software, rain-day rescheduling, mowing route software, crew dispatch software, automated customer texts, recurring lawn mowing scheduling</div>
       </article>

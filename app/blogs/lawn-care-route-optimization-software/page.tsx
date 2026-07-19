@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Mow more lawns with smarter routes</h3>
           <p>MowBossPro optimizes every crew&apos;s daily route, cuts drive time, and ties routing straight into scheduling, dispatch, and billing.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn care route optimization software, lawn mowing route planner, mowing crew routing app, lawn care dispatch software, recurring lawn mowing scheduling, lawn mowing business software</div>
       </article>

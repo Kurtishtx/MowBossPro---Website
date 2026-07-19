@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Let MowBossPro Handle the Reminders for You</h3>
           <p>MowBossPro automatically texts your customers before, during, and after every mow &mdash; cutting no-shows, locked gates, and angry calls while getting you paid faster.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing software, automated customer reminders, mowing appointment text alerts, lawn care scheduling software, mowing crew notifications, lawn mowing billing reminders</div>
       </article>

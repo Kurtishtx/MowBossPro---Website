@@ -225,6 +225,7 @@ export default function MowingRoutesSoftware() {
         <p>Running a mowing operation is a routing problem first. You have hundreds of recurring yards on a weekly or bi-weekly cycle, two or three crews, and a map that changes every time a customer signs on or cancels. MowBossPro builds tight mowing routes, dispatches them to the right truck, and keeps the whole week organized so no lawn gets skipped and no crew burns an hour driving in circles.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">Routes</div><div className="hero-stat-lbl">Built in Minutes, Not Hours</div></div>
@@ -557,6 +558,7 @@ export default function MowingRoutesSoftware() {
         <p>MowBossPro is the only mowing routes and dispatch software built by someone who has actually run crews and ordered the routes. Try it free for 14 days.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
       </div>
 

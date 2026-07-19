@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Onboard Your Next Mowing Customer In Minutes</h3>
           <p>MowBossPro captures, schedules, routes, texts, and bills every new lawn care customer from one record &mdash; so you spend time mowing, not doing paperwork.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn care software, mowing customer onboarding, recurring mowing schedule, lawn route optimization, automated lawn billing, customer text notifications</div>
       </article>

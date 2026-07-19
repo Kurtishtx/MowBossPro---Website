@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Put MowBossPro to Work on Your Bottom Line</h3>
           <p>MowBossPro tightens your routes, captures every cut, speeds up payments, and gives you back your office hours &mdash; so the software pays for itself and then some.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing software ROI, lawn care business software, mowing route optimization, recurring lawn billing, mowing crew scheduling, lawn care payment processing</div>
       </article>

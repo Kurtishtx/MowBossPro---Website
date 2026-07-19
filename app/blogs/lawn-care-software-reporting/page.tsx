@@ -40,6 +40,7 @@ export default function Page() {
           <h3>See Which Mowing Accounts Actually Pay</h3>
           <p>MowBossPro pairs your crew time with your billing to show real profit on every lawn account, route, and visit.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn care software reporting, mowing account profitability, lawn care job costing software, dollars per hour mowing, lawn care business reports, mowing route profit tracking</div>
       </article>

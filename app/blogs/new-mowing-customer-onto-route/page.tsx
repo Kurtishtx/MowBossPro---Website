@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Add New Mowing Customers in Seconds</h3>
           <p>MowBossPro slots every new account onto the closest route with open capacity and dispatches it straight to your crew&apos;s phones.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing customer onboarding software, lawn mowing route software, mowing dispatch software, add customer to route, recurring mowing schedule, lawn care routing software</div>
       </article>

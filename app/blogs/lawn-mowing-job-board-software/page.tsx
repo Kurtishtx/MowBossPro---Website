@@ -35,6 +35,7 @@ export default function Page() {
           <h3>Fill Your Schedule With MowBossPro</h3>
           <p>MowBossPro turns every lawn mowing lead into a routed, dispatched, and billed job on one shared board your whole team can run from.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing job board software, lawn mowing dispatch software, lawn mowing scheduling software, lawn mowing lead management, recurring lawn mowing software, lawn mowing route software</div>
       </article>

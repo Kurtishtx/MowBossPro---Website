@@ -92,6 +92,7 @@ export default function Page() {
           <h3>Put Every Route in Every Pocket</h3>
           <p>MowBossPro hands your crews live routes, job details, and customer texts from one mobile app &mdash; so nothing slips between the office and the curb.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing crew app, mobile route software, lawn care dispatch, crew job tracking, mowing schedule software, lawn mowing software</div>
       </article>

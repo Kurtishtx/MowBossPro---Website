@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Onboard Your Next Mower in a Day, Not a Week</h3>
           <p>MowBossPro puts routes, schedules, the job board, and customer notes in every crew member&apos;s phone &mdash; so new hires are productive from their first stop.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing crew onboarding software, lawn mowing job board app, mowing business software, crew scheduling software, mowing route software, lawn care crew management app</div>
       </article>

@@ -108,6 +108,7 @@ export default function Page() {
           <h3>Get Your Crews Running Smarter Routes</h3>
           <p>MowBossPro hands every crew a simple, optimized mowing route, one-tap job completion, and automatic customer texts&mdash;so onboarding is fast and dispatch runs itself.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing dispatch software, lawn care crew app, crew onboarding software, mowing route software, lawn care scheduling software, dispatch software for crews</div>
       </article>

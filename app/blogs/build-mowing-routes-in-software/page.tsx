@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Build Tighter Mowing Routes Today</h3>
           <p>MowBossPro sequences your stops, balances crew workloads, and dispatches every route straight to your team&apos;s phones.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing route software, lawn mowing dispatch, route optimization for lawn crews, mowing crew scheduling, recurring mowing routes, lawn care routing software</div>
       </article>

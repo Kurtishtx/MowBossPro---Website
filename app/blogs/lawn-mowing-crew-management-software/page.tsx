@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Run Every Truck From One Screen</h3>
           <p>MowBossPro coordinates your crews, routes, dispatch, and billing so your multi-truck mowing operation runs like a single, efficient machine.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing crew management software, multi-truck mowing dispatch, mowing route optimization software, lawn crew scheduling software, recurring mowing billing software, mowing fleet management</div>
       </article>

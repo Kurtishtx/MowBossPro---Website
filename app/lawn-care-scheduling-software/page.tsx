@@ -225,6 +225,7 @@ export default function MowingSchedulingSoftware() {
         <p>Most field service apps were built for one-off jobs. Mowing is different. You run the same yards every 7 or 14 days, route by route, crew by crew, all season long. <a href="/">MowBossPro</a> is scheduling software built around recurring mowing visits, tight routes, and crews that need to know exactly where to go next.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">7/14</div><div className="hero-stat-lbl">Day Recurring Cycles Automated</div></div>
@@ -556,6 +557,7 @@ export default function MowingSchedulingSoftware() {
         <p>MowBossPro is the only mowing scheduling software built by someone who has actually run a mowing route. Try it free for 14 days.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
       </div>
 

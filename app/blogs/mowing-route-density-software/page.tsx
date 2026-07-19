@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Mow More Lawns Without Adding a Truck</h3>
           <p>MowBossPro clusters your recurring stops, optimizes the drive between them, and keeps every crew&apos;s day dense and profitable.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing route density software, lawn mowing route optimization, recurring mow scheduling, mowing dispatch software, lawn care crew routing, mow more lawns per day</div>
       </article>

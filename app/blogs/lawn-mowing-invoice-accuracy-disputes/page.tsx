@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Make Every Mowing Invoice Bulletproof</h3>
           <p>MowBossPro builds proof-backed invoices straight from your crews&apos; logged jobs and photos, so billing disputes end before they start.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing invoice software, lawn care billing, proof-backed invoices, recurring mowing billing, lawn care payments, dispute-free invoicing</div>
       </article>

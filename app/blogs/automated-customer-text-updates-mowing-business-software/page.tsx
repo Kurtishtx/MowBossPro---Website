@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Let MowBossPro Handle the Texts So You Can Handle the Lawns</h3>
           <p>MowBossPro automatically confirms visits, sends on-the-way and completion alerts, and nudges customers to pay &mdash; all from the platform that already runs your schedule, routes, and billing.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: automated customer texts, mowing business software, lawn care scheduling software, on-the-way alerts, automated payment reminders, crew dispatch software</div>
       </article>

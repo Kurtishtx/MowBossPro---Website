@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Bill Every Mow Automatically with MowBossPro</h3>
           <p>MowBossPro turns each completed mowing visit into a fast, branded invoice with one-tap payments and automatic reminders &mdash; so you get paid without the paperwork.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing invoicing software, automated mowing billing, recurring lawn care payments, lawn care invoice automation, mowing payment reminders, lawn care payment processing</div>
       </article>

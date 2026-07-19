@@ -225,6 +225,7 @@ export default function LawnCareInvoicingSoftware() {
         <p>Cutting the grass is the easy part. Getting paid for every recurring visit, every week, without chasing checks is what breaks most mowing companies. MowBossPro turns each completed mow into an invoice automatically, stores customer cards on file, and collects the money for you &mdash; so the cash hits your account while you&apos;re still on the route.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">Auto</div><div className="hero-stat-lbl">Invoice Per Completed Mow</div></div>
@@ -540,6 +541,7 @@ export default function LawnCareInvoicingSoftware() {
         <p>MowBossPro turns every completed mow into an invoice and collects the money for you &mdash; built by someone who actually ran a mowing route. Try it free for 14 days.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
       </div>
 

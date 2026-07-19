@@ -35,6 +35,7 @@ export default function Page() {
           <h3>Get Paid Automatically After Every Cut</h3>
           <p>MowBossPro charges your recurring mowing customers the moment a crew finishes the job&mdash;no invoices to chase, no checks to wait on.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing autopay software, recurring lawn care billing, automatic mowing payments, lawn care invoicing software, mowing crew payment processing, recurring customer billing</div>
       </article>

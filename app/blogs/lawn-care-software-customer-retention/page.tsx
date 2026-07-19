@@ -35,6 +35,7 @@ export default function Page() {
           <h3>Keep Your Mowing Customers for Life with MowBossPro</h3>
           <p>MowBossPro automates recurring schedules, customer texts, billing, and proof so your clients renew season after season without a second thought.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn care software, mowing customer retention software, recurring lawn mowing software, lawn care billing software, customer portal software, automated customer texts</div>
       </article>

@@ -107,6 +107,7 @@ export default function Page() {
           <h3>Run Every Crew from One Screen</h3>
           <p>MowBossPro dispatches all your mowing crews, routes their stops, and texts your customers automatically&mdash;from a single dashboard.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing crew dispatch software, multiple lawn crew management, mowing route dashboard, lawn care dispatch app, crew routing software, mowing schedule management</div>
       </article>

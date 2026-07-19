@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Run Every Crew From One Dashboard</h3>
           <p>MowBossPro schedules, routes, and tracks your mowing crews so a growing operation runs like a single tight team.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn care crew management software, mowing crew scheduling, lawn care routing software, mowing dispatch software, crew tracking app, lawn care software</div>
       </article>

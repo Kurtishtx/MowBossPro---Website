@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Get Paid Before You Cut</h3>
           <p>MowBossPro collects deposits and balances on your biggest mowing jobs with one-tap payment links, saved cards, and automatic reminders.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing deposit software, upfront payment lawn care, mowing job payment links, lawn care invoicing software, recurring lawn billing, collect deposits mowing crew</div>
       </article>

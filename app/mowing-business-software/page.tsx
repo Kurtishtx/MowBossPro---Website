@@ -225,6 +225,7 @@ export default function MowingBusinessSoftware() {
         <p>Most field service software is built for plumbers and HVAC crews. MowBossPro is built from the ground up for lawn mowing businesses — the way you schedule recurring visits, route trucks, dispatch crews, and bill week after week is completely different, and your software should be too.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">Routes</div><div className="hero-stat-lbl">Built in Minutes, Not Hours</div></div>
@@ -556,6 +557,7 @@ export default function MowingBusinessSoftware() {
         <p>MowBossPro is the only mowing management software built by someone who has actually run a mowing route. Try it free for 14 days.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
       </div>
 

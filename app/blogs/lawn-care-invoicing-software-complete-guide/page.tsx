@@ -95,6 +95,7 @@ export default function Page() {
           <h3>Stop Chasing Checks. Start Getting Paid.</h3>
           <p>MowBossPro turns every completed mowing visit into an instant invoice and an online payment, so your lawn care business gets paid faster with less office work.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn care invoicing software, mowing payment processing, recurring lawn billing, automated mowing invoices, lawn care payment software, mowing business billing</div>
       </article>

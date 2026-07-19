@@ -64,6 +64,7 @@ export default function Page() {
           <h3>Build tighter mowing routes in minutes</h3>
           <p>MowBossPro lets you drag-and-drop stops, balance crews, and push optimized routes straight to the field.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing route software, drag-and-drop route builder, lawn care routing, crew scheduling software, recurring mowing visits, route optimization software</div>
       </article>

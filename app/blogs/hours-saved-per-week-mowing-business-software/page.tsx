@@ -100,6 +100,7 @@ export default function Page() {
           <h3>Get Your Week Back With MowBossPro</h3>
           <p>MowBossPro automates routing, dispatch, customer texts, and billing so your lawn mowing business runs on hours, not headaches.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing business software, lawn care scheduling software, mowing route optimization, crew dispatch software, automated lawn care invoicing, lawn care customer texts</div>
       </article>

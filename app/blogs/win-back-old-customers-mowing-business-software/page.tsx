@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Rebuild Your Route With MowBossPro</h3>
           <p>MowBossPro turns last year&apos;s customer database into this year&apos;s booked recurring visits with bulk texts, one-tap re-booking, and smart routing.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing business software, lawn care customer database, recurring mowing schedule, lawn care customer texts, mowing route software, re-book mowing customers</div>
       </article>

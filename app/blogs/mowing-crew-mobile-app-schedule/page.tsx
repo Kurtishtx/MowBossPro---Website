@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Put Your Whole Mowing Schedule in Your Crew&apos;s Pocket</h3>
           <p>MowBossPro turns your routes into a tap-through stop list with directions, notes, photos, and one-tap completion that flows straight to billing.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing crew app, lawn mowing schedule software, route stop list, mowing dispatch software, crew mobile app, recurring mowing visits</div>
       </article>

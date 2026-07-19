@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Keep Every Mowing Crew Moving with MowBossPro</h3>
           <p>MowBossPro gives your lawn crews a live dispatch board, smart routing, and instant updates so trucks stay rolling and no lawn gets skipped.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing dispatch software, lawn crew dispatch, mowing scheduling software, lawn care route optimization, recurring mowing routes, crew job queue</div>
       </article>

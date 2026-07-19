@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Ditch the Spreadsheet. Run Real Routes.</h3>
           <p>MowBossPro schedules recurring visits, optimizes crew routes, dispatches jobs to the field, and bills every cut automatically.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing route software, lawn crew scheduling software, mowing dispatch software, recurring lawn visit scheduling, mowing route optimization, lawn care billing software</div>
       </article>

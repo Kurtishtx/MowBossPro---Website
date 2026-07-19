@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Run Every Crew From One Screen With MowBossPro</h3>
           <p>MowBossPro puts all your mowing crews, routes, and recurring customers on a single scheduling dashboard so dispatch takes seconds and nothing falls through the cracks.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing scheduling software, multi-crew dispatch, lawn crew routing, recurring mowing schedule, mowing dispatch dashboard, lawn care crew coordination</div>
       </article>

@@ -85,6 +85,7 @@ export default function Page() {
           <h3>Make Every Invoice Look Like You Mean Business</h3>
           <p>MowBossPro turns finished mows into branded invoices that send themselves and get you paid online &mdash; automatically.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: branded mowing invoices, lawn care invoicing software, automated invoicing mowing business, online payment lawn care, professional invoices lawn mowing, mowing billing software</div>
       </article>

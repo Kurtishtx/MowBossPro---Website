@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Never Leave a Mowing Route Uncovered Again</h3>
           <p>MowBossPro&apos;s job board lets your crews claim open visits in seconds, so every lawn gets cut on schedule no matter who calls out.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn care job board software, mowing route software, lawn crew dispatch app, fill open mowing routes, lawn care scheduling software, mowing business software</div>
       </article>

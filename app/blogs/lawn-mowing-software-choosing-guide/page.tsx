@@ -132,6 +132,7 @@ export default function Page() {
             for mowing businesses.
           </p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: lawn mowing software, mowing scheduling software, route optimization for lawn care, crew dispatch software, recurring lawn billing, lawn care customer texts</div>

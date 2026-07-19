@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Keep Every Mowing Promise You Make</h3>
           <p>MowBossPro automates recurring visits, routes, reminders, and billing so your crews show up on time and your customers stay for years.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing scheduling software, recurring lawn visits, lawn care customer retention, automatic mowing reminders, mowing route optimization, lawn crew scheduling</div>
       </article>

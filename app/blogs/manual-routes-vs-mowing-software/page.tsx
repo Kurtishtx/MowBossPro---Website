@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Trade the Clipboard for Routes That Run Themselves</h3>
           <p>MowBossPro builds your mowing routes, dispatches crews, tracks recurring visits, and feeds completed mows straight into billing &mdash; all in one place.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing route software, lawn care dispatch software, route optimization for mowing crews, recurring mowing scheduling, lawn crew management software, mowing route planner</div>
       </article>

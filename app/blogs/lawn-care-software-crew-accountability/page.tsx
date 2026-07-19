@@ -36,6 +36,7 @@ export default function Page() {
           <h3>See Every Crew, Every Stop, In Real Time</h3>
           <p>MowBossPro stamps every completed mow with a time and photo so you can hold crews accountable without leaving the office.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn care software, mowing crew accountability, crew tracking app, lawn care time tracking software, mowing photo proof, crew management software</div>
       </article>

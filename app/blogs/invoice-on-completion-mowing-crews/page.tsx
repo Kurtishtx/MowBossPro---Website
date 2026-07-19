@@ -99,6 +99,7 @@ export default function Page() {
             so you get paid faster without office double entry.
           </p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: mowing invoicing software, field-triggered invoices, lawn care billing app, same-day mowing invoices, crew job completion, lawn mowing payment software</div>

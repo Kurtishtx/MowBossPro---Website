@@ -93,6 +93,7 @@ export default function Page() {
           <h3>Stop typing invoices twice</h3>
           <p>MowBossPro bills your mowing jobs, collects payment, and syncs it all to QuickBooks automatically.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing QuickBooks sync, mowing invoicing software, lawn care payment processing, automatic invoice sync, mowing accounting integration, lawn care billing software</div>
       </article>

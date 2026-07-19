@@ -52,6 +52,7 @@ export default function Page() {
           <h3>Bill Your Whole Route in One Click</h3>
           <p>MowBossPro turns every completed mowing visit into an accurate, payable invoice &mdash; for hundreds of accounts at once.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: batch invoicing software, lawn mowing billing, recurring mowing invoices, lawn care payment software, automated mowing invoices, mowing route billing</div>
       </article>

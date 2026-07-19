@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Stop letting missed mows quietly drain your season</h3>
           <p>MowBossPro tracks every recurring visit, routes your crews, and ties billing to completed work so no mow &mdash; or dollar &mdash; slips through the cracks.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing business software, lawn mowing scheduling software, crew dispatch software, recurring mowing billing, route optimization for mowing, missed mow tracking</div>
       </article>

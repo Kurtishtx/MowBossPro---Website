@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Pack Every Route Day Without the Overtime</h3>
           <p>MowBossPro measures real mow time, drive time, and crew limits so you can fit more paying mowing stops into the hours you already have.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing capacity planning, mowing route scheduling software, lawn crew route optimization, recurring mowing scheduling, mowing dispatch software, route day planning</div>
       </article>

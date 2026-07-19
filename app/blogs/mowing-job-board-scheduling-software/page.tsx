@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Fill Tomorrow&apos;s Schedule in Ten Minutes</h3>
           <p>MowBossPro&apos;s job board turns your unassigned mowing visits into routed, ready-to-run crew schedules before the trucks leave the lot.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing job board software, mowing scheduling software, lawn crew dispatch, mowing route optimization, daily mowing schedule, lawn care job assignment</div>
       </article>

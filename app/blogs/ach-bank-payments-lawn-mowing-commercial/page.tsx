@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Stop Chasing Checks on Your Commercial Mowing Accounts</h3>
           <p>MowBossPro drafts ACH payments straight from your recurring mowing visits, so big invoices clear automatically without the card fees.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: ACH lawn mowing software, commercial mowing billing, recurring mowing invoices, lawn care payment processing, bank payments for lawn care, mowing route invoicing software</div>
       </article>

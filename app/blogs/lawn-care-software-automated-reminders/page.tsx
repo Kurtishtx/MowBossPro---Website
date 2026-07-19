@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Stop Chasing Customers Before Every Mow</h3>
           <p>MowBossPro sends automated visit reminders straight off your schedule, so every lawn is ready when the crew rolls up.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: automated visit reminders, lawn care software, mowing client notifications, recurring visit scheduling, route reminders, lawn mowing customer texts</div>
       </article>

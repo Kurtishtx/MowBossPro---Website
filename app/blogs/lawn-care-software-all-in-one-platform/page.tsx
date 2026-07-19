@@ -35,6 +35,7 @@ export default function Page() {
           <h3>Run Your Whole Mowing Operation in One Place</h3>
           <p>MowBossPro brings scheduling, routing, crews, recurring visits, billing, and customer texts together so nothing falls through the cracks.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: all-in-one lawn care software, mowing business software, lawn care scheduling and routing, recurring visit scheduling, lawn care crew management, lawn care billing software</div>
       </article>

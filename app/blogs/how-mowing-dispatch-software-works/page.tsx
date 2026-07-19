@@ -99,6 +99,7 @@ export default function Page() {
           <h3>Stop Building Routes by Hand</h3>
           <p>MowBossPro plans your routes, dispatches your crews, and bills the work the day it is mowed &mdash; all from one screen.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing dispatch software, lawn care route optimization, crew scheduling software, recurring mowing visits, lawn mowing routing app, dispatch software for lawn care</div>
       </article>

@@ -64,6 +64,7 @@ export default function Page() {
           <h3>Tighten Every Route, Mow More Lawns</h3>
           <p>MowBossPro optimizes your crew routes, syncs them to the calendar, and pushes turn-by-turn stops to every truck automatically.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing route optimization software, lawn care routing software, crew dispatch software, mowing scheduling software, lawn mowing software, route planning for lawn crews</div>
       </article>

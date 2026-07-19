@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Close More Lawn Mowing Jobs with MowBossPro</h3>
           <p>MowBossPro lets you build, send, and close professional mowing estimates from your phone &mdash; then turns every approval into a scheduled, recurring route automatically.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing estimate software, lawn mowing quote software, lawn care estimating app, mowing business software, recurring mowing quotes, lawn mowing scheduling software</div>
       </article>

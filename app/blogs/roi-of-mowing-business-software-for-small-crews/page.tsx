@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Make Both Trucks Pay for Themselves</h3>
           <p>MowBossPro runs your scheduling, routing, recurring visits, billing, and customer texts from one place so your two-truck operation keeps more of what it earns.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing business software, lawn care routing software, recurring mowing schedule, lawn crew dispatch, mowing invoicing and payments, two-truck lawn operation</div>
       </article>

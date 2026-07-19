@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Dispatch Your Whole Week in Five Minutes</h3>
           <p>MowBossPro saves your mowing routes as reusable templates so crews roll out on time and billing follows the work automatically.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing route templates, lawn crew dispatch software, weekly mowing schedule, recurring lawn routes, mowing route optimization, lawn care dispatch app</div>
       </article>

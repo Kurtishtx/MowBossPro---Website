@@ -109,6 +109,7 @@ export default function Page() {
           <h3>Put Your Mowing Schedule in Your Customers&apos; Hands</h3>
           <p>MowBossPro gives every customer a branded portal to see their mowing schedule, confirm visits, and pay online &mdash; all synced to the same software your crews run.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing customer portal, mowing scheduling software, lawn mowing online payments, recurring mowing autopay, customer self-service mowing, mowing visit history software</div>
       </article>

@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Stop Letting Rain Run Your Schedule</h3>
           <p>MowBossPro reshuffles rained-out routes, rebalances your crews, and texts customers automatically &mdash; so a wet day never derails your week.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing route software, rescheduling mowing routes, lawn care dispatch software, rain delay scheduling, recurring mowing visits, crew route rebalancing</div>
       </article>

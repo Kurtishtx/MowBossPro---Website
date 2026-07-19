@@ -35,6 +35,7 @@ export default function Page() {
           <h3>Bill Every Mow You Actually Do</h3>
           <p>MowBossPro tracks every completed and skipped visit in the field so your crews stay accountable and your invoices capture every billable mow.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing business software, lawn mowing scheduling software, crew tracking app, recurring mowing visits, lawn care billing software, mowing route management</div>
       </article>

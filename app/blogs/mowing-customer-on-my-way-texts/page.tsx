@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Let Your Routes Text Customers For You</h3>
           <p>MowBossPro fires automated &quot;on my way&quot; texts straight from your live mowing routes, so customers always know when the crew is coming.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing route software, on my way texts, lawn crew dispatch software, automated customer texts, mowing customer notifications, recurring mowing routes</div>
       </article>

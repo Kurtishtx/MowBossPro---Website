@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Let the Rain Reschedule Itself</h3>
           <p>MowBossPro pushes rained-out routes to the next dry slot, re-optimizes the day, keeps recurring visits on cycle, and texts every customer automatically.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing scheduling software, rain day rescheduling, lawn mowing route optimization, recurring mowing visits, automated customer texts, crew dispatch software</div>
       </article>

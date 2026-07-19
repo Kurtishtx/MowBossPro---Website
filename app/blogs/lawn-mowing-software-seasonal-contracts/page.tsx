@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Run Your Whole Season From One Screen</h3>
           <p>MowBossPro turns seasonal mowing contracts into automatic recurring visits, tight routes, and predictable billing&mdash;all in one place.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing software, seasonal mowing contracts, recurring visit scheduling, mowing route optimization, flat-rate lawn billing, mowing crew dispatch</div>
       </article>

@@ -64,6 +64,7 @@ export default function Page() {
           <h3>See Every Mowing Crew in Real Time</h3>
           <p>MowBossPro gives your office a live dispatch board that tracks every route, crew, and job &mdash; so you fix problems before customers ever call.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing dispatch board, real-time crew tracking, lawn mowing route software, mowing crew dispatch, lawn care scheduling software, mowing route management</div>
       </article>

@@ -61,6 +61,7 @@ export default function Page() {
           <h3>Stop Waiting on Checks. Start Collecting at the Curb.</h3>
           <p>MowBossPro generates invoices the second a job is done and lets customers pay by text, so your cash shows up as fast as your crews do.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing invoicing software, in-app payments for lawn care, get paid faster mowing, card-on-file autopay, mowing business software, lawn care payment processing</div>
       </article>

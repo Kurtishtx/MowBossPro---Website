@@ -118,6 +118,7 @@ export default function Page() {
           <h3>Put Your Seasonal Mowing Contracts on Autopilot</h3>
           <p>MowBossPro schedules, routes, bills, and texts every recurring mow so your seasonal revenue runs itself.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: seasonal mowing contract software, recurring lawn care scheduling, lawn care billing software, mowing route software, recurring mowing invoices, lawn care contract management</div>
       </article>

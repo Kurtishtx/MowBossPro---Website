@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Quote More Mowing Jobs, Win More Accounts</h3>
           <p>MowBossPro turns property details and service plans into professional lawn care quotes you can send, sign, and schedule in minutes.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn care estimating software, mowing quote software, lawn care quoting tools, recurring mowing estimates, lawn care software, mowing business pricing software</div>
       </article>

@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Stop Chasing Unpaid Mowing Invoices</h3>
           <p>MowBossPro tracks every open invoice, ages it automatically, and chases payment for you so your crews get paid for every cut.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing invoice software, lawn care aging reports, unpaid invoice tracking, automated payment reminders, lawn mowing billing software, accounts receivable for mowing</div>
       </article>

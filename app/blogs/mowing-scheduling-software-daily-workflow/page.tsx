@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Run Your Whole Mowing Day From One Screen</h3>
           <p>MowBossPro builds your routes, dispatches your crews, texts your customers, and bills the job the moment it&apos;s done.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing scheduling software, lawn crew dispatch software, recurring mowing visits, lawn route optimization, mowing job board, lawn care billing software</div>
       </article>

@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Quiet the Phone, Run a Tighter Schedule</h3>
           <p>MowBossPro automates reminders, confirmations, portal updates, and invoicing so your office stops fielding the same calls all day.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing scheduling software, automated appointment reminders, lawn care customer portal, mowing dispatch software, recurring mowing schedule, lawn care office automation</div>
       </article>

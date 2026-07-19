@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Trade Five Apps for One MowBossPro</h3>
           <p>MowBossPro runs your scheduling, routing, crews, dispatch, billing, payments, and customer texts on a single connected platform built for lawn mowing companies.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: all-in-one lawn mowing software, lawn mowing platform, mowing scheduling software, lawn care crew management, recurring mowing billing, mowing dispatch software</div>
       </article>

@@ -35,6 +35,7 @@ export default function Page() {
           <h3>Outgrow the Whiteboard for Good</h3>
           <p>MowBossPro automates routing, recurring visits, dispatch, billing, and customer texts so your lawn mowing business can add crews without adding chaos.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing dispatch software, mowing route scheduling, recurring lawn care visits, crew dispatch software, mowing business billing software, lawn care routing</div>
       </article>

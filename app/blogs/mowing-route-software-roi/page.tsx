@@ -119,6 +119,7 @@ export default function Page() {
             automatically so every paid hour turns into more lawns cut and faster cash in the bank.
           </p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing route software, lawn care dispatch software, route optimization, recurring mowing billing, crew scheduling software, lawn care ROI</div>
       </article>

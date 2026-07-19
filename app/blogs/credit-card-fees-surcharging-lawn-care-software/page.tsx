@@ -35,6 +35,7 @@ export default function Page() {
           <h3>Stop Letting Card Fees Shrink Your Mowing Profit</h3>
           <p>MowBossPro automates compliant card surcharges, transparent invoicing, and payment processing for your entire lawn mowing route.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing invoicing software, credit card surcharge software, lawn care payment processing, mowing business billing automation, recurring lawn care invoices, card fee management for lawn care</div>
       </article>

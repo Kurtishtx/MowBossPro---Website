@@ -44,6 +44,7 @@ export default function Page() {
           <h3>Run Your Whole Mowing Day From One App</h3>
           <p>MowBossPro handles scheduling, optimized routing, crew dispatch, recurring visits, customer texts, and same-day billing&mdash;so you can run more lawns with less hassle.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing business software, lawn mowing scheduling app, crew dispatch software, route optimization for mowing, recurring lawn service billing, mowing crew management</div>
       </article>

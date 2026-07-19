@@ -107,6 +107,7 @@ export default function Page() {
           <h3>Stop paying crews to drive in circles</h3>
           <p>MowBossPro builds the tightest mowing route for every crew, every day, and dispatches it straight to their phones.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing route optimization software, lawn crew routing, mowing dispatch software, route sequencing for lawn care, recurring mowing schedules, lawn mowing crew management</div>
       </article>

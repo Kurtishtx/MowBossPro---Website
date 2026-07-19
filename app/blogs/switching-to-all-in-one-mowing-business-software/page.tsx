@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Trade Five Apps for One That Does It All</h3>
           <p>MowBossPro combines scheduling, optimized routing, crew dispatch, recurring visits, customer texts, and same-day billing into a single platform&mdash;so you run your mowing business from one login instead of five.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: all-in-one mowing business software, lawn mowing scheduling app, crew dispatch software, route optimization for mowing, recurring lawn service billing, mowing business management software</div>
       </article>

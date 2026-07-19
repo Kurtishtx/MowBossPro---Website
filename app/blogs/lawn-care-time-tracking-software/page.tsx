@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Stop Guessing at Crew Hours</h3>
           <p>MowBossPro tracks clock-in, drive time, and minutes on every mowing job so you bill accurately, pay crews fairly, and quote from real data.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn care time tracking software, crew time tracking, mowing job clock-in, lawn crew payroll software, mowing route time, lawn care billing software</div>
       </article>

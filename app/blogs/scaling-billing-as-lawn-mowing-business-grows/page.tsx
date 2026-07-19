@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Let Your Billing Scale Itself</h3>
           <p>MowBossPro generates recurring invoices, charges cards on file, and chases overdue balances automatically so your billing keeps pace with every new lawn you add.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing billing software, recurring invoices for lawn care, automatic payments mowing, lawn care invoicing software, route billing automation, lawn mowing payment processing</div>
       </article>

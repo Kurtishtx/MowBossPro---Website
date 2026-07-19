@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Document Every Mow Automatically</h3>
           <p>MowBossPro attaches timestamped, GPS-stamped photos to every completed mowing job so your crews prove their work and your invoices stop getting questioned.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: photo proof of service, lawn care software, mowing job documentation, crew accountability software, lawn mowing scheduling, proof of service for billing</div>
       </article>

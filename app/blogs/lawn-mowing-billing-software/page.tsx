@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Turn Every Mow Into Money With MowBossPro</h3>
           <p>MowBossPro automatically converts completed mows into same-day invoices with built-in card payments, so you bill faster, get paid sooner, and never miss a job.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing billing software, lawn care invoicing software, automatic mowing invoices, recurring lawn billing, lawn mowing payment software, mowing business invoicing</div>
       </article>

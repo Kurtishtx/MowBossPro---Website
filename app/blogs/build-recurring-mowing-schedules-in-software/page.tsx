@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Build Your Recurring Schedule in Minutes</h3>
           <p>MowBossPro turns weekly and biweekly mowing visits into an automatic schedule that routes, reminds, and invoices itself.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: recurring mowing schedule software, weekly lawn mowing scheduling, biweekly mowing visits, mowing route scheduling software, lawn care scheduling app, mowing business software</div>
       </article>

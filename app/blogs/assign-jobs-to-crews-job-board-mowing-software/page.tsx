@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Run Your Whole Mowing Schedule From One Screen</h3>
           <p>MowBossPro gives you a live job board to assign, route, and reassign every crew in real time &mdash; no phone calls, no missed yards.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing job board software, lawn crew dispatch software, assign mowing jobs, lawn care scheduling software, mowing route reassignment, mowing business software</div>
       </article>

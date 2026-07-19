@@ -40,6 +40,7 @@ export default function Page() {
           <h3>See Every Mowing Crew on One Live Map</h3>
           <p>MowBossPro puts GPS tracking, dispatch, and route building on a single screen so you always know where your crews are and every visit is verified.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: GPS tracking mowing crews, mowing dispatch software, live crew tracking, mowing route optimization, lawn care crew management, recurring visit verification</div>
       </article>

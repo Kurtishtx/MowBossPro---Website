@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Pack Every Crew Day with MowBossPro</h3>
           <p>MowBossPro builds your recurring routes, fills the gaps, rebalances crews, and turns every completed cut into a paid invoice &mdash; all from one screen.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing scheduling software, crew scheduling, recurring lawn visits, mowing route planning, lawn care dispatch software, mowing business management</div>
       </article>

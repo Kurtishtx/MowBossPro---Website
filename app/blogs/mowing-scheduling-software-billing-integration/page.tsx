@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Stop Billing by Hand &mdash; Let the Schedule Do It</h3>
           <p>MowBossPro connects your mowing schedule directly to automatic invoicing and payments, so every completed visit gets billed without the paperwork.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing billing software, automatic lawn care invoicing, recurring mowing payments, mowing scheduling software, lawn care billing automation, crew job completion billing</div>
       </article>

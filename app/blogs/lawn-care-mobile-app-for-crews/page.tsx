@@ -105,6 +105,7 @@ export default function Page() {
           <h3>Put Your Whole Mowing Route in Your Crew&apos;s Pocket</h3>
           <p>MowBossPro gives every crew live routes, property notes, photo proof, and time tracking in one mobile app that syncs straight to your office.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn care mobile app, mowing crew app, lawn care software, field crew routing, mowing route management, crew time tracking</div>
       </article>

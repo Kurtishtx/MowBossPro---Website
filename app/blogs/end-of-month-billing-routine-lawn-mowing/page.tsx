@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Make Month-End the Easiest Day of Your Month</h3>
           <p>MowBossPro automatically logs every mow, batches your invoices, and collects payment by text so billing takes minutes instead of nights.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing billing software, lawn care invoicing, recurring mowing payments, batch invoicing for lawn care, automated lawn mowing invoices, mowing payment collection</div>
       </article>

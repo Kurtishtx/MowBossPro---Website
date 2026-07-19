@@ -49,6 +49,7 @@ export default function Page() {
           <h3>Bill Every Mow Your Way with MowBossPro</h3>
           <p>MowBossPro turns completed mowing visits into per-visit or flat monthly invoices automatically and collects payment online&mdash;no spreadsheets required.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing billing software, per-visit invoicing, monthly recurring billing, mowing invoice automation, lawn care payments software, recurring mowing schedule</div>
       </article>

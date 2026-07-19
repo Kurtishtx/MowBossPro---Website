@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Start the Mowing Season on Autopilot</h3>
           <p>MowBossPro reactivates your recurring accounts, rebuilds optimized routes, syncs your crews, texts your customers, and bills the first cut the same day&mdash;so opening week runs itself.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing business software, recurring lawn service scheduling, mowing route optimization, lawn crew dispatch app, automated customer texts mowing, same-day mowing invoicing</div>
       </article>

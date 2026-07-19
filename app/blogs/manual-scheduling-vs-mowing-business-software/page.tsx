@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Retire the Whiteboard for Good</h3>
           <p>MowBossPro auto-builds your recurring routes, dispatches crews, texts customers, and bills every completed cut&mdash;all from one screen.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing business software, lawn care scheduling software, recurring lawn visits, mowing route optimization, lawn crew dispatch, mowing invoicing software</div>
       </article>

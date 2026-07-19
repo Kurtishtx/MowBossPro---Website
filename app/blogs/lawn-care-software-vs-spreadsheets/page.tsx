@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Trade the Spreadsheet for a Schedule That Runs Itself</h3>
           <p>MowBossPro handles recurring visits, routing, crew dispatch, billing, and customer texts so you can stop rebuilding tabs and start mowing more lawns.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn care software, mowing schedule software, recurring visit scheduling, lawn crew dispatch, mowing route optimization, lawn care billing software</div>
       </article>

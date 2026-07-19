@@ -104,6 +104,7 @@ export default function Page() {
           <h3>Stop Chasing Checks &mdash; Get Paid the Day You Mow</h3>
           <p>MowBossPro lets your lawn mowing business invoice on completion, save cards on file, and auto-charge recurring visits so payment is one less thing on your plate.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: online payments lawn care software, lawn mowing invoicing software, accept card payments mowing, recurring lawn care billing, auto-charge mowing customers, lawn care payment processing</div>
       </article>

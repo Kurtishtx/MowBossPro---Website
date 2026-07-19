@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Cover Any Route Even When a Crew Calls Out</h3>
           <p>MowBossPro lets you reassign whole mowing routes in minutes, reroute crews to save drive time, and text customers automatically so no lawn gets skipped.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing dispatch software, reassign mowing routes, lawn crew calls out, mowing route reassignment, lawn care scheduling software, recurring mowing routes</div>
       </article>

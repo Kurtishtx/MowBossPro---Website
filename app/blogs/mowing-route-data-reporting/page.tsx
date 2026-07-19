@@ -40,6 +40,7 @@ export default function Page() {
           <h3>See Every Crew&apos;s Numbers in One Place</h3>
           <p>MowBossPro tracks stops per hour, drive time, and revenue per crew automatically &mdash; so you can tighten routes and grow margins with data, not guesswork.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing route reports, stops per hour, crew performance software, lawn mowing dispatch software, route optimization, mowing crew tracking</div>
       </article>

@@ -35,6 +35,7 @@ export default function Page() {
           <h3>Put Every Customer on a Day That Sticks</h3>
           <p>MowBossPro locks your recurring customers to the same mowing day, keeps routes tight, and texts them automatically so the office phone stays quiet.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: mowing route software, recurring mowing schedule, same-day lawn service, mowing dispatch software, lawn care routing, mowing customer reminders</div>
       </article>

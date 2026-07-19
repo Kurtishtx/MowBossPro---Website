@@ -64,6 +64,7 @@ export default function Page() {
           <h3>Build Tighter Routes, Mow More Lawns</h3>
           <p>MowBossPro clusters your accounts, sequences the tightest routes, and pushes them straight to every crew so your trucks spend the day mowing instead of driving.</p>
           <a href="https://my.mowbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: lawn mowing software, route density software, tight route planning for lawn crews, lawn care routing software, mowing route optimization, crew scheduling software</div>
       </article>
