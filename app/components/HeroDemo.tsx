@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
+import { pixelDemoStarted } from './MetaPixel';
 
 type Key = 'business' | 'client' | 'crew';
 type Demo = { url: string; label: string; kind: 'phone' | 'desktop'; cap: string };
@@ -79,6 +80,9 @@ export default function HeroDemo() {
         }),
       });
     } catch (e) { /* analytics only — never block the page */ }
+
+    /* Tell Meta this visitor opened the demo, not merely landed. */
+    if (!nt) pixelDemoStarted();
   }, []);
 
   // Scale the desktop dashboard (rendered at a real 1300px width) down to fit its frame.
