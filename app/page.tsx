@@ -220,8 +220,21 @@ export default function Home() {
 
       <Navbar onTrialClick={(el) => openSignupModal(1, el)} />
 
+      {/* ═══ PRICE + LIVE DEMO ═══ */}
+      <div style={{background:'linear-gradient(135deg, #04162e 0%, #06203f 60%, #0a3161 100%)', padding:'clamp(76px,7vw,80px) clamp(14px,4vw,40px) 0', textAlign:'center'}}>
+        {/* Price up top, above the demo — same order sprayboss-website uses. */}
+        <div style={{textAlign:'center', marginBottom:'clamp(22px,3vw,32px)'}}>
+          <div style={{display:'inline-flex', alignItems:'baseline', gap:'12px', flexWrap:'wrap', justifyContent:'center', color:'#fff'}}>
+            <span style={{fontSize:'clamp(30px,4.6vw,46px)', fontWeight:800, lineHeight:1}}>$129<span style={{fontSize:'.46em', fontWeight:700, color:'rgba(255,255,255,.6)'}}>/month</span></span>
+            <span style={{fontSize:'clamp(16px,2.2vw,22px)', fontWeight:800, color:'var(--orange)'}}>&middot; 14-Day Free Trial</span>
+          </div>
+          <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', fontWeight:600, marginTop:'7px', letterSpacing:'.3px'}}>No credit card required &middot; Cancel anytime</div>
+        </div>
+        <HeroDemo />
+      </div>
+
       {/* ═══ HERO ═══ */}
-      <div className="hero" style={{paddingTop:'110px'}}>
+      <div className="hero" style={{paddingTop:'60px'}}>
         <div className="hero-badge">Built for Lawn Mowing &amp; Lawn Care</div>
 
         <h1>Run Your Entire Mowing Operation<br /><span>From One Dashboard</span></h1>
@@ -238,10 +251,6 @@ export default function Home() {
           <div><div className="hero-stat-val">24/7</div><div className="hero-stat-lbl">Access Anywhere</div></div>
         </div>
 
-        {/* Live interactive demo — the same three-app switcher IndustryBossPro and
-            SprayBossPro carry. It also fires the pageview beacon, which is what makes
-            this site's traffic visible in demo_session_log at all. */}
-        <div style={{ marginTop: '54px' }}><HeroDemo /></div>
       </div>
 
       {/* ═══ PREMIUM BAND ═══ */}
