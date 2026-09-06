@@ -14,6 +14,10 @@ const hubPages = [
   '/mosquito-spray-software',
 ];
 
+const canadaPages = [
+  '/lawn-mowing-software-canada',
+];
+
 const vsPages = [
   '/vs-aspire',
   '/vs-clip',
@@ -252,6 +256,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entries.push({
       url: `${BASE}${path}`,
       lastModified: new Date('2026-06-21'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    });
+  }
+
+  for (const path of canadaPages) {
+    entries.push({
+      url: `${BASE}${path}`,
+      lastModified: new Date('2026-09-06'),
       changeFrequency: 'monthly',
       priority: 0.9,
     });
