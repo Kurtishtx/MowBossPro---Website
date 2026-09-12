@@ -153,7 +153,7 @@ const faqs = [
   { q: 'What happens after the 14-day free trial?', a: "You'll be prompted to enter a card and continue for $79/month. If you decide not to continue, your account simply stops — no charges, no cancellation fees. We don't auto-charge without you knowing it's coming." },
   { q: 'Do I need a credit card to start the trial?', a: 'No. Create your account and get full access for 14 days with no card required. You only enter payment info if you decide to keep going after the trial.' },
   { q: 'How many users can I add?', a: 'Unlimited. Add every tech, office staff member, and manager at no extra cost. No per-user fees. Ever.' },
-  { q: "What's the SMS pricing?", a: '500 outbound SMS messages per month are included in your $79. If you go over, you can add blocks of 500 for $15 each. Most businesses with under 300 active properties never hit the 500 limit.' },
+  { q: "What's the SMS pricing?", a: '500 texts per month — sent and received — are included in your $79. If you go over, you can add blocks of 500 for $15 each. Most businesses with under 300 active properties never hit the 500 limit.' },
   { q: 'Are there any contracts or annual commitments?', a: 'None. Month to month, always. Cancel anytime from your account settings.' },
   { q: 'Does this work for any size mowing operation?', a: 'Yes. MowBossPro was built for mowing businesses — weekly, biweekly, or one-time mowing. The service types, service tracking, and job board work the same way regardless of how many crews you run.' },
   { q: 'What if I have questions or need help getting set up?', a: "We're a small team and we respond fast. Reach us anytime at Support@bossprohq.com. We've run routes ourselves — we know what setup actually looks like and we're here to help." },
@@ -206,7 +206,7 @@ export default function Pricing() {
           </div>
           <hr style={{border:'none',borderTop:'1.5px solid var(--border)',margin:'28px 0'}} />
           <div style={{background:'var(--light-bg)',border:'1.5px solid var(--border)',borderRadius:'10px',padding:'16px 20px',fontSize:'14px',color:'var(--muted)',marginBottom:'28px',lineHeight:1.6}}>
-            <strong style={{color:'var(--text)'}}>500 outbound SMS/month included.</strong> Need more? Add blocks of 500 for <strong style={{color:'var(--text)'}}>$15 each</strong>. Most businesses never exceed the included 500. The SMS credit rolls month to month — you only pay when you actually use it.
+            <strong style={{color:'var(--text)'}}>500 texts/month included, sent and received.</strong> Need more? Add blocks of 500 for <strong style={{color:'var(--text)'}}>$15 each</strong>. Most businesses never exceed the included 500. The SMS credit rolls month to month — you only pay when you actually use it.
           </div>
           <button className="btn-primary" style={{width:'100%',fontSize:'16px',padding:'16px'}} onClick={(e) => openSignupModal(1, e.currentTarget as HTMLElement)}>Start Your 14-Day Free Trial</button>
           <p style={{textAlign:'center',color:'var(--muted)',fontSize:'13px',marginTop:'14px'}}>No credit card required. No contracts. Cancel anytime.</p>
