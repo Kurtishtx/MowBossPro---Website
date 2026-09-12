@@ -153,6 +153,7 @@ const faqs = [
   { q: 'What happens after the 14-day free trial?', a: "You'll be prompted to enter a card and continue for $79/month. If you decide not to continue, your account simply stops — no charges, no cancellation fees. We don't auto-charge without you knowing it's coming." },
   { q: 'Do I need a credit card to start the trial?', a: 'No. Create your account and get full access for 14 days with no card required. You only enter payment info if you decide to keep going after the trial.' },
   { q: 'How many users can I add?', a: 'Unlimited. Add every tech, office staff member, and manager at no extra cost. No per-user fees. Ever.' },
+  { q: 'Does it work outside the US?', a: 'Yes. It runs in the US, Canada, Australia, New Zealand and the UK. Set your country once and your invoices and card charges run in your own currency — USD, CAD, AUD, NZD or GBP — through your own Stripe account.' },
   { q: "What's the SMS pricing?", a: '500 texts per month — sent and received — are included in your $79. If you go over, you can add blocks of 500 for $15 each. Most businesses with under 300 active properties never hit the 500 limit.' },
   { q: 'Are there any contracts or annual commitments?', a: 'None. Month to month, always. Cancel anytime from your account settings.' },
   { q: 'Does this work for any size mowing operation?', a: 'Yes. MowBossPro was built for mowing businesses — weekly, biweekly, or one-time mowing. The service types, service tracking, and job board work the same way regardless of how many crews you run.' },
@@ -183,7 +184,8 @@ export default function Pricing() {
         <div className="hero-badge">Simple, Honest Pricing</div>
         <h1>$79/Month.<br /><span>Everything Included.</span></h1>
         <p>One flat price covers your entire operation — unlimited users, unlimited clients, every feature. No tiers, no add-ons, no surprises.</p>
-        <p style={{color:'rgba(255,255,255,.45)',fontSize:'14px',marginBottom:'40px'}}>14-day free trial · No credit card required · Cancel anytime</p>
+        <p style={{color:'rgba(255,255,255,.45)',fontSize:'14px',marginBottom:'10px'}}>14-day free trial · No credit card required · Cancel anytime</p>
+        <p style={{color:'rgba(255,255,255,.7)',fontSize:'14px',marginBottom:'40px'}}>Works in the US, Canada, Australia, New Zealand and the UK — bills your customers in your own currency.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => openSignupModal(1, e.currentTarget as HTMLElement)}>Start Your 14-Day Free Trial</button>
         </div>
