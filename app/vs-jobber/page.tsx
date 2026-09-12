@@ -328,7 +328,7 @@ export default function VsJobber() {
               <li>Two-Way SMS &amp; 10+ Automated Alerts</li>
               <li>Package Plans &amp; Renewal Tracking</li>
               <li>Mobile App for Crews</li>
-              <li>500 Outbound SMS/month included</li>
+              <li>500 texts/month included (sent + received)</li>
             </ul>
             <button className="price-btn price-btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(2, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
           </div>
