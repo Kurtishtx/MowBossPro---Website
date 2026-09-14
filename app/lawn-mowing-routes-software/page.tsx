@@ -521,7 +521,7 @@ export default function MowingRoutesSoftware() {
               <li>Two-Way SMS &amp; Automated Customer Texts</li>
               <li>Crew Dispatch Board &amp; Truck Management</li>
               <li>Mobile App for Crews</li>
-              <li>500 texts/month included (sent + received)</li>
+              <li>500 texts/month included (sent + received, US &amp; Canada)</li>
               <li>+$15 per additional 500 SMS after that</li>
             </ul>
             <button onClick={(e) => openSignupModal(2, e.currentTarget as HTMLElement)} className="price-btn price-btn-primary">Start Your 14-Day Free Trial</button>
@@ -540,7 +540,7 @@ export default function MowingRoutesSoftware() {
             {q:'How does route building work for mowing?', a:'You open the circle-map lasso tool, draw a circle around an area, and every yard due inside is selected and added to a route. Stop count, estimated drive time, and route revenue update in real time. You then drag stops into the most efficient order and push the route to the crew. Route planning that takes 30 minutes in a spreadsheet takes 5 minutes on the map.'},
             {q:'Can MowBossPro handle recurring weekly and bi-weekly mowing?', a:'Yes. Set each yard to weekly, bi-weekly, every-ten-days, or a custom interval, and MowBossPro auto-schedules the next visit the moment a crew marks the last one complete. Next week\'s routes rebuild themselves, so the same lawns get mowed on schedule without re-entering anything.'},
             {q:'How does crew dispatch work?', a:'The dispatch board groups the day\'s stops by crew and truck, totals stops, drive time, and revenue per route, and lets you balance the load across crews before anyone leaves the shop. Each driver gets their stops in route order on the mobile app and marks them complete, skipped, or rescheduled from the truck.'},
-            {q:'Does it text my customers automatically?', a:'Yes. MowBossPro sends automated on-the-way and lawn-is-done texts for every stop, plus a two-way SMS inbox for replies. 500 texts (sent and received) are included each month, with more available at $15 per additional 500.'},
+            {q:'Does it text my customers automatically?', a:'Yes. MowBossPro sends automated on-the-way and lawn-is-done texts for every stop, plus a two-way SMS inbox for replies. 500 texts (sent and received, US and Canada) are included each month, with more available at $15 per additional 500.'},
             {q:'How much does MowBossPro cost?', a:'$79/month, all features included — routing, dispatch, the mobile app, customer texts, and payments. No per-user fees, no add-ons for the route map or dispatch board, no setup fees. 14-day free trial with no credit card required.'},
           ].map(({q, a}, i, arr) => (
             <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>

@@ -520,8 +520,8 @@ export default function MowingSchedulingSoftware() {
               <li>Two-Way SMS &amp; Automated Visit Texts</li>
               <li>Per-Cut &amp; Flat-Rate Billing</li>
               <li>Crew Mobile App</li>
-              <li>500 Texts/month included (sent + received)</li>
-              <li>+$15 per additional 500 texts after that</li>
+              <li>500 Texts/month included (sent + received, US &amp; Canada)</li>
+              <li>+$15 per additional 500 texts after that (US &amp; Canada)</li>
             </ul>
             <button onClick={(e) => openSignupModal(2, e.currentTarget as HTMLElement)} className="price-btn price-btn-primary">Start Your 14-Day Free Trial</button>
           </div>

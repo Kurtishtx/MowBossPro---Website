@@ -145,7 +145,7 @@ const tableRows = [
   ['Discount Codes & Sales Tax', 'Percentage or flat discounts, auto tax calculation per invoice'],
   ['Unlimited Users', 'Add every employee at no per-user cost'],
   ['Unlimited Clients & Properties', 'No caps — 50 accounts or 5,000, same price'],
-  ['500 texts/month', 'Sent and received, 160 characters per text; +$15 per additional 500 after that'],
+  ['500 texts/month (US & Canada)', 'Sent and received, 160 characters per text; +$15 per additional 500 after that'],
 ];
 
 const faqs = [
@@ -154,7 +154,8 @@ const faqs = [
   { q: 'Do I need a credit card to start the trial?', a: 'No. Create your account and get full access for 14 days with no card required. You only enter payment info if you decide to keep going after the trial.' },
   { q: 'How many users can I add?', a: 'Unlimited. Add every tech, office staff member, and manager at no extra cost. No per-user fees. Ever.' },
   { q: 'Does it work outside the US?', a: 'Yes. It runs in the US, Canada, Australia, New Zealand and the UK. Set your country once and your invoices and card charges run in your own currency — USD, CAD, AUD, NZD or GBP — through your own Stripe account.' },
-  { q: "What's the SMS pricing?", a: '500 texts per month — sent and received — are included in your $79. If you go over, you can add blocks of 500 for $15 each. Most businesses with under 300 active properties never hit the 500 limit.' },
+  { q: 'Where do the included texts apply?', a: 'The US and Canada. Carriers in Australia, New Zealand and the UK charge several times more to deliver a text, so texting there is set up on request and priced by country — everything else works the same, and email alerts are included everywhere.' },
+  { q: "What's the SMS pricing?", a: 'In the US and Canada, 500 texts per month — sent and received — are included in your $79. If you go over, you can add blocks of 500 for $15 each. Most businesses with under 300 active properties never hit the 500 limit.' },
   { q: 'Are there any contracts or annual commitments?', a: 'None. Month to month, always. Cancel anytime from your account settings.' },
   { q: 'Does this work for any size mowing operation?', a: 'Yes. MowBossPro was built for mowing businesses — weekly, biweekly, or one-time mowing. The service types, service tracking, and job board work the same way regardless of how many crews you run.' },
   { q: 'What if I have questions or need help getting set up?', a: "We're a small team and we respond fast. Reach us anytime at Support@bossprohq.com. We've run routes ourselves — we know what setup actually looks like and we're here to help." },
@@ -208,7 +209,7 @@ export default function Pricing() {
           </div>
           <hr style={{border:'none',borderTop:'1.5px solid var(--border)',margin:'28px 0'}} />
           <div style={{background:'var(--light-bg)',border:'1.5px solid var(--border)',borderRadius:'10px',padding:'16px 20px',fontSize:'14px',color:'var(--muted)',marginBottom:'28px',lineHeight:1.6}}>
-            <strong style={{color:'var(--text)'}}>500 texts/month included, sent and received.</strong> Need more? Add blocks of 500 for <strong style={{color:'var(--text)'}}>$15 each</strong>. Most businesses never exceed the included 500. The SMS credit rolls month to month — you only pay when you actually use it.
+            <strong style={{color:'var(--text)'}}>500 texts/month included, sent and received (US &amp; Canada).</strong> Need more? Add blocks of 500 for <strong style={{color:'var(--text)'}}>$15 each</strong>. Most businesses never exceed the included 500. The SMS credit rolls month to month — you only pay when you actually use it.
           </div>
           <button className="btn-primary" style={{width:'100%',fontSize:'16px',padding:'16px'}} onClick={(e) => openSignupModal(1, e.currentTarget as HTMLElement)}>Start Your 14-Day Free Trial</button>
           <p style={{textAlign:'center',color:'var(--muted)',fontSize:'13px',marginTop:'14px'}}>No credit card required. No contracts. Cancel anytime.</p>
