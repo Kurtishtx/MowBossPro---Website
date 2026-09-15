@@ -149,13 +149,14 @@ const tableRows = [
 ];
 
 const faqs = [
-  { q: 'Is there really just one plan?', a: "$79/month, everything included. We don't believe in tiers that lock you out of features you need to run your business. You get the full platform from day one." },
-  { q: 'What happens after the 14-day free trial?', a: "You'll be prompted to enter a card and continue for $79/month. If you decide not to continue, your account simply stops — no charges, no cancellation fees. We don't auto-charge without you knowing it's coming." },
+  { q: "What's the difference between the plans?", a: "Start ($59) suits an owner-operator: 2 users, 2 employees, 1 truck. Pro ($89) adds billing automation and two-way texting, with 3 users and 2 trucks. Crew ($199) removes the caps entirely. Chemical tracking and the time clock are on every plan — you are never locked out of the compliance side." },
+  { q: 'What happens after the 14-day free trial?', a: "You'll be prompted to enter a card and continue for from $59/month. If you decide not to continue, your account simply stops — no charges, no cancellation fees. We don't auto-charge without you knowing it's coming." },
   { q: 'Do I need a credit card to start the trial?', a: 'No. Create your account and get full access for 14 days with no card required. You only enter payment info if you decide to keep going after the trial.' },
-  { q: 'How many users can I add?', a: 'Unlimited. Add every tech, office staff member, and manager at no extra cost. No per-user fees. Ever.' },
+  { q: 'How many users can I add?', a: 'Start includes 2 users and 2 employees, Pro 3 of each, and Crew is unlimited. Clients and properties are unlimited on every plan — you are never charged per customer.' },
   { q: 'Does it work outside the US?', a: 'Yes. It runs in the US, Canada, Australia, New Zealand and the UK. Set your country once and your invoices and card charges run in your own currency — USD, CAD, AUD, NZD or GBP — through your own Stripe account.' },
   { q: 'Where do the included texts apply?', a: 'The US and Canada. Carriers in Australia, New Zealand and the UK charge several times more to deliver a text, so texting there is set up on request and priced by country — everything else works the same, and email alerts are included everywhere.' },
-  { q: "What's the SMS pricing?", a: 'In the US and Canada, 500 texts per month — sent and received — are included in your $79. If you go over, you can add blocks of 500 for $15 each. Most businesses with under 300 active properties never hit the 500 limit.' },
+  { q: "What's the SMS pricing?", a: 'In the US and Canada, Start includes 500 texts a month, Pro 1,000, and Crew 2,000 — sent and received. A text is 160 characters; a longer one counts as two. If you go over, you can add blocks of 500 for $15 each. Most businesses with under 300 active properties never hit their limit.' },
+  { q: 'How does auto-routing pricing work?', a: 'Start includes 50 auto-routes a month, Pro 100, and Crew 1,000. Go over and 250 more are added automatically for $5 - your dispatcher is never stopped mid-day. Smart Lasso map selections are unlimited on every plan.' },
   { q: 'Are there any contracts or annual commitments?', a: 'None. Month to month, always. Cancel anytime from your account settings.' },
   { q: 'Does this work for any size mowing operation?', a: 'Yes. MowBossPro was built for mowing businesses — weekly, biweekly, or one-time mowing. The service types, service tracking, and job board work the same way regardless of how many crews you run.' },
   { q: 'What if I have questions or need help getting set up?', a: "We're a small team and we respond fast. Reach us anytime at Support@bossprohq.com. We've run routes ourselves — we know what setup actually looks like and we're here to help." },
@@ -183,7 +184,7 @@ export default function Pricing() {
       {/* HERO */}
       <div className="hero">
         <div className="hero-badge">Simple, Honest Pricing</div>
-        <h1>$79/Month.<br /><span>Everything Included.</span></h1>
+        <h1>From $59/Month.<br /><span>Every Feature Included.</span></h1>
         <p>One flat price covers your entire operation — unlimited users, unlimited clients, every feature. No tiers, no add-ons, no surprises.</p>
         <p style={{color:'rgba(255,255,255,.45)',fontSize:'14px',marginBottom:'10px'}}>14-day free trial · No credit card required · Cancel anytime</p>
         <p style={{color:'rgba(255,255,255,.7)',fontSize:'14px',marginBottom:'40px'}}>Works in the US, Canada, Australia, New Zealand and the UK — bills your customers in your own currency.</p>
@@ -221,7 +222,7 @@ export default function Pricing() {
         <h2 style={{color:'#fff',fontSize:'clamp(24px,3.5vw,38px)',fontWeight:800,marginBottom:'48px',maxWidth:'700px',marginLeft:'auto',marginRight:'auto'}}>We Were Paying $500–$700/Month for Software<br />That Still Didn&apos;t Do What We Needed.</h2>
         <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(200px,1fr))',gap:'24px',maxWidth:'900px',margin:'0 auto'}}>
           {[
-            {old:'$149/user/mo',nw:'$79 flat',desc:'Unlimited users. Add every tech and office staff at no extra cost.'},
+            {old:'$149/user/mo',nw:'$59 flat',desc:'Unlimited users. Add every tech and office staff at no extra cost.'},
             {old:'Locked features',nw:'All features',desc:'No tiers. No "upgrade to access route mapping." Everything is included.'},
             {old:'Annual contracts',nw:'Month to month',desc:'No contracts. No cancellation fees. Stop whenever you want.'},
             {old:'Generic software',nw:'Built for mowing',desc:'Sq ft job boards, service photos, mowing-specific workflows. Not adapted from a plumbing app.'},
@@ -240,7 +241,7 @@ export default function Pricing() {
         <div style={{textAlign:'center',maxWidth:'900px',margin:'0 auto 48px'}}>
           <span style={{display:'inline-block',color:'var(--orange)',fontSize:'12px',fontWeight:700,letterSpacing:'1.8px',textTransform:'uppercase',marginBottom:'12px'}}>Everything Included</span>
           <h2 style={{fontSize:'clamp(26px,4vw,40px)',fontWeight:800,lineHeight:1.2,marginBottom:'16px',color:'var(--text)'}}>Every Feature. One Price.</h2>
-          <p style={{color:'var(--muted)',fontSize:'17px',maxWidth:'620px',margin:'0 auto'}}>Here&apos;s exactly what you get for $79/month — nothing hidden, nothing locked behind a higher tier.</p>
+          <p style={{color:'var(--muted)',fontSize:'17px',maxWidth:'620px',margin:'0 auto'}}>Here&apos;s exactly what you get for from $59/month — nothing hidden, nothing locked behind a higher tier.</p>
         </div>
         <table style={{width:'100%',maxWidth:'900px',margin:'0 auto',borderCollapse:'collapse'}}>
           <thead>
@@ -298,7 +299,7 @@ export default function Pricing() {
       <div id="sbp-form-1" style={{display:'none',position:'fixed',zIndex:99999,width:'420px',maxWidth:'calc(100vw - 24px)',background:'#fff',borderRadius:'14px',border:'3px solid #b22234',boxShadow:'0 0 0 4px rgba(178,34,52,.35), 0 16px 60px rgba(0,0,0,.45)',maxHeight:'calc(100vh - 40px)',overflowY:'auto'}}>
         <div style={{background:'linear-gradient(135deg,#04162e,#0a3161)',padding:'28px 28px 22px',position:'relative'}}>
           <div style={{color:'#fff',fontSize:'20px',fontWeight:800,paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
-          <div style={{color:'rgba(255,255,255,.6)',fontSize:'13px',marginTop:'5px'}}>No credit card required · Full access · $79/mo after your 14-day trial</div>
+          <div style={{color:'rgba(255,255,255,.6)',fontSize:'13px',marginTop:'5px'}}>No credit card required · Full access · from $59/mo after your 14-day trial</div>
           <button onClick={() => closeSignupModal(1)} style={{position:'absolute',top:'16px',right:'16px',background:'rgba(255,255,255,.12)',border:'none',color:'#fff',width:'32px',height:'32px',borderRadius:'50%',cursor:'pointer',fontSize:'20px',display:'flex',alignItems:'center',justifyContent:'center'}}>×</button>
         </div>
         <div id="sbp1-step1" style={{padding:'24px 28px'}}>
@@ -313,7 +314,7 @@ export default function Pricing() {
         </div>
         <div id="sbp1-step2" style={{padding:'24px 28px',display:'none'}}>
           <div id="sbp1-err2" style={{background:'#fff0f0',border:'1px solid #f5c6c6',color:'#c0392b',borderRadius:'6px',padding:'10px 12px',fontSize:'13px',marginBottom:'14px',display:'none'}}></div>
-          <div style={{background:'#f0fdf4',border:'1px solid #bbf7d0',borderRadius:'6px',padding:'10px 14px',marginBottom:'16px'}}><div style={{fontSize:'12px',color:'#16a34a',fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div><div style={{fontSize:'12px',color:'#555',marginTop:'2px'}}>Full access to every feature. $79/month after trial.</div></div>
+          <div style={{background:'#f0fdf4',border:'1px solid #bbf7d0',borderRadius:'6px',padding:'10px 14px',marginBottom:'16px'}}><div style={{fontSize:'12px',color:'#16a34a',fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div><div style={{fontSize:'12px',color:'#555',marginTop:'2px'}}>Full access to every feature. from $59/month after trial.</div></div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Login Email</label><input id="sbp1-login-email" type="email" readOnly style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',background:'#f8f8f8',color:'#333'}} /></div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Password</label><input id="sbp1-password" type="password" placeholder="At least 8 characters" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Confirm Password</label><input id="sbp1-confirm" type="password" placeholder="Repeat password" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
@@ -336,7 +337,7 @@ export default function Pricing() {
       <div id="sbp-form-2" style={{display:'none',position:'fixed',zIndex:99999,width:'420px',maxWidth:'calc(100vw - 24px)',background:'#fff',borderRadius:'14px',border:'3px solid #b22234',boxShadow:'0 0 0 4px rgba(178,34,52,.35), 0 16px 60px rgba(0,0,0,.45)',maxHeight:'calc(100vh - 40px)',overflowY:'auto'}}>
         <div style={{background:'linear-gradient(135deg,#04162e,#0a3161)',padding:'28px 28px 22px',position:'relative'}}>
           <div style={{color:'#fff',fontSize:'20px',fontWeight:800,paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
-          <div style={{color:'rgba(255,255,255,.6)',fontSize:'13px',marginTop:'5px'}}>No credit card required · Full access · $79/mo after your 14-day trial</div>
+          <div style={{color:'rgba(255,255,255,.6)',fontSize:'13px',marginTop:'5px'}}>No credit card required · Full access · from $59/mo after your 14-day trial</div>
           <button onClick={() => closeSignupModal(2)} style={{position:'absolute',top:'16px',right:'16px',background:'rgba(255,255,255,.12)',border:'none',color:'#fff',width:'32px',height:'32px',borderRadius:'50%',cursor:'pointer',fontSize:'20px',display:'flex',alignItems:'center',justifyContent:'center'}}>×</button>
         </div>
         <div id="sbp2-step1" style={{padding:'24px 28px'}}>
@@ -351,7 +352,7 @@ export default function Pricing() {
         </div>
         <div id="sbp2-step2" style={{padding:'24px 28px',display:'none'}}>
           <div id="sbp2-err2" style={{background:'#fff0f0',border:'1px solid #f5c6c6',color:'#c0392b',borderRadius:'6px',padding:'10px 12px',fontSize:'13px',marginBottom:'14px',display:'none'}}></div>
-          <div style={{background:'#f0fdf4',border:'1px solid #bbf7d0',borderRadius:'6px',padding:'10px 14px',marginBottom:'16px'}}><div style={{fontSize:'12px',color:'#16a34a',fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div><div style={{fontSize:'12px',color:'#555',marginTop:'2px'}}>Full access to every feature. $79/month after trial.</div></div>
+          <div style={{background:'#f0fdf4',border:'1px solid #bbf7d0',borderRadius:'6px',padding:'10px 14px',marginBottom:'16px'}}><div style={{fontSize:'12px',color:'#16a34a',fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div><div style={{fontSize:'12px',color:'#555',marginTop:'2px'}}>Full access to every feature. from $59/month after trial.</div></div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Login Email</label><input id="sbp2-login-email" type="email" readOnly style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',background:'#f8f8f8',color:'#333'}} /></div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Password</label><input id="sbp2-password" type="password" placeholder="At least 8 characters" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Confirm Password</label><input id="sbp2-confirm" type="password" placeholder="Repeat password" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
