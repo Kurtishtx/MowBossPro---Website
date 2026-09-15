@@ -133,7 +133,7 @@ function SignupForm({ n }: { n: number }) {
     <div id={`sbp-form-${n}`} className="sbp-form">
       <div className="sbp-form-header">
         <div className="sbp-form-title">Start Your 14-Day Free Trial</div>
-        <div className="sbp-form-subtitle">No credit card required · Full access · $79/mo after your 14-day trial</div>
+        <div className="sbp-form-subtitle">No credit card required · Full access · from $59/mo after your 14-day trial</div>
         <button className="sbp-form-close" onClick={() => closeSignupModal(n)}>×</button>
       </div>
       <div id={`sbp${n}-step1`} className="sbp-form-body">
@@ -164,7 +164,7 @@ function SignupForm({ n }: { n: number }) {
         <div id={`sbp${n}-err2`} className="sbp-err"></div>
         <div className="sbp-trial-note">
           <div className="sbp-trial-note-title">14-Day Free Trial — No Credit Card Required</div>
-          <div className="sbp-trial-note-sub">Full access to every feature. $79/month after trial.</div>
+          <div className="sbp-trial-note-sub">Full access to every feature. from $59/month after trial.</div>
         </div>
         <div className="sbp-field">
           <label className="sbp-label">Login Email</label>
@@ -225,11 +225,11 @@ export default function MowingSchedulingSoftware() {
         <p>Most field service apps were built for one-off jobs. Mowing is different. You run the same yards every 7 or 14 days, route by route, crew by crew, all season long. <a href="/">MowBossPro</a> is scheduling software built around recurring mowing visits, tight routes, and crews that need to know exactly where to go next.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">7/14</div><div className="hero-stat-lbl">Day Recurring Cycles Automated</div></div>
-          <div><div className="hero-stat-val">$79</div><div className="hero-stat-lbl">Flat Monthly — No Add-Ons</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Flat Monthly — No Add-Ons</div></div>
           <div><div className="hero-stat-val">500+</div><div className="hero-stat-lbl">Customer Texts Included Monthly</div></div>
           <div><div className="hero-stat-val">2006</div><div className="hero-stat-lbl">In the Industry Since</div></div>
         </div>
@@ -251,7 +251,7 @@ export default function MowingSchedulingSoftware() {
       {/* PREMIUM BAND */}
       <div className="premium-band">
         <h2>Scheduling Software That Actually<br /><span>Understands Recurring Mowing Routes.</span></h2>
-        <p>$79/month sounds modest. But what you&apos;re getting isn&apos;t. MowBossPro was built to schedule the way mowing companies really run &mdash; recurring weekly and biweekly visits, geographic routes, multiple crews, and a calendar that fills itself once you set the cycle. No per-seat fees, no add-ons for the features you use every single day.</p>
+        <p>from $59/month sounds modest. But what you&apos;re getting isn&apos;t. MowBossPro was built to schedule the way mowing companies really run &mdash; recurring weekly and biweekly visits, geographic routes, multiple crews, and a calendar that fills itself once you set the cycle. No hidden fees, no add-ons for the features you use every single day.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Recurring Visit Engine</h4><p>Set a yard to mow every 7 or 14 days and MowBossPro auto-generates every future visit for the whole season. Skip a rain day, bump the cycle, or pause a stop &mdash; the schedule rebuilds itself without you touching a spreadsheet.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Route Building</h4><p>Drag-and-drop stop ordering, geographic clustering, and a live map that shows your whole day in driving order. Tighten routes so crews spend the day mowing, not driving across town between yards.</p></div>
@@ -385,7 +385,7 @@ export default function MowingSchedulingSoftware() {
             {icon:'⏱️', title:'Crew Hour Tracking', body:'Track crew hours per route and generate payroll-ready reports. Know exactly what you owe before payday without running a separate timeclock app.'},
             {icon:'📊', title:'Dashboard & Reports', body:'Stat cards show today\'s mows completed, yards remaining, revenue booked, money owed, and more — all at a glance the moment you log in.'},
             {icon:'🔔', title:'10+ Automated Alert Types', body:'Visit scheduled, on the way, completed, skipped, rescheduled, estimate sent, estimate accepted, review request, payment reminder, inbound text — all automated.'},
-            {icon:'👥', title:'Unlimited Users', body:'Add every crew member, office staffer, and crew lead at no extra cost. No per-seat fees. Unlimited users are included in the flat $79/month rate.'},
+            {icon:'👥', title:'Unlimited Users', body:'Add every crew member, office staffer, and crew lead at no extra cost. No per-seat fees. Unlimited users are included in the flat from $59/month rate.'},
             {icon:'🏢', title:'Unlimited Yards & Customers', body:'No caps on customers, yards, or leads. Whether you mow 50 lawns or 5,000 — MowBossPro schedules them all at the same flat price.'},
           ].map(({icon, title, body}) => (
             <div key={title} className="feature-card">
@@ -540,7 +540,7 @@ export default function MowingSchedulingSoftware() {
             {q:'Can I run multiple crews and routes from one account?', a:'Yes. MowBossPro supports as many crews and routes as you need. Assign each route to a crew and a truck, dispatch the day to their phones, and reassign yards between crews mid-day in seconds. Every crew sees only their own stops, in driving order.'},
             {q:'What happens when it rains and a route gets pushed?', a:'One click pushes the entire route forward. MowBossPro shifts every visit, keeps each yard\'s cycle intact, and automatically texts every affected customer their new mow day — so you\'re not making thirty phone calls after a storm.'},
             {q:'Does it replace spreadsheets and calendar apps?', a:'Yes. MowBossPro replaces spreadsheet scheduling, route planning, customer tracking, and texting tools in one platform. Most owners are scheduling their whole season the same day they sign up — no onboarding consultant, no implementation timeline.'},
-            {q:'How much does MowBossPro cost?', a:'$79/month, all features included. No per-user fees, no add-ons for SMS or route tools, no setup fees. 14-day free trial with no credit card required.'},
+            {q:'How much does MowBossPro cost?', a:'from $59/month, all features included. No hidden fees, no add-ons for SMS or route tools, no setup fees. 14-day free trial with no credit card required.'},
           ].map(({q, a}, i, arr) => (
             <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
               <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
@@ -557,7 +557,7 @@ export default function MowingSchedulingSoftware() {
         <p>MowBossPro is the only mowing scheduling software built by someone who has actually run a mowing route. Try it free for 14 days.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
       </div>
 

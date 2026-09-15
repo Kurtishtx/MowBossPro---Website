@@ -143,13 +143,13 @@ export default function VsGorillaDesk() {
 
       <div className="hero">
         <div className="hero-badge">GorillaDesk Alternative</div>
-        <h1>GorillaDesk Charges Per Route.<br /><span>MowBossPro Is $79 Flat — Unlimited Routes, Unlimited Stops.</span></h1>
-        <p>GorillaDesk uses a per-route pricing model — the more trucks you run, the more you pay, every month. MowBossPro is $79/month regardless of how many routes you schedule, how many trucks you run, or how many stops you dispatch. No per-route fees. Ever.</p>
+        <h1>GorillaDesk Charges Per Route.<br /><span>MowBossPro Is $59 Flat — Unlimited Routes, Unlimited Stops.</span></h1>
+        <p>GorillaDesk uses a per-route pricing model — the more trucks you run, the more you pay, every month. MowBossPro is from $59/month regardless of how many routes you schedule, how many trucks you run, or how many stops you dispatch. No per-route fees. Ever.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$79</div><div className="hero-stat-lbl">Flat — vs GorillaDesk&apos;s per-route pricing</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Flat — vs GorillaDesk&apos;s per-route pricing</div></div>
           <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Routes</div></div>
           <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Stops — Basic caps at 25</div></div>
           <div><div className="hero-stat-val">Built</div><div className="hero-stat-lbl">For Mowing Routes</div></div>
@@ -172,7 +172,7 @@ export default function VsGorillaDesk() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="feature-name">Flat Monthly Pricing — No Per-Route Fees</td><td className="sbp-col"><span className="chk">✓ $79/mo</span></td><td><span className="crs">✗ Per-route model</span></td></tr>
+              <tr><td className="feature-name">Flat Monthly Pricing — No Per-Route Fees</td><td className="sbp-col"><span className="chk">✓ from $59/mo</span></td><td><span className="crs">✗ Per-route model</span></td></tr>
               <tr><td className="feature-name">Unlimited Stops per Route</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Basic: 25 stop cap</span></td></tr>
               <tr><td className="feature-name">Lawn Square Footage by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Lasso Circle Map Route Selector</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
@@ -185,9 +185,9 @@ export default function VsGorillaDesk() {
               <tr><td className="feature-name">Mobile App for Crews</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Automated SMS Alerts &amp; Follow-Ups</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Unlimited Users at Flat Price</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Price for 3 Routes</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$79 flat</td><td style={{color:'var(--muted)'}}>$147/mo (Basic ×3)</td></tr>
-              <tr><td className="feature-name">Price for 3 Routes — Pro Features</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$79 flat</td><td style={{color:'var(--muted)'}}>$297/mo (Pro ×3)</td></tr>
-              <tr><td className="feature-name">Price as You Scale to 5+ Routes</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>Still $79</td><td style={{color:'var(--muted)'}}>Keeps climbing</td></tr>
+              <tr><td className="feature-name">Price for 3 Routes</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$59 flat</td><td style={{color:'var(--muted)'}}>$147/mo (Basic ×3)</td></tr>
+              <tr><td className="feature-name">Price for 3 Routes — Pro Features</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$59 flat</td><td style={{color:'var(--muted)'}}>$297/mo (Pro ×3)</td></tr>
+              <tr><td className="feature-name">Price as You Scale to 5+ Routes</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>Still $59</td><td style={{color:'var(--muted)'}}>Keeps climbing</td></tr>
               <tr><td className="feature-name">No Annual Contract</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
             </tbody>
           </table>
@@ -195,14 +195,14 @@ export default function VsGorillaDesk() {
       </section>
 
       <div className="premium-band">
-        <h2>GorillaDesk Charges You More Every Time You Grow.<br /><span>MowBossPro Is $79 No Matter How Many Routes You Run.</span></h2>
-        <p>GorillaDesk&apos;s per-route model sounds fine until you&apos;re running three trucks. At Basic ×3, you&apos;re at $147/month with a 25-stop cap and no two-way SMS. At Pro ×3, you&apos;re at $297/month. MowBossPro is $79/month for your entire operation — unlimited routes, unlimited stops, every feature included. The more you grow, the more MowBossPro saves you.</p>
+        <h2>GorillaDesk Charges You More Every Time You Grow.<br /><span>MowBossPro Is $59 No Matter How Many Routes You Run.</span></h2>
+        <p>GorillaDesk&apos;s per-route model sounds fine until you&apos;re running three trucks. At Basic ×3, you&apos;re at $147/month with a 25-stop cap and no two-way SMS. At Pro ×3, you&apos;re at $297/month. MowBossPro is from $59/month for your entire operation — unlimited routes, unlimited stops, every feature included. The more you grow, the more MowBossPro saves you.</p>
         <div className="premium-grid">
-          <div className="premium-card"><div className="premium-card-icon">💰</div><h4>Price Doesn&apos;t Scale With Routes</h4><p>$79/month covers your entire operation regardless of route count. Run 1 truck or 10 — same price. GorillaDesk multiplies by your route count every single month. That math only gets worse as you grow.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💰</div><h4>Price Doesn&apos;t Scale With Routes</h4><p>from $59/month covers your entire operation regardless of route count. Run 1 truck or 10 — same price. GorillaDesk multiplies by your route count every single month. That math only gets worse as you grow.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Lawn Square Footage</h4><p>Before scheduling, see exactly how much square footage is waiting per service type. Know your lawn care 4, mowing, and insect control backlog before you build a route. GorillaDesk doesn&apos;t have a sq ft job board model.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Circle Selector</h4><p>Draw a circle on the map, see every stop inside with a service due. GorillaDesk has route optimization. Not the same as drawing a geographic circle and instantly seeing all your due work inside it before you schedule.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Service Compliance</h4><p>Full service application logs with product, mix rate, area, weather, and tech license. Pull compliance reports on demand. GorillaDesk has basic job notes — not a dedicated pesticide compliance logging system.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>SMS Inbox Included</h4><p>True two-way SMS inbox at $79/month. GorillaDesk locks SMS behind their Pro tier. Add up the per-route Pro pricing and you&apos;re paying more for less — and still missing mowing-specific features.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>SMS Inbox Included</h4><p>True two-way SMS inbox at from $59/month. GorillaDesk locks SMS behind their Pro tier. Add up the per-route Pro pricing and you&apos;re paying more for less — and still missing mowing-specific features.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Unlimited Stops</h4><p>GorillaDesk Basic caps routes at 25 stops. MowBossPro has no stop limit. Schedule 50-stop routes, 100-stop routes — no restrictions. Mowing businesses run dense routes. A 25-stop cap is a real operational problem.</p></div>
         </div>
       </div>
@@ -212,12 +212,12 @@ export default function VsGorillaDesk() {
           <div className="highlight-text">
             <span className="section-label">The Real Cost</span>
             <h2>What GorillaDesk Actually Costs When You Run Multiple Routes</h2>
-            <p>GorillaDesk pricing looks reasonable for one route. The problem is what happens at 2, 3, or 5 trucks. MowBossPro is $79 no matter how many routes you run — and includes features GorillaDesk doesn&apos;t offer at any tier.</p>
+            <p>GorillaDesk pricing looks reasonable for one route. The problem is what happens at 2, 3, or 5 trucks. MowBossPro is $59 no matter how many routes you run — and includes features GorillaDesk doesn&apos;t offer at any tier.</p>
             <ul className="check-list">
               <li>GorillaDesk Basic ×3 = $147/mo — still has 25-stop cap and no SMS</li>
               <li>GorillaDesk Pro ×3 = $297/mo — SMS unlocked, stop cap removed</li>
               <li>GorillaDesk Basic ×5 = $245/mo — missing lasso, sq ft list, compliance logs</li>
-              <li>MowBossPro = $79/mo — unlimited routes, all features, forever</li>
+              <li>MowBossPro = from $59/mo — unlimited routes, all features, forever</li>
               <li>No sq ft job board at any GorillaDesk tier</li>
               <li>No lasso route selector at any GorillaDesk tier</li>
               <li>No dedicated service compliance logs at any GorillaDesk tier</li>
@@ -228,7 +228,7 @@ export default function VsGorillaDesk() {
             <div className="mock-item">
               <div className="mock-dot orange"></div>
               <div><div className="mock-label">MowBossPro</div><div className="mock-sub">Unlimited routes, all features, SMS included</div></div>
-              <div className="mock-badge">$79/mo</div>
+              <div className="mock-badge">from $59/mo</div>
             </div>
             <div className="mock-item">
               <div className="mock-dot amber"></div>
@@ -298,14 +298,14 @@ export default function VsGorillaDesk() {
           <div className="simple-card"><div className="simple-num">01</div><h3>Sq Ft First — Not Just Stop Count</h3><p>MowBossPro tracks everything in square feet — job board, route totals, property-level breakdown. Not just stop counts. Because lawn care and lawn care pricing is based on sq ft, and your routing should be too.</p></div>
           <div className="simple-card"><div className="simple-num">02</div><h3>Recurring Mowing Route Model</h3><p>Built around the way mowing businesses work — recurring treatment schedules, job boards, package programs, service photos. GorillaDesk is built around one-off pest service calls. Different model entirely.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>Set Up in One Afternoon</h3><p>Add your services, import clients and properties, connect payments — fully operational same day. No onboarding call, no implementation timeline, no training manual. Self-serve from minute one.</p></div>
-          <div className="simple-card"><div className="simple-num">04</div><h3>Price That Doesn&apos;t Scale Against You</h3><p>$79/month flat. Add routes, trucks, employees — price doesn&apos;t change. GorillaDesk&apos;s per-route model turns every growth decision into a cost increase. MowBossPro doesn&apos;t do that.</p></div>
+          <div className="simple-card"><div className="simple-num">04</div><h3>Price That Doesn&apos;t Scale Against You</h3><p>from $59/month flat. Add routes, trucks, employees — price doesn&apos;t change. GorillaDesk&apos;s per-route model turns every growth decision into a cost increase. MowBossPro doesn&apos;t do that.</p></div>
         </div>
       </section>
 
       <section>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
-          <h2 className="section-title">$79/Month. No Matter How Many Routes You Run.</h2>
+          <h2 className="section-title">$59/Month. No Matter How Many Routes You Run.</h2>
           <p className="section-sub">One price. Unlimited routes. Every feature. No per-route math.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
@@ -335,7 +335,7 @@ export default function VsGorillaDesk() {
       </section>
 
       <div className="cta-band">
-        <h2>Done Paying More Every Time You Add a Truck?<br />MowBossPro Is $79. No Matter How Many Routes You Run.</h2>
+        <h2>Done Paying More Every Time You Add a Truck?<br />MowBossPro Is $59. No Matter How Many Routes You Run.</h2>
         <p>Try MowBossPro free for 14 days. No credit card required. Set up in an afternoon.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
@@ -347,7 +347,7 @@ export default function VsGorillaDesk() {
         <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #b22234', boxShadow:'0 0 0 4px rgba(178,34,52,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
           <div style={{background:'linear-gradient(135deg,#04162e,#0a3161)', padding:'28px 28px 22px', position:'relative'}}>
             <div style={{color:'#fff', fontSize:'20px', fontWeight:800, paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
-            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · $79/mo after your 14-day trial</div>
+            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · from $59/mo after your 14-day trial</div>
             <button onClick={() => closeSignupModal(n)} style={{position:'absolute', top:'16px', right:'16px', background:'rgba(255,255,255,.12)', border:'none', color:'#fff', width:'32px', height:'32px', borderRadius:'50%', cursor:'pointer', fontSize:'20px', display:'flex', alignItems:'center', justifyContent:'center'}}>×</button>
           </div>
           <div id={`sbp${n}-step1`} style={{padding:'24px 28px'}}>
@@ -364,7 +364,7 @@ export default function VsGorillaDesk() {
             <div id={`sbp${n}-err2`} style={{background:'#fff0f0', border:'1px solid #f5c6c6', color:'#c0392b', borderRadius:'6px', padding:'10px 12px', fontSize:'13px', marginBottom:'14px', display:'none'}}></div>
             <div style={{background:'#f0fdf4', border:'1px solid #bbf7d0', borderRadius:'6px', padding:'10px 14px', marginBottom:'16px'}}>
               <div style={{fontSize:'12px', color:'#16a34a', fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div>
-              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. $79/month after trial.</div>
+              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. from $59/month after trial.</div>
             </div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Login Email</label><input id={`sbp${n}-login-email`} type="email" readOnly style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', background:'#f8f8f8', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Password</label><input id={`sbp${n}-password`} type="password" placeholder="At least 8 characters" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>

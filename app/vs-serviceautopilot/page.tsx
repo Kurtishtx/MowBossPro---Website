@@ -150,12 +150,12 @@ export default function VsServiceAutopilot() {
       <div className="hero">
         <div className="hero-badge">Service Autopilot Alternative</div>
         <h1>SA Costs $500+/Month to Get Close to What SBP Offers.<br /><span>And Even Then, It Still Doesn&apos;t Have Everything.</span></h1>
-        <p>Service Autopilot has tiers. Route optimization is $199/month. Automations are $499/month. Two-way texting costs even more. MowBossPro is $79/month with everything included — plus an accurate lasso, sq ft job board, and service compliance logs that SA doesn&apos;t have at any price.</p>
+        <p>Service Autopilot has tiers. Route optimization is $199/month. Automations are $499/month. Two-way texting costs even more. MowBossPro is from $59/month with everything included — plus an accurate lasso, sq ft job board, and service compliance logs that SA doesn&apos;t have at any price.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$79</div><div className="hero-stat-lbl">MowBossPro — Everything Included</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">MowBossPro — Everything Included</div></div>
           <div><div className="hero-stat-val">$0</div><div className="hero-stat-lbl">Sign-Up Fee for MowBossPro</div></div>
           <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Users — No Per-Seat Fees</div></div>
           <div><div className="hero-stat-val">Accurate</div><div className="hero-stat-lbl">Lasso Sq Ft — SA Overstates It</div></div>
@@ -193,9 +193,9 @@ export default function VsServiceAutopilot() {
               <tr><td className="feature-name">Card-on-File Payments</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Mobile App for Crews</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">No Annual Contract</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Varies by tier</span></td></tr>
-              <tr><td className="feature-name">Entry Price (basic features)</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$79/month</td><td style={{color:'var(--muted)'}}>$49/month (very limited)</td></tr>
-              <tr><td className="feature-name">Price with Route Optimization</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$79/month</td><td style={{color:'var(--muted)'}}>$199/month (Pro)</td></tr>
-              <tr><td className="feature-name">Price with Automations + SMS</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$79/month</td><td style={{color:'var(--muted)'}}>$499+/month (Pro Plus / Elite)</td></tr>
+              <tr><td className="feature-name">Entry Price (basic features)</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>from $59/month</td><td style={{color:'var(--muted)'}}>$49/month (very limited)</td></tr>
+              <tr><td className="feature-name">Price with Route Optimization</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>from $59/month</td><td style={{color:'var(--muted)'}}>$199/month (Pro)</td></tr>
+              <tr><td className="feature-name">Price with Automations + SMS</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>from $59/month</td><td style={{color:'var(--muted)'}}>$499+/month (Pro Plus / Elite)</td></tr>
             </tbody>
           </table>
         </div>
@@ -212,7 +212,7 @@ export default function VsServiceAutopilot() {
               <li style={{color:'rgba(255,255,255,.75)'}}>Accurate sq ft job board — know exactly how much work is due</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>Service type breakdown shown separately from total sq ft</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>Accurate data means accurate pricing and route planning</li>
-              <li style={{color:'rgba(255,255,255,.75)'}}>Available at $79/month — not locked behind SA&apos;s $199 Pro tier</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Available at from $59/month — not locked behind SA&apos;s $199 Pro tier</li>
             </ul>
           </div>
           <div className="highlight-visual-dark">
@@ -240,7 +240,7 @@ export default function VsServiceAutopilot() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">The Real SA Pricing Ladder</span>
-          <h2 className="section-title">SA Starts at $49. But You&apos;ll Need $499+ to Get What SBP Gives You at $79.</h2>
+          <h2 className="section-title">SA Starts at $49. But You&apos;ll Need $499+ to Get What SBP Gives You at $59.</h2>
           <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>Service Autopilot&apos;s pricing looks affordable at the Startup tier — but that tier has very limited functionality. Every major feature that makes SA worth using is locked behind a higher tier.</p>
         </div>
         <div style={{maxWidth:'1100px', margin:'0 auto'}}>
@@ -273,18 +273,18 @@ export default function VsServiceAutopilot() {
                 <div className="mock-item"><div className="mock-dot red"></div><div><div className="mock-label">Route Optimization</div><div className="mock-sub">SA Pro tier required</div></div><div className="mock-badge red-badge">$199/mo</div></div>
                 <div className="mock-item"><div className="mock-dot red"></div><div><div className="mock-label">Automations</div><div className="mock-sub">SA Pro Plus tier required</div></div><div className="mock-badge red-badge">$499/mo</div></div>
                 <div className="mock-item"><div className="mock-dot red"></div><div><div className="mock-label">Two-Way Texting</div><div className="mock-sub">SA Elite tier required</div></div><div className="mock-badge red-badge">Call</div></div>
-                <div className="mock-item"><div className="mock-dot orange"></div><div><div className="mock-label">MowBossPro</div><div className="mock-sub">Everything included — plus lasso &amp; service photos</div></div><div className="mock-badge">$79/mo</div></div>
+                <div className="mock-item"><div className="mock-dot orange"></div><div><div className="mock-label">MowBossPro</div><div className="mock-sub">Everything included — plus lasso &amp; service photos</div></div><div className="mock-badge">from $59/mo</div></div>
               </div>
             </div>
             <div className="highlight-text" style={{flex:1, minWidth:'280px'}}>
               <span className="section-label">The Real Cost</span>
-              <h2>$499+/Month at SA Still Doesn&apos;t Get You Everything SBP Includes at $79.</h2>
-              <p>Even at SA&apos;s top published tier ($499/month for Pro Plus), you&apos;re still missing the accurate lasso, sq ft job board by service type, and service compliance logs. Those don&apos;t exist in SA at any price. MowBossPro includes everything at $79/month with no sign-up fee.</p>
+              <h2>$499+/Month at SA Still Doesn&apos;t Get You Everything SBP Includes at $59.</h2>
+              <p>Even at SA&apos;s top published tier ($499/month for Pro Plus), you&apos;re still missing the accurate lasso, sq ft job board by service type, and service compliance logs. Those don&apos;t exist in SA at any price. MowBossPro includes everything at from $59/month with no sign-up fee.</p>
               <ul className="check-list">
                 <li>Accurate sq ft lasso — SA double-counts it</li>
                 <li>Sq ft job board by service type — not in SA at any tier</li>
                 <li>Service compliance logs — not in SA at any tier</li>
-                <li>Automations included at $79 — SA charges $499 for these</li>
+                <li>Automations included at $59 — SA charges $499 for these</li>
                 <li>Two-way SMS included — SA charges Elite pricing (custom quote)</li>
                 <li>No sign-up fee at SBP — SA charges one</li>
               </ul>
@@ -300,9 +300,9 @@ export default function VsServiceAutopilot() {
           <div className="premium-card"><div className="premium-card-icon">📐</div><h4>Accurate Sq Ft — Not Doubled</h4><p>SBP tracks sq ft per property and shows service breakdowns separately. SA counts sq ft per service — so a property with 2 services appears twice as large. That&apos;s a real problem when you&apos;re planning routes by sq ft capacity.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Lawn Square Footage</h4><p>See exactly how much sq ft is waiting per service type before you build a route. Know your Lawn Care 4, Mowing, and Insect Control backlog in real time. This workflow doesn&apos;t exist in Service Autopilot at any tier.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Service Compliance</h4><p>Log every application with product, mix rate, area, weather, and tech license. Pull compliance reports any time. SA has job records. That&apos;s not the same as a dedicated pesticide compliance log built for applicator licensing requirements.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💰</div><h4>$79 — Not $499+</h4><p>Getting route optimization, automations, and SMS at SA costs $499+/month. MowBossPro includes all of these at $79/month — plus the mowing-specific features SA doesn&apos;t have. It&apos;s not even close on value.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💰</div><h4>$59 — Not $499+</h4><p>Getting route optimization, automations, and SMS at SA costs $499+/month. MowBossPro includes all of these at from $59/month — plus the mowing-specific features SA doesn&apos;t have. It&apos;s not even close on value.</p></div>
           <div className="premium-card"><div className="premium-card-icon">⚡</div><h4>No Sign-Up Fee</h4><p>SA charges a sign-up fee to get started. MowBossPro charges $0 to sign up and offers a 14-day free trial with no credit card required. You can start today and be scheduling routes this afternoon.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>SMS Included at $79</h4><p>Two-way SMS inbox, automated alerts, estimate follow-ups — all included at $79/month. SA locks two-way texting behind their Elite tier. At SA, SMS alone costs more than SBP&apos;s entire platform.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>SMS Included at $59</h4><p>Two-way SMS inbox, automated alerts, estimate follow-ups — all included at from $59/month. SA locks two-way texting behind their Elite tier. At SA, SMS alone costs more than SBP&apos;s entire platform.</p></div>
         </div>
       </div>
 
@@ -314,7 +314,7 @@ export default function VsServiceAutopilot() {
         </div>
         <div className="simple-grid">
           <div className="simple-card"><div className="simple-num">01</div><h3>Sq Ft Is the Right Unit</h3><p>MowBossPro tracks everything in square feet — job boards, route totals, property-level breakdown by service. SA tracks job durations and stop counts. For mowing businesses, sq ft is the unit that drives pricing, routing, and capacity planning.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>No Tier-Climbing Required</h3><p>MowBossPro gives you route optimization, automations, two-way SMS, and service photos at $79/month. SA starts at $49 and charges you more for each major feature until you&apos;re at $499+/month before you have what SBP includes at the entry level.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>No Tier-Climbing Required</h3><p>MowBossPro gives you route optimization, automations, two-way SMS, and service photos at from $59/month. SA starts at $49 and charges you more for each major feature until you&apos;re at $499+/month before you have what SBP includes at the entry level.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>No Sign-Up Fee. No Lock-In.</h3><p>Start a free trial right now — no credit card required, no sign-up fee. SA charges to get started and has an onboarding process. MowBossPro is self-serve and you can be fully operational today.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>Accurate Data for Accurate Decisions</h3><p>When SBP tells you there&apos;s 118,400 sq ft of Lawn Care 4 waiting, that&apos;s accurate. SA&apos;s count is inflated by how many services each property has. You can&apos;t plan routes or quote jobs accurately on inflated sq ft numbers.</p></div>
         </div>
@@ -323,8 +323,8 @@ export default function VsServiceAutopilot() {
       <section>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
-          <h2 className="section-title">$79/Month. Everything Included. No Tiers.</h2>
-          <p className="section-sub">No sign-up fee. No tier-climbing. No add-ons. Just $79/month for your entire operation.</p>
+          <h2 className="section-title">$59/Month. Everything Included. No Tiers.</h2>
+          <p className="section-sub">No sign-up fee. No tier-climbing. No add-ons. Just from $59/month for your entire operation.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="price-card featured" style={{width:'100%'}}>
@@ -353,7 +353,7 @@ export default function VsServiceAutopilot() {
       </section>
 
       <div className="cta-band">
-        <h2>SA at $500+/Month Still Doesn&apos;t Have Everything SBP Does at $79.<span>Accurate Lasso. Lawn Square Footage. Service Compliance. All Included.</span></h2>
+        <h2>SA at $500+/Month Still Doesn&apos;t Have Everything SBP Does at $59.<span>Accurate Lasso. Lawn Square Footage. Service Compliance. All Included.</span></h2>
         <p>Try MowBossPro free for 14 days. No credit card required. No sign-up fee.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
@@ -365,7 +365,7 @@ export default function VsServiceAutopilot() {
         <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #b22234', boxShadow:'0 0 0 4px rgba(178,34,52,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
           <div style={{background:'linear-gradient(135deg,#04162e,#0a3161)', padding:'28px 28px 22px', position:'relative'}}>
             <div style={{color:'#fff', fontSize:'20px', fontWeight:800, paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
-            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · $79/mo after your 14-day trial</div>
+            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · from $59/mo after your 14-day trial</div>
             <button onClick={() => closeSignupModal(n)} style={{position:'absolute', top:'16px', right:'16px', background:'rgba(255,255,255,.12)', border:'none', color:'#fff', width:'32px', height:'32px', borderRadius:'50%', cursor:'pointer', fontSize:'20px', display:'flex', alignItems:'center', justifyContent:'center'}}>×</button>
           </div>
           <div id={`sbp${n}-step1`} style={{padding:'24px 28px'}}>
@@ -382,7 +382,7 @@ export default function VsServiceAutopilot() {
             <div id={`sbp${n}-err2`} style={{background:'#fff0f0', border:'1px solid #f5c6c6', color:'#c0392b', borderRadius:'6px', padding:'10px 12px', fontSize:'13px', marginBottom:'14px', display:'none'}}></div>
             <div style={{background:'#f0fdf4', border:'1px solid #bbf7d0', borderRadius:'6px', padding:'10px 14px', marginBottom:'16px'}}>
               <div style={{fontSize:'12px', color:'#16a34a', fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div>
-              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. $79/month after trial.</div>
+              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. from $59/month after trial.</div>
             </div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Login Email</label><input id={`sbp${n}-login-email`} type="email" readOnly style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', background:'#f8f8f8', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Password</label><input id={`sbp${n}-password`} type="password" placeholder="At least 8 characters" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>

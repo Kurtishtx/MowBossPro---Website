@@ -138,15 +138,15 @@ export default function VsRealGreen() {
 
       <div className="hero">
         <div className="hero-badge">RealGreen Alternative</div>
-        <h1>RealGreen Starts at $199/Month — And Won&apos;t Tell You the Full Price Until You Talk to Sales.<br /><span>MowBossPro Is $79. Right Now. No Demo Required.</span></h1>
-        <p>RealGreen&apos;s pricing starts at $199/month but the real cost climbs fast once you add devices, routing modules, and marketing add-ons. MowBossPro is $79/month — everything included, published price, start your free trial today without talking to anyone.</p>
+        <h1>RealGreen Starts at $199/Month — And Won&apos;t Tell You the Full Price Until You Talk to Sales.<br /><span>MowBossPro Is $59. Right Now. No Demo Required.</span></h1>
+        <p>RealGreen&apos;s pricing starts at $199/month but the real cost climbs fast once you add devices, routing modules, and marketing add-ons. MowBossPro is from $59/month — everything included, published price, start your free trial today without talking to anyone.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">$199+</div><div className="hero-stat-lbl">RealGreen Base Price</div></div>
           <div><div className="hero-stat-val">$380</div><div className="hero-stat-lbl">RealGreen Average with Add-Ons</div></div>
-          <div><div className="hero-stat-val">$79</div><div className="hero-stat-lbl">MowBossPro — Everything Included</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">MowBossPro — Everything Included</div></div>
           <div><div className="hero-stat-val">Today</div><div className="hero-stat-lbl">When You Can Start with SBP</div></div>
         </div>
       </div>
@@ -154,8 +154,8 @@ export default function VsRealGreen() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">The Real Cost of RealGreen</span>
-          <h2 className="section-title">Getting a Real Price from RealGreen Takes Multiple Steps. MowBossPro Is $79.</h2>
-          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>RealGreen requires you to contact sales, get a demo, discuss your account size, and wait for a custom quote. MowBossPro has one price — $79/month — published right here. No steps, no waiting.</p>
+          <h2 className="section-title">Getting a Real Price from RealGreen Takes Multiple Steps. MowBossPro Is $59.</h2>
+          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>RealGreen requires you to contact sales, get a demo, discuss your account size, and wait for a custom quote. MowBossPro has one price — from $59/month — published right here. No steps, no waiting.</p>
         </div>
         <div style={{maxWidth:'1100px', margin:'0 auto'}}>
           <div className="highlight-row">
@@ -180,16 +180,16 @@ export default function VsRealGreen() {
               </div>
               <div className="sbp-contrast">
                 <div className="sbp-contrast-label">MowBossPro — Starts Now</div>
-                <div className="sbp-contrast-val">$79/month</div>
+                <div className="sbp-contrast-val">from $59/month</div>
                 <div style={{color:'rgba(255,255,255,.6)', fontSize:'12px', marginTop:'6px'}}>Published price. No demo. 14-day free trial. Start today.</div>
               </div>
             </div>
             <div className="highlight-text" style={{flex:1, minWidth:'280px'}}>
               <span className="section-label">No Demo Required</span>
               <h2>You Shouldn&apos;t Need 4 Steps to Find Out What Software Costs.</h2>
-              <p>RealGreen is built for large lawn care operations and doesn&apos;t publish pricing because it varies significantly based on account size, device count, and modules selected. MowBossPro is $79/month. You don&apos;t need to call anyone. You don&apos;t need to sit through a demo. You can start your free trial right now.</p>
+              <p>RealGreen is built for large lawn care operations and doesn&apos;t publish pricing because it varies significantly based on account size, device count, and modules selected. MowBossPro is from $59/month. You don&apos;t need to call anyone. You don&apos;t need to sit through a demo. You can start your free trial right now.</p>
               <ul className="check-list">
-                <li>$79/month — published, no negotiation required</li>
+                <li>from $59/month — published, no negotiation required</li>
                 <li>14-day free trial — no credit card required</li>
                 <li>Set up in one afternoon — no onboarding call</li>
                 <li>No device fees, no module add-ons, no marketing packages</li>
@@ -218,7 +218,7 @@ export default function VsRealGreen() {
                 <li>Routing module, marketing tools: additional monthly cost</li>
                 <li>Payment processing: transaction or monthly add-on</li>
                 <li>Real average with add-ons: ~$380+/month</li>
-                <li>MowBossPro: $79/month — everything included, one price</li>
+                <li>MowBossPro: from $59/month — everything included, one price</li>
               </ul>
             </div>
             <div className="highlight-visual" style={{flex:1.5, minWidth:'280px'}}>
@@ -230,7 +230,7 @@ export default function VsRealGreen() {
               <div className="cost-total"><span className="cost-total-label">RealGreen — Typical Monthly Total</span><span className="cost-total-val">~$380/mo</span></div>
               <div className="sbp-contrast" style={{marginTop:'12px'}}>
                 <div className="sbp-contrast-label">MowBossPro — Everything Included</div>
-                <div className="sbp-contrast-val">$79/month</div>
+                <div className="sbp-contrast-val">from $59/month</div>
                 <div style={{color:'rgba(255,255,255,.6)', fontSize:'12px', marginTop:'4px'}}>No add-ons. No per-device fees. One price, forever.</div>
               </div>
             </div>
@@ -254,7 +254,7 @@ export default function VsRealGreen() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="feature-name">Published, Transparent Pricing</td><td className="sbp-col"><span className="chk">✓ $79/mo</span></td><td><span className="crs">✗ Custom quote only</span></td></tr>
+              <tr><td className="feature-name">Published, Transparent Pricing</td><td className="sbp-col"><span className="chk">✓ from $59/mo</span></td><td><span className="crs">✗ Custom quote only</span></td></tr>
               <tr><td className="feature-name">Start Without a Demo</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Demo required</span></td></tr>
               <tr><td className="feature-name">Lawn Square Footage by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Lasso Circle Map Route Selector</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
@@ -269,7 +269,7 @@ export default function VsRealGreen() {
               <tr><td className="feature-name">Card-on-File Payments</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Mobile App for Crews</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">No Annual Contract Required</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Contract required</span></td></tr>
-              <tr><td className="feature-name">All-In Monthly Cost</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$79/month</td><td style={{color:'var(--muted)'}}>~$380+/month with add-ons</td></tr>
+              <tr><td className="feature-name">All-In Monthly Cost</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>from $59/month</td><td style={{color:'var(--muted)'}}>~$380+/month with add-ons</td></tr>
             </tbody>
           </table>
         </div>
@@ -279,12 +279,12 @@ export default function VsRealGreen() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 56px'}}>
           <span className="section-label">Right Fit</span>
           <h2 className="section-title">RealGreen Is Built for Large Lawn Care Operations. MowBossPro Fits Your Business Right Now.</h2>
-          <p className="section-sub" style={{maxWidth:'720px'}}>RealGreen is a mature, enterprise-grade platform built for large lawn care companies with hundreds of routes. If you&apos;re a growing mowing business, you&apos;d pay 3x more for complexity you don&apos;t need — and still miss the mowing-specific features MowBossPro includes at $79.</p>
+          <p className="section-sub" style={{maxWidth:'720px'}}>RealGreen is a mature, enterprise-grade platform built for large lawn care companies with hundreds of routes. If you&apos;re a growing mowing business, you&apos;d pay 3x more for complexity you don&apos;t need — and still miss the mowing-specific features MowBossPro includes at $59.</p>
         </div>
         <div className="simple-grid">
-          <div className="simple-card"><div className="simple-num">01</div><h3>$79 vs $380+ — No Contest</h3><p>MowBossPro is $79/month, all-in, no add-ons. RealGreen&apos;s published $199 base grows fast with per-device fees, module add-ons, and marketing tools. Most operators estimate $380+/month for a real working setup. MowBossPro saves you $250/month from day one.</p></div>
+          <div className="simple-card"><div className="simple-num">01</div><h3>$59 vs $380+ — No Contest</h3><p>MowBossPro is from $59/month, all-in, no add-ons. RealGreen&apos;s published $199 base grows fast with per-device fees, module add-ons, and marketing tools. Most operators estimate $380+/month for a real working setup. MowBossPro saves you $250/month from day one.</p></div>
           <div className="simple-card"><div className="simple-num">02</div><h3>Features RealGreen Doesn&apos;t Have</h3><p>Sq ft job board by service type, lasso circle route selector, dedicated service compliance logs — these don&apos;t exist in RealGreen at any price. They&apos;re core features in MowBossPro, built specifically for how mowing businesses manage recurring treatment schedules.</p></div>
-          <div className="simple-card"><div className="simple-num">03</div><h3>Start Today — No Demo, No Waiting</h3><p>MowBossPro has a 14-day free trial you can start right now. No demo required, no sales rep, no callback to wait for. RealGreen requires a full sales process before you can even see a price. MowBossPro&apos;s price is $79. It&apos;s right here. Start now.</p></div>
+          <div className="simple-card"><div className="simple-num">03</div><h3>Start Today — No Demo, No Waiting</h3><p>MowBossPro has a 14-day free trial you can start right now. No demo required, no sales rep, no callback to wait for. RealGreen requires a full sales process before you can even see a price. MowBossPro&apos;s price is $59. It&apos;s right here. Start now.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>Month-to-Month — No Lock-In</h3><p>No annual contract required. MowBossPro is month-to-month from day one — the software has to earn your business every month. RealGreen typically requires annual agreements. If you decide to switch, you&apos;re not stuck.</p></div>
         </div>
       </section>
@@ -293,7 +293,7 @@ export default function VsRealGreen() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
           <h2 className="section-title">Less Than RealGreen Basic — More Included</h2>
-          <p className="section-sub">$79/month. Everything included. No add-ons, no per-device fees, no custom quote required.</p>
+          <p className="section-sub">from $59/month. Everything included. No add-ons, no per-device fees, no custom quote required.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="price-card featured" style={{width:'100%'}}>
@@ -323,7 +323,7 @@ export default function VsRealGreen() {
 
       <div className="cta-band">
         <h2>Done Waiting for a Custom Quote on Software<span>That Costs 2–3x What You Need to Pay?</span></h2>
-        <p>MowBossPro is $79/month. Start your free trial now — no demo, no credit card, no waiting.</p>
+        <p>MowBossPro is from $59/month. Start your free trial now — no demo, no credit card, no waiting.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
@@ -334,7 +334,7 @@ export default function VsRealGreen() {
         <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #b22234', boxShadow:'0 0 0 4px rgba(178,34,52,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
           <div style={{background:'linear-gradient(135deg,#04162e,#0a3161)', padding:'28px 28px 22px', position:'relative'}}>
             <div style={{color:'#fff', fontSize:'20px', fontWeight:800, paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
-            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · $79/mo after your 14-day trial</div>
+            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · from $59/mo after your 14-day trial</div>
             <button onClick={() => closeSignupModal(n)} style={{position:'absolute', top:'16px', right:'16px', background:'rgba(255,255,255,.12)', border:'none', color:'#fff', width:'32px', height:'32px', borderRadius:'50%', cursor:'pointer', fontSize:'20px', display:'flex', alignItems:'center', justifyContent:'center'}}>×</button>
           </div>
           <div id={`sbp${n}-step1`} style={{padding:'24px 28px'}}>
@@ -351,7 +351,7 @@ export default function VsRealGreen() {
             <div id={`sbp${n}-err2`} style={{background:'#fff0f0', border:'1px solid #f5c6c6', color:'#c0392b', borderRadius:'6px', padding:'10px 12px', fontSize:'13px', marginBottom:'14px', display:'none'}}></div>
             <div style={{background:'#f0fdf4', border:'1px solid #bbf7d0', borderRadius:'6px', padding:'10px 14px', marginBottom:'16px'}}>
               <div style={{fontSize:'12px', color:'#16a34a', fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div>
-              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. $79/month after trial.</div>
+              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. from $59/month after trial.</div>
             </div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Login Email</label><input id={`sbp${n}-login-email`} type="email" readOnly style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', background:'#f8f8f8', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Password</label><input id={`sbp${n}-password`} type="password" placeholder="At least 8 characters" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>

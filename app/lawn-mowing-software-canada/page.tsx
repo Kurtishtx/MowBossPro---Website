@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: 'What does the subscription itself cost in Canada?',
-    a: 'The plan is $79 USD a month with every feature included — no tiers, no per-user fees. The subscription is priced in US dollars, so your card is charged in USD and your bank converts it. We say that plainly because a surprise conversion on your statement is exactly the kind of thing software companies bury.',
+    a: 'The plan is $59 USD a month with every feature included — no tiers, no per-user fees. The subscription is priced in US dollars, so your card is charged in USD and your bank converts it. We say that plainly because a surprise conversion on your statement is exactly the kind of thing software companies bury.',
   },
   {
     q: 'Does the automated texting work in Canada?',
@@ -74,7 +74,7 @@ export default function Page() {
       <div style={{background:'linear-gradient(135deg, #04162e 0%, #06203f 60%, #0a3161 100%)', padding:'clamp(76px,7vw,80px) clamp(14px,4vw,40px) 0', textAlign:'center'}}>
         <div style={{textAlign:'center', marginBottom:'clamp(22px,3vw,32px)'}}>
           <div style={{display:'inline-flex', alignItems:'baseline', gap:'12px', flexWrap:'wrap', justifyContent:'center', color:'#fff'}}>
-            <span style={{fontSize:'clamp(30px,4.6vw,46px)', fontWeight:800, lineHeight:1}}>$79<span style={{fontSize:'.46em', fontWeight:700, color:'rgba(255,255,255,.6)'}}>/month</span></span>
+            <span style={{fontSize:'clamp(30px,4.6vw,46px)', fontWeight:800, lineHeight:1}}>$59<span style={{fontSize:'.46em', fontWeight:700, color:'rgba(255,255,255,.6)'}}>/month</span></span>
             <span style={{fontSize:'clamp(16px,2.2vw,22px)', fontWeight:800, color:'var(--orange)'}}>&middot; 14-Day Free Trial</span>
           </div>
           <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', fontWeight:600, marginTop:'7px', letterSpacing:'.3px'}}>No credit card required &middot; Cancel anytime &middot; Bills your customers in CAD</div>
@@ -89,7 +89,7 @@ export default function Page() {
         <p>A Canadian mowing season is a sprint &mdash; first cuts around the May long weekend, last cuts and fall cleanups racing the leaves in October, and every rained-out Tuesday in between has to land somewhere. MowBossPro holds your weekly routes together through all of it, and bills your customers in Canadian dollars while it does. The demo above is the real software &mdash; go click it.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openTrial(e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
       </div>
 
@@ -392,7 +392,7 @@ export default function Page() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Simple Pricing</span>
           <h2 className="section-title">One Flat Price. Every Feature. No Per-User Fees.</h2>
-          <p className="section-sub" style={{margin:'0 auto 56px'}}>The plan is $79 USD a month with everything included &mdash; and to be plain about it up front: the subscription itself bills in US dollars and your bank converts, while everything your <em>customers</em> see bills in Canadian dollars. Full detail in the FAQ below.</p>
+          <p className="section-sub" style={{margin:'0 auto 56px'}}>The plan is $59 USD a month with everything included &mdash; and to be plain about it up front: the subscription itself bills in US dollars and your bank converts, while everything your <em>customers</em> see bills in Canadian dollars. Full detail in the FAQ below.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="price-card featured" style={{width:'100%'}}>
@@ -442,7 +442,7 @@ export default function Page() {
         <p>Set your country to Canada, connect your Stripe account, and bill your first customer in CAD before the next cut. 14 days free, every feature, no card up front.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => openTrial(e.currentTarget as HTMLElement)}>Start Your 14-Day Free Trial</button>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
       </div>
 

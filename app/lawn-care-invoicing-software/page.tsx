@@ -133,7 +133,7 @@ function SignupForm({ n }: { n: number }) {
     <div id={`sbp-form-${n}`} className="sbp-form">
       <div className="sbp-form-header">
         <div className="sbp-form-title">Start Your 14-Day Free Trial</div>
-        <div className="sbp-form-subtitle">No credit card required · Full access · $79/mo after your 14-day trial</div>
+        <div className="sbp-form-subtitle">No credit card required · Full access · from $59/mo after your 14-day trial</div>
         <button className="sbp-form-close" onClick={() => closeSignupModal(n)}>×</button>
       </div>
       <div id={`sbp${n}-step1`} className="sbp-form-body">
@@ -164,7 +164,7 @@ function SignupForm({ n }: { n: number }) {
         <div id={`sbp${n}-err2`} className="sbp-err"></div>
         <div className="sbp-trial-note">
           <div className="sbp-trial-note-title">14-Day Free Trial — No Credit Card Required</div>
-          <div className="sbp-trial-note-sub">Full access to every feature. $79/month after trial.</div>
+          <div className="sbp-trial-note-sub">Full access to every feature. from $59/month after trial.</div>
         </div>
         <div className="sbp-field">
           <label className="sbp-label">Login Email</label>
@@ -225,11 +225,11 @@ export default function LawnCareInvoicingSoftware() {
         <p>Cutting the grass is the easy part. Getting paid for every recurring visit, every week, without chasing checks is what breaks most mowing companies. MowBossPro turns each completed mow into an invoice automatically, stores customer cards on file, and collects the money for you &mdash; so the cash hits your account while you&apos;re still on the route.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">Auto</div><div className="hero-stat-lbl">Invoice Per Completed Mow</div></div>
-          <div><div className="hero-stat-val">$79</div><div className="hero-stat-lbl">Flat Monthly — No Add-Ons</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Flat Monthly — No Add-Ons</div></div>
           <div><div className="hero-stat-val">500+</div><div className="hero-stat-lbl">SMS Payment Reminders Included</div></div>
           <div><div className="hero-stat-val">2006</div><div className="hero-stat-lbl">In the Industry Since</div></div>
         </div>
@@ -251,7 +251,7 @@ export default function LawnCareInvoicingSoftware() {
       {/* PREMIUM BAND */}
       <div className="premium-band">
         <h2>Affordable Doesn&apos;t Mean Cheap.<br /><span>This Is Enterprise-Level Billing for Mowing.</span></h2>
-        <p>$79/month sounds modest. But the billing engine inside MowBossPro is built to the same standard as software that costs 10 times more &mdash; the difference is we built it ourselves, for our own mowing routes, and we don&apos;t charge a percentage of every payment or bolt on a $200/month &quot;payments module.&quot; Every invoice, every card on file, every reminder is included.</p>
+        <p>from $59/month sounds modest. But the billing engine inside MowBossPro is built to the same standard as software that costs 10 times more &mdash; the difference is we built it ourselves, for our own mowing routes, and we don&apos;t charge a percentage of every payment or bolt on a $200/month &quot;payments module.&quot; Every invoice, every card on file, every reminder is included.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">🧾</div><h4>Invoice On Job Complete</h4><p>The moment a crew marks a mow done in the field, MowBossPro generates the invoice with the right price, the right service, and the right customer attached. No end-of-week paperwork, no forgotten visits, no missed money.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Recurring Billing</h4><p>Weekly and bi-weekly mowing accounts bill themselves. Set the price once and MowBossPro invoices every visit on schedule for the whole season &mdash; you never re-key a single recurring charge.</p></div>
@@ -374,7 +374,7 @@ export default function LawnCareInvoicingSoftware() {
             {icon:'⏱️', title:'Crew Hour Tracking', body:'Track crew hours per mowing job and pull payroll-ready reports. Know your labor cost against what you billed before payday.'},
             {icon:'🚛', title:'Per-Visit Job Records', body:'Every invoice ties back to the exact visit, crew, and truck that did the mow &mdash; so you always know what you billed for and who did it.'},
             {icon:'💵', title:'Daily Revenue Reporting', body:'Custom dashboard cards show today&apos;s collected revenue, invoices sent, and outstanding balance &mdash; a live read on the cash flowing through your mowing business.'},
-            {icon:'👥', title:'Unlimited Users', body:'Add every office staff member and crew lead at no extra cost. No per-seat fees. Unlimited users included in the flat $79/month rate.'},
+            {icon:'👥', title:'Unlimited Users', body:'Add every office staff member and crew lead at no extra cost. No per-seat fees. Unlimited users included in the flat from $59/month rate.'},
             {icon:'🏢', title:'Unlimited Customers &amp; Invoices', body:'No caps on customers, properties, or invoices. Whether you bill 50 yards a week or 5,000 &mdash; MowBossPro handles it all at the same flat price.'},
           ].map(({icon, title, body}) => (
             <div key={title} className="feature-card">
@@ -524,7 +524,7 @@ export default function LawnCareInvoicingSoftware() {
             {q:'How do customers actually pay?', a:'Two ways, both built in through Stripe. You can store a card on file and charge it automatically after each mow, or send a one-tap pay-by-link text that lets the customer settle the invoice from their phone in seconds. Most accounts are on card-on-file so the money collects itself.'},
             {q:'What happens when an invoice goes overdue?', a:'MowBossPro automatically sends a sequence of reminder texts to the customer until the mowing invoice is paid. You never have to make the uncomfortable phone call &mdash; the software handles collections politely and on time.'},
             {q:'Does it replace QuickBooks and a separate card reader?', a:'For your mowing billing, yes. MowBossPro replaces spreadsheet invoicing, manual card processing, and reminder emails in one platform connected to your scheduling and dispatch. Most owners are collecting real payments the same day they sign up.'},
-            {q:'How much does MowBossPro cost?', a:'$79/month, all features included. No per-user fees, no add-on for payments, and no percentage cut of what you collect beyond standard Stripe processing. 14-day free trial with no credit card required.'},
+            {q:'How much does MowBossPro cost?', a:'from $59/month, all features included. No per-user fees, no add-on for payments, and no percentage cut of what you collect beyond standard Stripe processing. 14-day free trial with no credit card required.'},
           ].map(({q, a}, i, arr) => (
             <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
               <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
@@ -541,7 +541,7 @@ export default function LawnCareInvoicingSoftware() {
         <p>MowBossPro turns every completed mow into an invoice and collects the money for you &mdash; built by someone who actually ran a mowing route. Try it free for 14 days.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$79/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
       </div>
 

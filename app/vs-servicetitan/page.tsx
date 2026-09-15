@@ -144,7 +144,7 @@ export default function VsServiceTitan() {
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$79</div><div className="hero-stat-lbl">Flat Monthly — No Enterprise Pricing</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Flat Monthly — No Enterprise Pricing</div></div>
           <div><div className="hero-stat-val">1 Day</div><div className="hero-stat-lbl">To Set Up — Not Months</div></div>
           <div><div className="hero-stat-val">Built</div><div className="hero-stat-lbl">For Mowing Routes — Not HVAC</div></div>
           <div><div className="hero-stat-val">2006</div><div className="hero-stat-lbl">In the Industry Since</div></div>
@@ -171,7 +171,7 @@ export default function VsServiceTitan() {
               <tr><td className="feature-name">Lawn Square Footage by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Lasso Circle Map Route Selector</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Service Compliance Logs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Published, Transparent Pricing</td><td className="sbp-col"><span className="chk">✓ $79/mo</span></td><td><span className="crs">✗ Must call sales</span></td></tr>
+              <tr><td className="feature-name">Published, Transparent Pricing</td><td className="sbp-col"><span className="chk">✓ from $59/mo</span></td><td><span className="crs">✗ Must call sales</span></td></tr>
               <tr><td className="feature-name">Set Up in a Day — No Implementation Team</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ 60–90 days typical</span></td></tr>
               <tr><td className="feature-name">Two-Way SMS Inbox Included</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Add-on cost</span></td></tr>
               <tr><td className="feature-name">Package Plan Renewals</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Generic contracts</span></td></tr>
@@ -181,7 +181,7 @@ export default function VsServiceTitan() {
               <tr><td className="feature-name">Automated SMS Alerts</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Affordable for Small-Mid Operations</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Enterprise only</span></td></tr>
               <tr><td className="feature-name">No Annual Contract Required</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Annual contracts</span></td></tr>
-              <tr><td className="feature-name">Starting Price</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$79/month</td><td style={{color:'var(--muted)'}}>$300–$500+/month (est.)</td></tr>
+              <tr><td className="feature-name">Starting Price</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>from $59/month</td><td style={{color:'var(--muted)'}}>$300–$500+/month (est.)</td></tr>
             </tbody>
           </table>
         </div>
@@ -189,14 +189,14 @@ export default function VsServiceTitan() {
 
       <div className="premium-band">
         <h2>ServiceTitan Was Built for $5M+ HVAC Companies.<br /><span>MowBossPro Was Built for Mowing Routes.</span></h2>
-        <p>ServiceTitan is one of the most powerful field service platforms in the world. It&apos;s also one of the most expensive, most complex, and most overkill tools you could choose for a lawn care or lawn care business. You&apos;d spend 90 days implementing it, pay $300–$500+/month, and still be missing features built specifically for mowing businesses. MowBossPro is $79, set up in an afternoon, and built around how your routes actually work.</p>
+        <p>ServiceTitan is one of the most powerful field service platforms in the world. It&apos;s also one of the most expensive, most complex, and most overkill tools you could choose for a lawn care or lawn care business. You&apos;d spend 90 days implementing it, pay $300–$500+/month, and still be missing features built specifically for mowing businesses. MowBossPro is $59, set up in an afternoon, and built around how your routes actually work.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Mowing-Specific Features</h4><p>Sq ft job boards, service compliance logs, lasso route selector, recurring treatment tracking — features built around how lawn care and lawn care actually runs. ServiceTitan doesn&apos;t have any of these.</p></div>
           <div className="premium-card"><div className="premium-card-icon">⚡</div><h4>Up in a Day, Not 90</h4><p>ServiceTitan implementations take months. You&apos;ll need an onboarding team, configuration calls, and a lot of patience. MowBossPro is designed for owners who want to be operational today — not next quarter.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💰</div><h4>$79 vs $300–500+</h4><p>ServiceTitan pricing is custom, but independent estimates consistently put it at $300–$500+ per month for small operations — before add-ons. MowBossPro is $79/month. No negotiation, no annual contract, no surprise invoices.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💰</div><h4>$59 vs $300–500+</h4><p>ServiceTitan pricing is custom, but independent estimates consistently put it at $300–$500+ per month for small operations — before add-ons. MowBossPro is from $59/month. No negotiation, no annual contract, no surprise invoices.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Route Selector</h4><p>Draw a circle on the map, instantly see every stop inside with a service due — sq ft, service type, all calculated. ServiceTitan has route optimization but nothing like the Lasso geographic selector built for mowing route density.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Service Compliance</h4><p>Log every application with product, mix rate, weather, and tech license. Pull compliance reports any time. ServiceTitan tracks jobs. That&apos;s not the same as a pesticide compliance log built for lawn and pest operations.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>SMS Included</h4><p>Two-way SMS inbox, automated appointment alerts, estimate follow-ups, review requests — all built in at $79/month. ServiceTitan charges extra for messaging features and requires separate configuration for automation.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>SMS Included</h4><p>Two-way SMS inbox, automated appointment alerts, estimate follow-ups, review requests — all built in at from $59/month. ServiceTitan charges extra for messaging features and requires separate configuration for automation.</p></div>
         </div>
       </div>
 
@@ -221,7 +221,7 @@ export default function VsServiceTitan() {
             <div className="mock-item">
               <div className="mock-dot orange"></div>
               <div><div className="mock-label">MowBossPro</div><div className="mock-sub">Every feature — built for mowing routes</div></div>
-              <div className="mock-badge">$79/mo</div>
+              <div className="mock-badge">from $59/mo</div>
             </div>
             <div className="mock-item">
               <div className="mock-dot red"></div>
@@ -281,7 +281,7 @@ export default function VsServiceTitan() {
         </div>
         <div className="simple-grid">
           <div className="simple-card"><div className="simple-num">01</div><h3>No Onboarding Team Required</h3><p>MowBossPro is designed to be self-serve from day one. Add your services, import your clients and properties, connect your payment processor, and you&apos;re scheduling. No implementation consultant, no 90-day setup timeline.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>Pricing You Can Plan Around</h3><p>$79/month. No custom quotes, no sales calls, no contract negotiations. ServiceTitan won&apos;t even give you pricing without a demo — because their pricing is based on your revenue. MowBossPro is $79. Always.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>Pricing You Can Plan Around</h3><p>from $59/month. No custom quotes, no sales calls, no contract negotiations. ServiceTitan won&apos;t even give you pricing without a demo — because their pricing is based on your revenue. MowBossPro is $59. Always.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>Crews Learn It Fast</h3><p>Your crew picks up the mobile app in minutes. No training program, no certification, no thick manual. The tech app shows today&apos;s stops, property notes, and a complete button. That&apos;s it.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>Cancel Anytime — No Lock-In</h3><p>No annual contract required. Month to month from day one. ServiceTitan requires annual agreements that lock you in regardless of how the software performs. MowBossPro earns your business every month.</p></div>
         </div>
@@ -290,8 +290,8 @@ export default function VsServiceTitan() {
       <section>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
-          <h2 className="section-title">$79/Month. No Surprises. No Sales Call Required.</h2>
-          <p className="section-sub">ServiceTitan won&apos;t tell you their price until you sit through a demo. MowBossPro is $79. Right here, right now.</p>
+          <h2 className="section-title">$59/Month. No Surprises. No Sales Call Required.</h2>
+          <p className="section-sub">ServiceTitan won&apos;t tell you their price until you sit through a demo. MowBossPro is $59. Right here, right now.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="price-card featured" style={{width:'100%'}}>
@@ -320,7 +320,7 @@ export default function VsServiceTitan() {
 
       <div className="cta-band">
         <h2>You Don&apos;t Need an Enterprise Platform.<br />You Need Software Built for Mowing Routes.</h2>
-        <p>Try MowBossPro free for 14 days. Set up in an afternoon. $79/month — no sales call required.</p>
+        <p>Try MowBossPro free for 14 days. Set up in an afternoon. from $59/month — no sales call required.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
@@ -331,7 +331,7 @@ export default function VsServiceTitan() {
         <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #b22234', boxShadow:'0 0 0 4px rgba(178,34,52,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
           <div style={{background:'linear-gradient(135deg,#04162e,#0a3161)', padding:'28px 28px 22px', position:'relative'}}>
             <div style={{color:'#fff', fontSize:'20px', fontWeight:800, paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
-            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · $79/mo after your 14-day trial</div>
+            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · from $59/mo after your 14-day trial</div>
             <button onClick={() => closeSignupModal(n)} style={{position:'absolute', top:'16px', right:'16px', background:'rgba(255,255,255,.12)', border:'none', color:'#fff', width:'32px', height:'32px', borderRadius:'50%', cursor:'pointer', fontSize:'20px', display:'flex', alignItems:'center', justifyContent:'center'}}>×</button>
           </div>
           <div id={`sbp${n}-step1`} style={{padding:'24px 28px'}}>
@@ -348,7 +348,7 @@ export default function VsServiceTitan() {
             <div id={`sbp${n}-err2`} style={{background:'#fff0f0', border:'1px solid #f5c6c6', color:'#c0392b', borderRadius:'6px', padding:'10px 12px', fontSize:'13px', marginBottom:'14px', display:'none'}}></div>
             <div style={{background:'#f0fdf4', border:'1px solid #bbf7d0', borderRadius:'6px', padding:'10px 14px', marginBottom:'16px'}}>
               <div style={{fontSize:'12px', color:'#16a34a', fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div>
-              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. $79/month after trial.</div>
+              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. from $59/month after trial.</div>
             </div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Login Email</label><input id={`sbp${n}-login-email`} type="email" readOnly style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', background:'#f8f8f8', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Password</label><input id={`sbp${n}-password`} type="password" placeholder="At least 8 characters" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
