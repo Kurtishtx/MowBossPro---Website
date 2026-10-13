@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import Footer from "./components/Footer";
-import DemoPopup from "./components/DemoPopup";
 import "./globals.css";
 import MetaPixel from './components/MetaPixel';
 
@@ -28,7 +27,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Meta Pixel — builds the retargeting audience. Inert until
             NEXT_PUBLIC_META_PIXEL_ID is set on the Vercel project. */}
         <MetaPixel />
-        <DemoPopup />
         <Footer />
         <Script
           src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"
