@@ -1,5 +1,6 @@
 'use client';
 import { useEffect } from 'react';
+import PlanCompare from './components/PlanCompare';
 import Navbar from './components/Navbar';
 import HeroDemo from './components/HeroDemo';
 
@@ -454,6 +455,8 @@ export default function Home() {
         </div>
         <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. Cancel anytime. No hidden fees &mdash; ever.</p>
       </section>
+
+      <PlanCompare onTrial={(el) => openSignupModal(1, el)} />
 
       {/* ═══ SCHEDULING DEEP DIVE ═══ */}
       <section id="scheduling">
